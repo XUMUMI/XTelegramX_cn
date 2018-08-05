@@ -1,4 +1,5 @@
 @ECHO OFF 
+@ECHO -----Ò»¼üºº»¯ Telegram X by XUMUMI-----
 ".\jre1.8.0_171\bin\java.exe" -jar apktool.jar d base.apk
 copy /Y .\values-zh-rCN\strings.xml .\base\res\values-zh-rCN\strings.xml
 ".\jre1.8.0_171\bin\java.exe" -jar apktool.jar b base
