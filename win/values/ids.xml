@@ -262,6 +262,11 @@
     <item type="id" name="btn_loggedWebsites">false</item>
     <item type="id" name="btn_logout">false</item>
     <item type="id" name="btn_long">false</item>
+    <item type="id" name="btn_mapProvider">false</item>
+    <item type="id" name="btn_mapProviderCloud">false</item>
+    <item type="id" name="btn_mapProviderGoogle">false</item>
+    <item type="id" name="btn_mapProviderNone">false</item>
+    <item type="id" name="btn_mapProviderTelegram">false</item>
     <item type="id" name="btn_markChatAsRead">false</item>
     <item type="id" name="btn_markChatAsUnread">false</item>
     <item type="id" name="btn_markdown">false</item>
@@ -440,7 +445,6 @@
     <item type="id" name="btn_secret_resetLocalNotificationSettings">false</item>
     <item type="id" name="btn_secret_resetTutorials">false</item>
     <item type="id" name="btn_secret_strings">false</item>
-    <item type="id" name="btn_secret_unlockLang">false</item>
     <item type="id" name="btn_section">false</item>
     <item type="id" name="btn_selectChat">false</item>
     <item type="id" name="btn_send">false</item>
@@ -685,6 +689,7 @@
     <item type="id" name="menu_contacts">false</item>
     <item type="id" name="menu_done">false</item>
     <item type="id" name="menu_game">false</item>
+    <item type="id" name="menu_login">false</item>
     <item type="id" name="menu_main">false</item>
     <item type="id" name="menu_messageActions">false</item>
     <item type="id" name="menu_more">false</item>
@@ -839,8 +844,6 @@
     <item type="id" name="theme_color_chatTransparentColor">false</item>
     <item type="id" name="theme_color_chatUnreadSeparatorBackground">false</item>
     <item type="id" name="theme_color_chatUnreadSeparatorBackgroundBubble">false</item>
-    <item type="id" name="theme_color_chatUnreadSeparatorCorner">false</item>
-    <item type="id" name="theme_color_chatUnreadSeparatorCornerBubble">false</item>
     <item type="id" name="theme_color_chatUnreadSeparatorText">false</item>
     <item type="id" name="theme_color_chatUnreadSeparatorTextBubble">false</item>
     <item type="id" name="theme_color_chatVerify">false</item>

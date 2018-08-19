@@ -34,8 +34,11 @@
     <string name="AddComment">添加评论</string>
     <string name="AddContact">添加联系人</string>
     <string name="AddExceptions">例外</string>
+    <string name="AddHttpProxy">添加 HTTP 代理</string>
     <string name="AddMember">添加成员</string>
     <string name="AddMemberBtn">添加</string>
+    <string name="AddMtprotoProxy">添加 MTPROTO 代理</string>
+    <string name="AddSocks5Proxy">添加 SOCKS5 代理</string>
     <string name="AddToFavorites">添加到收藏夹</string>
     <string name="AddToTheGroup">添加 %1$s 到该群组?</string>
     <string name="AddXMasks" />
@@ -77,6 +80,7 @@
     <string name="AppBadgeTypeMessages">未读信息数量</string>
     <string name="AppBadgeUnmuted">仅非静音对话</string>
     <string name="AppName">Telegram X</string>
+    <string name="AppNameAndVersion">Telegram X %1$s</string>
     <string name="AppUpdateOk">更新</string>
     <string name="AppUpdateRequiredText">要执行此操作, 请更新 Telegram</string>
     <string name="AppUpdateRequiredTitle">需要更新</string>
@@ -239,6 +243,7 @@
     <string name="ChannelMessageGIF">%1$s 发布了一张 GIF</string>
     <string name="ChannelMessageNoText">%1$s 发布了一条信息</string>
     <string name="ChannelMessagePhoto">%1$s 发布了一张图片</string>
+    <string name="ChannelMessageRoundVideo">%1$s 发布了一段视频信息</string>
     <string name="ChannelMessageVideo">%1$s 发布了一段视频</string>
     <string name="ChannelName">频道名称</string>
     <string name="ChannelNotifyMembersInfoOff">当您发布信息时, 成员不会收到通知</string>
@@ -260,7 +265,16 @@
     <string name="ChatAccessRestrictedChannel">您被这个频道拉黑了</string>
     <string name="ChatAccessRestrictedGroup">您被这个群组拉黑了</string>
     <string name="ChatCamera">相机</string>
+    <string name="ChatContentAnimation">GIF</string>
+    <string name="ChatContentCallWithDuration">%1$s (%2$s)</string>
+    <string name="ChatContentFile">文件</string>
+    <string name="ChatContentPhoto">图片</string>
     <string name="ChatContentProtected">内容已锁定</string>
+    <string name="ChatContentRoundVideo">视频信息</string>
+    <string name="ChatContentSong">%1$s – %2$s</string>
+    <string name="ChatContentVideo">视频</string>
+    <string name="ChatContentVoice">语音信息</string>
+    <string name="ChatContentWithCaption">%1$s: %2$s</string>
     <string name="ChatHintsDelete">从建议中删除 %1$s ?</string>
     <string name="ChatHistory">新成员可见历史记录</string>
     <string name="ChatHistoryHidden">隐藏</string>
@@ -336,12 +350,14 @@
     <string name="Convert">升级群组</string>
     <string name="ConvertGroup">升级为超级群组</string>
     <string name="CopiedCashtag">缓存信息已复制到粘贴板</string>
+    <string name="CopiedCoordinates">坐标已复制到剪贴板</string>
     <string name="CopiedHashtag">话题已复制到粘贴板</string>
     <string name="CopiedLink">链接已复制到粘贴板</string>
     <string name="CopiedMessages">信息已复制到粘贴板</string>
     <string name="CopiedText">文本已复制到粘贴板</string>
     <string name="CopiedUsername">用户名已复制到粘贴板</string>
     <string name="Copy">复制</string>
+    <string name="CopyCoordinates">复制坐标</string>
     <string name="CopyLine">复制行</string>
     <string name="CopyLink">复制链接</string>
     <string name="CopyText">复制文本</string>
@@ -812,6 +828,18 @@
     <string name="ManageChannel">管理频道</string>
     <string name="ManageGroup">管理群组</string>
     <string name="ManyContactsJoined">1000+联系人正在使用 Telegram</string>
+    <string name="MapPreviewProvider">地图预览提供商</string>
+    <string name="MapPreviewProviderCloud">云中的地图预览提供程序</string>
+    <string name="MapPreviewProviderGoogle">谷歌地图</string>
+    <string name="MapPreviewProviderHint">"选择提供程序以用于在秘密聊天中显示地图预览。
+
+这需要将带有接收的位置坐标的匿名请求发送到所选的地图提供商。"</string>
+    <string name="MapPreviewProviderInfo">"当您收到地图或实时位置时，为了显示地图预览，必须由选定的提供商生成。
+
+这需要使用接收的位置坐标发送匿名请求。"</string>
+    <string name="MapPreviewProviderNone">无</string>
+    <string name="MapPreviewProviderTelegram">Telegram</string>
+    <string name="MapPreviewProviderUnset">取消设置</string>
     <string name="MarkAsRead">标记为已读</string>
     <string name="MarkAsUnread">标记为未读</string>
     <string name="Markdown">Markdown 标记语言</string>
@@ -989,6 +1017,7 @@ __斜体__
     <string name="NotificationMessageGif">%1$s 给您发送了一张 GIF</string>
     <string name="NotificationMessageNoText">%1$s 给您发送了一条信息</string>
     <string name="NotificationMessagePhoto">%1$s 给您发送了一张图片</string>
+    <string name="NotificationMessageRoundVideo">%1$s 给您发送了一段视频信息</string>
     <string name="NotificationMessageVideo">%1$s 给您发送了一段视频</string>
     <string name="NotificationMessageVoice">%1$s 给您发送了一条语音信息</string>
     <string name="Notifications">通知</string>
@@ -1016,6 +1045,7 @@ __斜体__
     <string name="OpenGroup">打开群组</string>
     <string name="OpenInExternalApp">打开方式……</string>
     <string name="OpenLinkAs">链接打开方式……</string>
+    <string name="OpenMap">打开地图</string>
     <string name="OpenMessage">查看信息</string>
     <string name="OpenProfile">打开名片</string>
     <string name="OpenSupergroup">打开超级群组</string>
@@ -1443,6 +1473,8 @@ __斜体__
     <string name="SuggestStickersAll">已安装 + 推荐</string>
     <string name="SuggestStickersInstalled">仅已安装</string>
     <string name="SuggestStickersNone">无</string>
+    <string name="SwipeReply">回复</string>
+    <string name="SwipeShare">分享</string>
     <string name="SymbolsAndObjects">符号&amp;物体</string>
     <string name="SyncContacts">同步联系人</string>
     <string name="SyncContactsDelete">删除已同步的联系人</string>
@@ -1683,6 +1715,7 @@ __斜体__
     <string name="XSentAGIF">%1$s 发送了一张GIF</string>
     <string name="XSentAMessage">%1$s 发送一条信息</string>
     <string name="XSentAPhoto">%1$s 发送了一张图片</string>
+    <string name="XSentARoundVideo">%1$s 发送了一段视频信息</string>
     <string name="XSentAVideo">%1$s 发送了一段视频</string>
     <string name="XSentAVoice">%1$s 发送了一条语音信息</string>
     <string name="XSetTimer">%1$s 将阅后即焚的时间修改为 %2$s </string>
@@ -1709,7 +1742,6 @@ __斜体__
     <string name="YourPassword">您的密码</string>
     <string name="YourPhone">您的电话</string>
     <string name="YoutubeRotateHint">注: 旋转屏幕以最小化播放器</string>
-    <string name="adminSign">管理员</string>
     <string name="cam_hint">请允许 Telegram X使用相机, 在 系统设置->应用程序->Telegram X->权限 中设置</string>
     <string name="channel_create_somebody">频道「%1$s」已创建</string>
     <string name="channel_user_add">%1$s 加入频道</string>
@@ -1742,6 +1774,10 @@ __斜体__
     <string name="fileSize_MB">%1$s M</string>
     <string name="fingerprint_fail">未知指纹</string>
     <string name="fingerprint_hint3">请在 系统设置->安全->指纹 中至少注册一个指纹</string>
+    <string name="format_EncryptedDescription">"• %1$s
+• %2$s
+• %3$s
+• %4$s"</string>
     <string name="format_PasscodeTooManyAttempts">尝试次数过多 %1$s</string>
     <string name="format_TooManyRequests">请求过多 %1$s</string>
     <string name="format_chatTitlesAndOthers">%1$s %2$s</string>
@@ -1835,7 +1871,7 @@ __斜体__
     <string name="inactiveGroup">非活动群组</string>
     <string name="justAdd">刚刚加入了群组</string>
     <string name="language_code">cn</string>
-    <string name="language_dateFormatLocale">0</string>
+    <string name="language_dateFormatLocale">zh-CN</string>
     <string name="language_disable_lowercase">0</string>
     <string name="language_name">中文</string>
     <string name="language_nameInEnglish">Chinese</string>
@@ -1855,6 +1891,9 @@ __斜体__
     <string name="login_PhoneNumber">电话号码</string>
     <string name="login_SmsHint">我们将发送短信验证码到您的手机</string>
     <string name="login_YourName">您的名字</string>
+    <string name="message_adminSign">"  管理员"</string>
+    <string name="message_adminSignPlain">管理员</string>
+    <string name="message_via">" 通过 "</string>
     <string name="network_Connecting">正在连接……</string>
     <string name="network_Updating">正在同步……</string>
     <string name="network_WaitingForNetwork">正在等待网络连接……</string>
@@ -1939,7 +1978,6 @@ __斜体__
     <string name="timestamp_weekday">%1$s %2$s</string>
     <string name="timestamp_yesterday">昨天 %1$s</string>
     <string name="unknownUser">未知用户</string>
-    <string name="via">通过</string>
     <string name="xAdmins" />
     <string name="xAdmins_few" />
     <string name="xAdmins_many" />
