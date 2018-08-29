@@ -845,6 +845,7 @@ Minimum length is **5** characters."</string>
     <string name="LocalizationEditConfirmPrompt">Current string (%1$s) has been modified. Would you like to save changes?</string>
     <string name="LocalizationEditConfirmSave">Save Changes</string>
     <string name="LocalizationExit">Save &amp; Exit</string>
+    <string name="LocalizationFileNamePlaceholder">YOUR_FILE_NAME</string>
     <string name="LocalizationPaste">Paste original</string>
     <string name="LocalizationTranslation">Translation</string>
     <string name="LocalizationView">View Strings</string>

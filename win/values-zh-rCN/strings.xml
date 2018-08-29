@@ -846,6 +846,7 @@
     <string name="LocalizationEditConfirmPrompt">当前字符串(%1$s)已被修改, 你想保存更改吗?</string>
     <string name="LocalizationEditConfirmSave">保存修改</string>
     <string name="LocalizationExit">保存并退出</string>
+    <string name="LocalizationFileNamePlaceholder">你的文件名</string>
     <string name="LocalizationPaste">粘贴原文</string>
     <string name="LocalizationTranslation">翻译</string>
     <string name="LocalizationView">查看字符串</string>

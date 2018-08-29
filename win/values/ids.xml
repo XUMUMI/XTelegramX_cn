@@ -86,6 +86,8 @@
     <item type="id" name="btn_chatAction">false</item>
     <item type="id" name="btn_chatBackground">false</item>
     <item type="id" name="btn_chatFontSize">false</item>
+    <item type="id" name="btn_chatFontSizeReset">false</item>
+    <item type="id" name="btn_chatFontSizeScale">false</item>
     <item type="id" name="btn_chatSettings">false</item>
     <item type="id" name="btn_chatSwipes">false</item>
     <item type="id" name="btn_check">false</item>
@@ -286,6 +288,7 @@
     <item type="id" name="btn_menu_enable">false</item>
     <item type="id" name="btn_menu_resetToDefault">false</item>
     <item type="id" name="btn_messageAddContact">false</item>
+    <item type="id" name="btn_messageApplyLocalization">false</item>
     <item type="id" name="btn_messageCall">false</item>
     <item type="id" name="btn_messageCallContact">false</item>
     <item type="id" name="btn_messageCopy">false</item>
@@ -346,6 +349,7 @@
     <item type="id" name="btn_passcodeType_pin">false</item>
     <item type="id" name="btn_passcode_auto">false</item>
     <item type="id" name="btn_passcode_change">false</item>
+    <item type="id" name="btn_pasteText">false</item>
     <item type="id" name="btn_pattern">false</item>
     <item type="id" name="btn_pauseFile">false</item>
     <item type="id" name="btn_peerToPeer">false</item>
@@ -444,7 +448,6 @@
     <item type="id" name="btn_secret_replacePhoneNumber">false</item>
     <item type="id" name="btn_secret_resetLocalNotificationSettings">false</item>
     <item type="id" name="btn_secret_resetTutorials">false</item>
-    <item type="id" name="btn_secret_strings">false</item>
     <item type="id" name="btn_section">false</item>
     <item type="id" name="btn_selectChat">false</item>
     <item type="id" name="btn_send">false</item>
@@ -551,6 +554,7 @@
     <item type="id" name="controller_contacts">false</item>
     <item type="id" name="controller_drawer">false</item>
     <item type="id" name="controller_editBio">false</item>
+    <item type="id" name="controller_editLanguage">false</item>
     <item type="id" name="controller_editPhone">false</item>
     <item type="id" name="controller_editUsername">false</item>
     <item type="id" name="controller_emoji">false</item>
@@ -672,6 +676,7 @@
     <item type="id" name="menu_btn_down">false</item>
     <item type="id" name="menu_btn_edit">false</item>
     <item type="id" name="menu_btn_forward">false</item>
+    <item type="id" name="menu_btn_help">false</item>
     <item type="id" name="menu_btn_lock">false</item>
     <item type="id" name="menu_btn_manage">false</item>
     <item type="id" name="menu_btn_masks">false</item>
@@ -682,13 +687,17 @@
     <item type="id" name="menu_btn_search">false</item>
     <item type="id" name="menu_btn_selectInBetween">false</item>
     <item type="id" name="menu_btn_stopwatch">false</item>
+    <item type="id" name="menu_btn_toggle">false</item>
     <item type="id" name="menu_btn_up">false</item>
     <item type="id" name="menu_btn_view">false</item>
     <item type="id" name="menu_chat">false</item>
     <item type="id" name="menu_clear">false</item>
     <item type="id" name="menu_contacts">false</item>
     <item type="id" name="menu_done">false</item>
+    <item type="id" name="menu_editLangPack">false</item>
+    <item type="id" name="menu_editLangPackString">false</item>
     <item type="id" name="menu_game">false</item>
+    <item type="id" name="menu_help">false</item>
     <item type="id" name="menu_login">false</item>
     <item type="id" name="menu_main">false</item>
     <item type="id" name="menu_messageActions">false</item>
@@ -743,6 +752,12 @@
     <item type="id" name="paint_mode_zoom">false</item>
     <item type="id" name="paint_undo">false</item>
     <item type="id" name="place">false</item>
+    <item type="id" name="pluralFew">false</item>
+    <item type="id" name="pluralMany">false</item>
+    <item type="id" name="pluralOne">false</item>
+    <item type="id" name="pluralOther">false</item>
+    <item type="id" name="pluralTwo">false</item>
+    <item type="id" name="pluralZero">false</item>
     <item type="id" name="result">false</item>
     <item type="id" name="right_addNewAdmins">false</item>
     <item type="id" name="right_banUsers">false</item>
@@ -783,6 +798,7 @@
     <item type="id" name="share_comment_stub">false</item>
     <item type="id" name="state">false</item>
     <item type="id" name="status_bar_latest_event_content">false</item>
+    <item type="id" name="string">false</item>
     <item type="id" name="tag_transition_group">false</item>
     <item type="id" name="text">false</item>
     <item type="id" name="text2">false</item>
