@@ -1264,7 +1264,6 @@ messages from multiple devices."</string>
     <string name="QuickActionSettingShare">Share</string>
     <string name="ReEnterAPassword">Re-enter a password</string>
     <string name="ReadingXLine">Reading line %1$s…</string>
-    <string name="ReceivedX">Received: %1$s</string>
     <string name="Recent">Recent</string>
     <string name="RecentActionsChannelHint">Service actions in the channel in the last 48 hours.</string>
     <string name="RecentActionsGroupHint">Service actions in the group in the last 48 hours.</string>
@@ -1422,8 +1421,6 @@ If you need a global passcode, use Settings – Privacy and Security – Passcod
 
 Don't take it, Telegram will process everything automatically."</string>
     <string name="SentSmsCode">"We've sent an SMS with an activation code to your phone **%1$s**."</string>
-    <string name="SentX">Sent: %1$s</string>
-    <string name="ServiceNetworkReceiver">This receiver helps determining current connection state for receiving message notifications.</string>
     <string name="ServiceNotifications">service notifications</string>
     <string name="Sessions">Sessions</string>
     <string name="SessionsTitle">Active Sessions</string>
@@ -1830,6 +1827,7 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="format_contentAndModifyDate">%1$s, modified %2$s</string>
     <string name="format_dateViaBot">%1$s via %2$s</string>
     <string name="format_decimalSeparator">.</string>
+    <string name="format_fileSizeAndDescription">%2$s, %1$s</string>
     <string name="format_fileSizeAndExtension">%1$s %2$s</string>
     <string name="format_fileSizeAndModifiedDate">%1$s, %2$s</string>
     <string name="format_ivAuthorDateSeparator">" • "</string>
@@ -1955,6 +1953,7 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="prompt_network">No network connection. Please try again later</string>
     <string name="returnToChannel">Return to Channel</string>
     <string name="returnToGroup">Return to Group</string>
+    <string name="service_Notifications">This service is used for displaying message notifications.</string>
     <string name="slideToCancel">Slide to Cancel</string>
     <string name="status_LastSeenRecently">seen recently</string>
     <string name="status_LastSeenUnknown">seen a long time ago</string>
@@ -2023,6 +2022,8 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="timestamp_weekday">%1$s at %2$s</string>
     <string name="timestamp_yesterday">yesterday at %1$s</string>
     <string name="unknownUser">unknown user</string>
+    <string name="url_faq">https://telegram.org/faq#general-questions</string>
+    <string name="url_translationsPrefix">https://translations.telegram.org/en/android_x/unsorted/</string>
     <string name="xAdmins" />
     <string name="xAdmins_few" />
     <string name="xAdmins_many" />

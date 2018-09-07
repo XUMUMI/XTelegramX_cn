@@ -161,6 +161,7 @@
     <item type="id" name="btn_edit">false</item>
     <item type="id" name="btn_editProxy">false</item>
     <item type="id" name="btn_editRights">false</item>
+    <item type="id" name="btn_editUsername">false</item>
     <item type="id" name="btn_emoji">false</item>
     <item type="id" name="btn_encryptionKey">false</item>
     <item type="id" name="btn_events_contactJoined">false</item>
@@ -554,6 +555,7 @@
     <item type="id" name="controller_contacts">false</item>
     <item type="id" name="controller_drawer">false</item>
     <item type="id" name="controller_editBio">false</item>
+    <item type="id" name="controller_editDescription">false</item>
     <item type="id" name="controller_editLanguage">false</item>
     <item type="id" name="controller_editPhone">false</item>
     <item type="id" name="controller_editUsername">false</item>
@@ -722,6 +724,7 @@
     <item type="id" name="more_btn_convertGroup">false</item>
     <item type="id" name="more_btn_delete">false</item>
     <item type="id" name="more_btn_edit">false</item>
+    <item type="id" name="more_btn_editDescription">false</item>
     <item type="id" name="more_btn_help">false</item>
     <item type="id" name="more_btn_join">false</item>
     <item type="id" name="more_btn_logout">false</item>
