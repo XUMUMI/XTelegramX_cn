@@ -68,7 +68,7 @@
     <string name="AlwaysShareWith">Always Share With</string>
     <string name="AndroidVersionWarning">Sorry, this feature is available yet only on Android %1$s (%2$s) or higher</string>
     <string name="AnimalsAndNature">Animals &amp; Nature</string>
-    <string name="AnswerCall">Answer call</string>
+    <string name="AnswerCall">Answer</string>
     <string name="AnyMedia">Any media</string>
     <string name="AppBadge">Unread Count Badge</string>
     <string name="AppBadgeAll">From all chats</string>
@@ -155,7 +155,7 @@ Please take a look at the [Telegram FAQ](https://telegram.org/faq#general-questi
     <string name="AudioUnknownArtist">Unknown Artist</string>
     <string name="AutoInstantView">Open in Instant View</string>
     <string name="AutoInstantViewAll">All links</string>
-    <string name="AutoInstantViewDesc">Whenever you press the link, Telegram will try to generate Instant View for it.</string>
+    <string name="AutoInstantViewDesc">Whenever you open a link, Telegram will try to generate an Instant View page for it.</string>
     <string name="AutoInstantViewNone">No links</string>
     <string name="AutoInstantViewTelegram">telegram.org + telegra.ph</string>
     <string name="AutoLock">Auto-Lock</string>
@@ -170,8 +170,8 @@ Small dot indicates current level of ambient lighting measured by your device."<
     <string name="AutoNightModeDescriptionScheduled">Switch to night theme based on your time preference.</string>
     <string name="AutoNightModeScheduledByLocation">Detect current sunset &amp; sunrise time</string>
     <string name="AutoNightModeScheduledByLocationProgress">Determining location…</string>
-    <string name="AutoNightModeScheduledTurnOff">Turn Off At</string>
-    <string name="AutoNightModeScheduledTurnOn">Turn On At</string>
+    <string name="AutoNightModeScheduledTurnOff">To</string>
+    <string name="AutoNightModeScheduledTurnOn">From</string>
     <string name="AutoNightScheduled">Scheduled</string>
     <string name="AutomaticMediaDownload">Automatic media download</string>
     <string name="AutoplayGifs">Autoplay GIFs</string>
@@ -225,7 +225,7 @@ Example: 23 y.o. designer from San Francisco."</string>
     <string name="Cancel">Cancel</string>
     <string name="Cancelled">Cancelled</string>
     <string name="ChangePasscode">Change Passcode</string>
-    <string name="ChangePasscodeInfo">"When you set up an additional passcode, a lock icon will appear on the chats page. Tap it to lock and unlock your Telegram app.
+    <string name="ChangePasscodeInfo">"When you set up an additional passcode, a lock icon will appear on the chats page. Tap it to lock and unlock the app.
 
 Note: if you forget the passcode, you'll need to delete and reinstall the app. All secret chats will be lost."</string>
     <string name="ChangePassword">Change Password</string>
@@ -245,7 +245,7 @@ Note: if you forget the passcode, you'll need to delete and reinstall the app. A
     <string name="ChannelMessageRoundVideo">%1$s posted a video message</string>
     <string name="ChannelMessageVideo">%1$s posted a video</string>
     <string name="ChannelName">Channel Name</string>
-    <string name="ChannelNotifyMembersInfoOff">Members will not be notified when you post</string>
+    <string name="ChannelNotifyMembersInfoOff">Members will receive a silent notification</string>
     <string name="ChannelNotifyMembersInfoOn">Members will be notified when you post</string>
     <string name="ChannelPrivate">Private Channel</string>
     <string name="ChannelPrivateInfo">Private channels can only be joined via an invite link.</string>
@@ -290,8 +290,8 @@ Note: if you forget the passcode, you'll need to delete and reinstall the app. A
     <string name="ChatStyleBubbles">Bubbles in Chats</string>
     <string name="ChatStyleBubblesChannel">Bubbles in Channels</string>
     <string name="ChatSuggestionsDisabled">"Bot suggestions are disabled.
-Turn them back on in Settings - Privacy and Security."</string>
-    <string name="ChatTitleEmpty">Chat title cannot be empty</string>
+Turn them back on in Settings > Privacy and Security."</string>
+    <string name="ChatTitleEmpty">"Chat name can't be empty"</string>
     <string name="ChatTitleSecretChat">%1$s (secret chat)</string>
     <string name="ChatWithUser">Chat with %1$s</string>
     <string name="ChatWithYourself">Chat with yourself</string>
@@ -377,14 +377,14 @@ Turn them back on in Settings - Privacy and Security."</string>
     <string name="CustomDate">Custom date</string>
     <string name="CustomHelp">"Important: you won't be able to see Last Seen times for people with whom you don't share your Last Seen time. Approximate last seen will be shown instead (recently, within a week, within a month)."</string>
     <string name="CustomNotifications">Custom notifications</string>
-    <string name="CustomNotificationsHint">These settings will override the global values in Settings — Notifications.</string>
+    <string name="CustomNotificationsHint">These settings will override the global values in Settings > Notifications.</string>
     <string name="CustomShareSettingsHelp">These settings will override the values above.</string>
     <string name="CustomVibrations">Custom Vibrations</string>
     <string name="DataSaver">Data Saver</string>
     <string name="DataSaverDesc">Media will never autodownload with Data Saver enabled. Pending downloads are paused once it turns on.</string>
     <string name="DataSettings">Data and Storage</string>
     <string name="DataUsage">Disk and network usage</string>
-    <string name="DeclineCall">Decline call</string>
+    <string name="DeclineCall">Decline</string>
     <string name="Declined">Declined</string>
     <string name="DeepLinkUnsupported">Unknown or broken link format</string>
     <string name="Default">Default</string>
@@ -521,6 +521,13 @@ If they look the same on %1$s's device, end-to-end encryption is guaranteed."</s
     <string name="EnterCode">Enter code</string>
     <string name="EnterPassword">Enter Password</string>
     <string name="Error">Error</string>
+    <string name="ErrorPinnedChatsLimit" />
+    <string name="ErrorPinnedChatsLimit_few" />
+    <string name="ErrorPinnedChatsLimit_many" />
+    <string name="ErrorPinnedChatsLimit_one">Sorry, you can pin up to %1$s chat and %1$s secret chat at once.</string>
+    <string name="ErrorPinnedChatsLimit_other">Sorry, you can pin up to %1$s chats and %1$s secret chats at once.</string>
+    <string name="ErrorPinnedChatsLimit_two" />
+    <string name="ErrorPinnedChatsLimit_zero" />
     <string name="ErrorUserDeleted">Cannot perform this action, because user account is deactivated.</string>
     <string name="ErrorUsersTooFew">Not enough members: everyone has restricted who can invite them.</string>
     <string name="EventLog">Recent Actions</string>
@@ -590,7 +597,7 @@ Duration: %2$s"</string>
     <string name="EventLogRemovedGroupDescription">%1$s removed the group description</string>
     <string name="EventLogRemovedGroupLink">%1$s removed group link</string>
     <string name="EventLogRestrictedDeleted">removed restrictions of %1$s</string>
-    <string name="EventLogRestrictedNew">"set restrictions for %1$s
+    <string name="EventLogRestrictedNew">"restricted %1$s
 
 Duration: %2$s"</string>
     <string name="EventLogRestrictedReadMessages">Read messages</string>
@@ -661,11 +668,12 @@ Please copy the scary error details below and submit them to support@telegram.or
     <string name="GlobalSearch">Global Search</string>
     <string name="Grain">Grain</string>
     <string name="Group">Group</string>
-    <string name="GroupConvertHint">"To go over the **%1$s** members limit, you can convert your group to a **supergroup**. In supergroups:
+    <string name="GroupConvertHint">"**Members limit reached.**
+To go over the **%1$s** members limit, you can convert your group to a **supergroup**. In supergroups:
 
 • The user limit is **%2$s** members
-• New members see all chat history
-• Admins delete messages for all
+• New members may see the entire chat history
+• Admins can delete messages for everyone
 • Notifications are muted by default"</string>
     <string name="GroupDontAdd">Do not add to the group</string>
     <string name="GroupEnterValidName">Please enter a valid group name</string>
@@ -680,7 +688,7 @@ Please copy the scary error details below and submit them to support@telegram.or
     <string name="GroupsInCommon">Groups in Common</string>
     <string name="GroupsWillBeShownHere">Groups in common will be shown here</string>
     <string name="HangUp">Hang up</string>
-    <string name="HashtagDeleteHint">Delete hashtag from suggestions?</string>
+    <string name="HashtagDeleteHint">Delete this hashtag from suggestions?</string>
     <string name="HavingTroubleAccessing">"Having trouble accessing your e-mail
 %1$s?"</string>
     <string name="Help">Help</string>
@@ -717,7 +725,7 @@ Be aware that this setting is not a guarantee, and some IMEs may not respect it.
     <string name="Installed">Installed</string>
     <string name="InstantView">Instant View</string>
     <string name="InternalStorage">Internal Storage</string>
-    <string name="InvalidCode">Invalid code, please try again.</string>
+    <string name="InvalidCode">Invalid code. Please try again.</string>
     <string name="InvalidLocalisation">Invalid Localization File</string>
     <string name="InvalidPasswordTryAgain">Invalid password. Please try again</string>
     <string name="Invite">Invite</string>
@@ -741,7 +749,7 @@ Be aware that this setting is not a guarantee, and some IMEs may not respect it.
     <string name="IsRecordingAudio">%1$s is recording voice</string>
     <string name="IsRecordingRound">%1$s is recording video</string>
     <string name="IsRecordingVideo">%1$s is recording video</string>
-    <string name="IsSendingContact">%1$s is choosing contact…</string>
+    <string name="IsSendingContact">%1$s is choosing a contact…</string>
     <string name="IsSendingFile">%1$s is sending file</string>
     <string name="IsSendingGame">%1$s is playing</string>
     <string name="IsSendingLocation">%1$s is choosing location</string>
@@ -821,8 +829,8 @@ Minimum length is **5** characters."</string>
     <string name="LinkInvalidShort">Public link must have at least 5 characters.</string>
     <string name="LinkInvalidStartNumber">"Sorry, a link can't start with a number."</string>
     <string name="LinkPreview">Link Preview</string>
-    <string name="LiveLocationAlertGroup">Choose for how long people in this chat will see your accurate location.</string>
-    <string name="LiveLocationAlertPrivate">Choose for how long %1$s will see your accurate location.</string>
+    <string name="LiveLocationAlertGroup">Choose for how long people in this chat will see your live location.</string>
+    <string name="LiveLocationAlertPrivate">Choose for how long %1$s will see your live location.</string>
     <string name="LiveLocationError">Unable to detect current location.</string>
     <string name="LiveLocations">Live Locations</string>
     <string name="LoadingActions">Loading actions…</string>
@@ -893,7 +901,7 @@ __italic__
     <string name="MemberCannotJoinChannel">%1$s will not be able to return to channel unless invited back by admin.</string>
     <string name="MemberCannotJoinGroup">%1$s will not be able to return to group unless invited back by admin.</string>
     <string name="MemberCannotJoinRegularGroup">%1$s will not be able to return to group unless invited by another member or given an invite link.</string>
-    <string name="MemberRestrictChannel">This User will not be removed from channel.</string>
+    <string name="MemberRestrictChannel">This user will not be removed from the channel.</string>
     <string name="MemberRestrictGroup">This User will not be removed from group.</string>
     <string name="MembersDetailAdmins">Administrators</string>
     <string name="MembersDetailBanned">Banned users</string>
@@ -957,7 +965,7 @@ __italic__
 You can log in on websites that support signing in with Telegram."</string>
     <string name="NoAdminRulesHint">Specify at least one admin rule</string>
     <string name="NoAppToOpen">Application to open this file not found</string>
-    <string name="NoCalls">"You haven't made any calls yet."</string>
+    <string name="NoCalls">"You haven't called anybody yet."</string>
     <string name="NoCameraAccess">This feature requires access to camera.</string>
     <string name="NoChats">You have no chats</string>
     <string name="NoChatsText">"**No chats to show**
@@ -1003,7 +1011,7 @@ access them on any device you have."</string>
     <string name="NoOtherSessions">No Other Active Sessions</string>
     <string name="NoOtherSessionsInfo">You can log in to Telegram from other mobile, tablet and desktop devices, using the same phone number. All your data will be instantly synchronized.</string>
     <string name="NoPhotos">No Photos</string>
-    <string name="NoPlacesFound">Places not found</string>
+    <string name="NoPlacesFound">No places found</string>
     <string name="NoRestrictions">No restrictions</string>
     <string name="NoRestrictionsHint">Specify at least one restriction rule</string>
     <string name="NoReturnToChat">You cannot return to this chat</string>
@@ -1058,7 +1066,7 @@ access them on any device you have."</string>
     <string name="NotificationsDefaultUnmutesIn">Unmutes in %1$s</string>
     <string name="NotificationsDefaultValue">%1$s (default)</string>
     <string name="NotificationsDisabled">Disabled</string>
-    <string name="NotificationsEnableOverride">Enabling notifications for this chat will override the global value in Settings — Notifications (%1$s).</string>
+    <string name="NotificationsEnableOverride">Enabling notifications for this chat will override the global value in Settings > Notifications (%1$s).</string>
     <string name="NotificationsEnabled">Enabled</string>
     <string name="NotificationsGooglePlayServices">Google Play Services is needed for guaranteed notification delivery.</string>
     <string name="NotificationsLed">LED</string>
@@ -1069,15 +1077,15 @@ access them on any device you have."</string>
     <string name="OnlyAdmins">Only admins</string>
     <string name="OnlyIfSilent">Only if silent</string>
     <string name="Open">Open</string>
-    <string name="OpenBot">Open Bot</string>
-    <string name="OpenChannel">Open Channel</string>
+    <string name="OpenBot">View Bot</string>
+    <string name="OpenChannel">View Channel</string>
     <string name="OpenChat">Open Chat</string>
-    <string name="OpenGroup">Open Group</string>
+    <string name="OpenGroup">View Group</string>
     <string name="OpenInExternalApp">Open in…</string>
     <string name="OpenLinkAs">Open link as…</string>
-    <string name="OpenMap">Open Map</string>
+    <string name="OpenMap">Open in Maps</string>
     <string name="OpenMessage">View Message</string>
-    <string name="OpenProfile">Open Profile</string>
+    <string name="OpenProfile">View Profile</string>
     <string name="OpenSupergroup">Open Supergroup</string>
     <string name="OpenThisLink">"Open this link?
 
@@ -1111,7 +1119,7 @@ messages from multiple devices."</string>
     <string name="PaintModeDoodle">Doodle</string>
     <string name="PaintModeFill">Fill color</string>
     <string name="PaintModeRect">Rectangle</string>
-    <string name="ParticipantLimitReached">You cannot add more participants to this group</string>
+    <string name="ParticipantLimitReached">"You can't add more members to this group"</string>
     <string name="PasscodeDoNotMatch">Passcodes do not match</string>
     <string name="PasscodeFingerprint">Fingerprint</string>
     <string name="PasscodeGesture">Gesture</string>
@@ -1212,7 +1220,7 @@ messages from multiple devices."</string>
     <string name="PrivateChats">Private Chats</string>
     <string name="Proceed">Proceed</string>
     <string name="ProcessingFile">Processing…</string>
-    <string name="ProcessingFileWait">Processing files, please wait…</string>
+    <string name="ProcessingFileWait">Processing files. Please wait…</string>
     <string name="ProfilePhoto">Profile photo</string>
     <string name="ProgressCreateChannel">Creating channel…</string>
     <string name="PromotedByX">Promoted by %1$s</string>
@@ -1311,6 +1319,7 @@ messages from multiple devices."</string>
     <string name="ReportMessageUser">Report message from %1$s</string>
     <string name="ReportMessages">"Report %1$s's messages"</string>
     <string name="ReportMessagesUser">Report messages from %1$s</string>
+    <string name="ReportReasonDescription">Description</string>
     <string name="ReportSpam">Report spam</string>
     <string name="ReportXMessages" />
     <string name="ReportXMessages_few" />
@@ -1380,7 +1389,7 @@ You may need to restart the app for this to take effect."</string>
 
 Note: if you forget it, contents of this chat will be lost.
 
-If you need a global passcode, use Settings – Privacy and Security – Passcode Lock."</string>
+If you need a global passcode, use Settings > Privacy and Security > Passcode Lock."</string>
     <string name="SecretWebPage">Link Previews</string>
     <string name="SecretWebPageInfo">Link previews will be generated on Telegram servers. We do not store data about the links you send.</string>
     <string name="SecurityTitle">Security</string>
@@ -1388,6 +1397,55 @@ If you need a global passcode, use Settings – Privacy and Security – Passcod
     <string name="SelectChat">Select Chat</string>
     <string name="SelectChats">Select Chats</string>
     <string name="SelectMessagesInBetween">Select messages in between</string>
+    <string name="SelectedAudioSuffix" />
+    <string name="SelectedAudioSuffix_few" />
+    <string name="SelectedAudioSuffix_many" />
+    <string name="SelectedAudioSuffix_one">" audio"</string>
+    <string name="SelectedAudioSuffix_other">" audios"</string>
+    <string name="SelectedAudioSuffix_two" />
+    <string name="SelectedAudioSuffix_zero" />
+    <string name="SelectedFileSuffix" />
+    <string name="SelectedFileSuffix_few" />
+    <string name="SelectedFileSuffix_many" />
+    <string name="SelectedFileSuffix_one">" file"</string>
+    <string name="SelectedFileSuffix_other">" files"</string>
+    <string name="SelectedFileSuffix_two" />
+    <string name="SelectedFileSuffix_zero" />
+    <string name="SelectedGifSuffix" />
+    <string name="SelectedGifSuffix_few" />
+    <string name="SelectedGifSuffix_many" />
+    <string name="SelectedGifSuffix_one">" GIF"</string>
+    <string name="SelectedGifSuffix_other">" GIFs"</string>
+    <string name="SelectedGifSuffix_two" />
+    <string name="SelectedGifSuffix_zero" />
+    <string name="SelectedLinkSuffix" />
+    <string name="SelectedLinkSuffix_few" />
+    <string name="SelectedLinkSuffix_many" />
+    <string name="SelectedLinkSuffix_one">" link"</string>
+    <string name="SelectedLinkSuffix_other">" links"</string>
+    <string name="SelectedLinkSuffix_two" />
+    <string name="SelectedLinkSuffix_zero" />
+    <string name="SelectedMediaSuffix" />
+    <string name="SelectedMediaSuffix_few" />
+    <string name="SelectedMediaSuffix_many" />
+    <string name="SelectedMediaSuffix_one">" media"</string>
+    <string name="SelectedMediaSuffix_other">" medias"</string>
+    <string name="SelectedMediaSuffix_two" />
+    <string name="SelectedMediaSuffix_zero" />
+    <string name="SelectedPhotoSuffix" />
+    <string name="SelectedPhotoSuffix_few" />
+    <string name="SelectedPhotoSuffix_many" />
+    <string name="SelectedPhotoSuffix_one">" photo"</string>
+    <string name="SelectedPhotoSuffix_other">" photos"</string>
+    <string name="SelectedPhotoSuffix_two" />
+    <string name="SelectedPhotoSuffix_zero" />
+    <string name="SelectedRoundVideoSuffix" />
+    <string name="SelectedRoundVideoSuffix_few" />
+    <string name="SelectedRoundVideoSuffix_many" />
+    <string name="SelectedRoundVideoSuffix_one">" message"</string>
+    <string name="SelectedRoundVideoSuffix_other">" messages"</string>
+    <string name="SelectedRoundVideoSuffix_two" />
+    <string name="SelectedRoundVideoSuffix_zero" />
     <string name="SelectedSuffix" />
     <string name="SelectedSuffix_few" />
     <string name="SelectedSuffix_many" />
@@ -1395,6 +1453,20 @@ If you need a global passcode, use Settings – Privacy and Security – Passcod
     <string name="SelectedSuffix_other">" selected"</string>
     <string name="SelectedSuffix_two" />
     <string name="SelectedSuffix_zero" />
+    <string name="SelectedVideoSuffix" />
+    <string name="SelectedVideoSuffix_few" />
+    <string name="SelectedVideoSuffix_many" />
+    <string name="SelectedVideoSuffix_one">" video"</string>
+    <string name="SelectedVideoSuffix_other">" videos"</string>
+    <string name="SelectedVideoSuffix_two" />
+    <string name="SelectedVideoSuffix_zero" />
+    <string name="SelectedVoiceSuffix" />
+    <string name="SelectedVoiceSuffix_few" />
+    <string name="SelectedVoiceSuffix_many" />
+    <string name="SelectedVoiceSuffix_one">" message"</string>
+    <string name="SelectedVoiceSuffix_other">" messages"</string>
+    <string name="SelectedVoiceSuffix_two" />
+    <string name="SelectedVoiceSuffix_zero" />
     <string name="Send">Send</string>
     <string name="SendAsCopy">Send as copy</string>
     <string name="SendByEnter">Send by Enter</string>
@@ -1406,7 +1478,7 @@ If you need a global passcode, use Settings – Privacy and Security – Passcod
     <string name="SendMusicHint">Send audio and music files</string>
     <string name="SendSticker">Send sticker</string>
     <string name="SendTo">Send to</string>
-    <string name="SendingContact">choosing contact…</string>
+    <string name="SendingContact">choosing a contact…</string>
     <string name="SendingFile">sending file</string>
     <string name="SendingGame">playing</string>
     <string name="SendingLocation">choosing location</string>
@@ -1448,7 +1520,13 @@ Don't take it, Telegram will process everything automatically."</string>
 
 This can be useful for integration with other services."</string>
     <string name="ShareYourPhoneNumberTitle">Share your phone number?</string>
-    <string name="SharingLiveLocationTitle">You are sharing Live Location with %1$s</string>
+    <string name="SharingLiveLocationToChats" />
+    <string name="SharingLiveLocationToChats_few" />
+    <string name="SharingLiveLocationToChats_many" />
+    <string name="SharingLiveLocationToChats_one">You are sharing Live Location with %1$s chat</string>
+    <string name="SharingLiveLocationToChats_other">You are sharing Live Location with %1$s chats</string>
+    <string name="SharingLiveLocationToChats_two" />
+    <string name="SharingLiveLocationToChats_zero" />
     <string name="SharingWithX">sharing with %1$s</string>
     <string name="SharingWithXChats" />
     <string name="SharingWithXChats_few" />
@@ -1461,7 +1539,7 @@ This can be useful for integration with other services."</string>
     <string name="Sharpen">Sharpen</string>
     <string name="ShowCall">Show call</string>
     <string name="ShowContacts">Start a chat</string>
-    <string name="ShowForwardOptions">Show forward options</string>
+    <string name="ShowForwardOptions">Show forwarding options</string>
     <string name="ShowInChat">Show in Chat</string>
     <string name="ShowOnFoursquare">Foursquare</string>
     <string name="ShowSourceMessage">Go to source chat</string>
@@ -1510,7 +1588,7 @@ This can be useful for integration with other services."</string>
     <string name="SyncHint">To help you connect with friends and family, allow %1$s access to your contacts.</string>
     <string name="SyncHintRetry">"To help you message friends and family on Telegram, allow access to your contacts.
 
-Tap Settings > Permissions, and turn Contacts on"</string>
+Tap Settings > Permissions, and turn Contacts on."</string>
     <string name="SyncHintTitle">Find Contacts</string>
     <string name="SyncHintUnavailable">Tap Settings > Permissions, and turn Contacts on to allow Telegram access to your contacts.</string>
     <string name="TabAdmins">Admins</string>
@@ -1531,7 +1609,7 @@ Tap Settings > Permissions, and turn Contacts on"</string>
     <string name="TerminateAllSessions">Terminate All Other Sessions</string>
     <string name="TerminateAllWebSessions">Disconnect All Websites</string>
     <string name="TerminateSession">Terminate session</string>
-    <string name="TerminateSessionFreshError">For security reasons this action is restricted on new sessions. Use device with older session or try again later.</string>
+    <string name="TerminateSessionFreshError">"For security reasons, you can't terminate older sessions from a device that you've just connected. Please use an earlier connection or wait for a few hours."</string>
     <string name="TerminateSessionQuestion">Terminate this session?</string>
     <string name="TerminateWebSessionQuestion">Disconnect %1$s?</string>
     <string name="Text">Text</string>
@@ -1563,15 +1641,24 @@ Tap Settings > Permissions, and turn Contacts on"</string>
     <string name="Today">Today</string>
     <string name="TooManyPublicChannels">Sorry, you have created too many public channels. You can either create a private channel or delete one of your existing channels first.</string>
     <string name="TooManyPublicLinks">Sorry, you have created too many public links. Try deleting or making some of your groups or channels private.</string>
+    <string name="ToolsAllTitle">Strings</string>
+    <string name="ToolsCopyString">Copy String</string>
+    <string name="ToolsExportText">"%1$s / %2$s
+
+Exported from %3$s"</string>
+    <string name="ToolsLocalePlaceholder">Locale. Examples: **ja-JP**, **zh-CN**, **ro-RO**</string>
+    <string name="ToolsOpenOnPlatform">Translations Platform</string>
+    <string name="ToolsShowToast">Show Toast</string>
+    <string name="ToolsUntranslatedTitle">Untranslated</string>
     <string name="TotalDataUsage">Total</string>
     <string name="TouchYourSensor">Touch your sensor</string>
     <string name="TranslationMoreCreate">Create</string>
     <string name="TranslationMoreDone">Got it</string>
-    <string name="TranslationMoreText">"List of available languages is managed by [Translations Platform](https://translations.telegram.org).
+    <string name="TranslationMoreText">"The list of available languages is managed by the [Translations Platform](https://translations.telegram.org).
 
-Telegram will offer you to switch to your language when corresponding translation will become officially available.
+Telegram will offer you to switch to your language when a corresponding translation becomes officially available.
 
-While waiting, you can install custom localization files, join [translation process](https://translations.telegram.org/en/android_x/), or create [your own](https://t.me/tgx_android_translate/) localization file."</string>
+While you're waiting, you can install custom localization files, join the [translation process](https://translations.telegram.org/en/android_x/), or create [your own](https://t.me/tgx_android_translate/) localization files."</string>
     <string name="TranslationMoreTitle">"Can't find your language?"</string>
     <string name="TranslationsMissing" />
     <string name="TranslationsMissing_few" />
@@ -1644,7 +1731,7 @@ While waiting, you can install custom localization files, join [translation proc
     <string name="UserBio">Bio</string>
     <string name="UserIsAlreadyAdmin">User is already admin</string>
     <string name="UserIsAlreadyInChat">User is already in chat</string>
-    <string name="UserPrivacyRestricted">Sorry, user restricted this action in their privacy settings.</string>
+    <string name="UserPrivacyRestricted">Sorry, the user restricted this action in their privacy settings.</string>
     <string name="UserRestricted">Sorry, you were restricted by chat admins from performing this action.</string>
     <string name="UserRestrictions">User Restrictions</string>
     <string name="UserRestrictionsEmbedLinks">Embed Links</string>
@@ -1692,7 +1779,7 @@ Minimum length is **5** characters."</string>
     <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
     <string name="VoipAudioRoutingEarpiece">Earpiece</string>
     <string name="VoipAudioRoutingSpeaker">Speaker</string>
-    <string name="VoipBranding">Telegram</string>
+    <string name="VoipBranding">Telegram Call</string>
     <string name="VoipBusy">Line Busy</string>
     <string name="VoipCancelled">Call cancelled</string>
     <string name="VoipConnecting">Connecting</string>
@@ -1737,7 +1824,7 @@ Minimum length is **5** characters."</string>
     <string name="WiFiUsage">Wi-Fi Data Usage</string>
     <string name="XButOnlyIfSilent">%1$s (but only if silent)</string>
     <string name="XChangedGroupStickerSet">%1$s changed group sticker set</string>
-    <string name="XChangedGroupTitle">%1$s changed the group title</string>
+    <string name="XChangedGroupTitle">%1$s changed the group name</string>
     <string name="XCreatedGroup">%1$s created the group</string>
     <string name="XDisabledTimer">%1$s disabled self-destruct timer</string>
     <string name="XInvitedY">%1$s invited %2$s</string>
@@ -1764,7 +1851,13 @@ Minimum length is **5** characters."</string>
     <string name="XofY">%1$s of %2$s</string>
     <string name="Yesterday">Yesterday</string>
     <string name="YouCantBanThis">You cannot ban this user</string>
-    <string name="YouCantForwardMore">"You can't forward more than %1$s messages at once, sorry"</string>
+    <string name="YouCantForwardMoreMessages" />
+    <string name="YouCantForwardMoreMessages_few" />
+    <string name="YouCantForwardMoreMessages_many" />
+    <string name="YouCantForwardMoreMessages_one">"Sorry, you can't forward more than %1$s message at once"</string>
+    <string name="YouCantForwardMoreMessages_other">"Sorry, you can't forward more than %1$s messages at once"</string>
+    <string name="YouCantForwardMoreMessages_two" />
+    <string name="YouCantForwardMoreMessages_zero" />
     <string name="YouCantInviteMembers">"You can't add members to this chat"</string>
     <string name="YouCantPromoteThis">You cannot promote this user</string>
     <string name="YouCantSendMessages">"You can't send messages to this chat"</string>
@@ -1950,7 +2043,7 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="passcode_pattern_tooshort">Pattern should be at least 4 dots long</string>
     <string name="pickFromGallery">Choose from gallery</string>
     <string name="project_id">scenic-parity-125411</string>
-    <string name="prompt_network">No network connection. Please try again later</string>
+    <string name="prompt_network">No network connection. Please try again later.</string>
     <string name="returnToChannel">Return to Channel</string>
     <string name="returnToGroup">Return to Group</string>
     <string name="service_Notifications">This service is used for displaying message notifications.</string>
@@ -2081,6 +2174,13 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="xContacts_two" />
     <string name="xContacts_zero" />
     <string name="xDays" />
+    <string name="xDaysShort" />
+    <string name="xDaysShort_few" />
+    <string name="xDaysShort_many" />
+    <string name="xDaysShort_one">%1$sd</string>
+    <string name="xDaysShort_other">%1$sd</string>
+    <string name="xDaysShort_two" />
+    <string name="xDaysShort_zero" />
     <string name="xDays_few" />
     <string name="xDays_many" />
     <string name="xDays_one">%1$s day</string>
@@ -2109,6 +2209,13 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="xGroups_two" />
     <string name="xGroups_zero" />
     <string name="xHours" />
+    <string name="xHoursShort" />
+    <string name="xHoursShort_few" />
+    <string name="xHoursShort_many" />
+    <string name="xHoursShort_one">%1$sh</string>
+    <string name="xHoursShort_other">%1$sh</string>
+    <string name="xHoursShort_two" />
+    <string name="xHoursShort_zero" />
     <string name="xHours_few" />
     <string name="xHours_many" />
     <string name="xHours_one">%1$s hour</string>
@@ -2158,6 +2265,13 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="xMin_two" />
     <string name="xMin_zero" />
     <string name="xMinutes" />
+    <string name="xMinutesShort" />
+    <string name="xMinutesShort_few" />
+    <string name="xMinutesShort_many" />
+    <string name="xMinutesShort_one">%1$sm</string>
+    <string name="xMinutesShort_other">%1$sm</string>
+    <string name="xMinutesShort_two" />
+    <string name="xMinutesShort_zero" />
     <string name="xMinutes_few" />
     <string name="xMinutes_many" />
     <string name="xMinutes_one">%1$s minute</string>
@@ -2209,15 +2323,15 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="xPeopleJoinedChannel" />
     <string name="xPeopleJoinedChannel_few" />
     <string name="xPeopleJoinedChannel_many" />
-    <string name="xPeopleJoinedChannel_one">%1$s person joined the channel</string>
-    <string name="xPeopleJoinedChannel_other">%1$s people joined the channel</string>
+    <string name="xPeopleJoinedChannel_one">%1$s member joined the channel</string>
+    <string name="xPeopleJoinedChannel_other">%1$s members joined the channel</string>
     <string name="xPeopleJoinedChannel_two" />
     <string name="xPeopleJoinedChannel_zero" />
     <string name="xPeopleJoinedGroup" />
     <string name="xPeopleJoinedGroup_few" />
     <string name="xPeopleJoinedGroup_many" />
-    <string name="xPeopleJoinedGroup_one">%1$s person joined the group</string>
-    <string name="xPeopleJoinedGroup_other">%1$s people joined the group</string>
+    <string name="xPeopleJoinedGroup_one">%1$s member joined the group</string>
+    <string name="xPeopleJoinedGroup_other">%1$s members joined the group</string>
     <string name="xPeopleJoinedGroup_two" />
     <string name="xPeopleJoinedGroup_zero" />
     <string name="xPhotos" />
@@ -2242,6 +2356,13 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="xSec_two" />
     <string name="xSec_zero" />
     <string name="xSeconds" />
+    <string name="xSecondsShort" />
+    <string name="xSecondsShort_few" />
+    <string name="xSecondsShort_many" />
+    <string name="xSecondsShort_one">%1$ss</string>
+    <string name="xSecondsShort_other">%1$ss</string>
+    <string name="xSecondsShort_two" />
+    <string name="xSecondsShort_zero" />
     <string name="xSeconds_few" />
     <string name="xSeconds_many" />
     <string name="xSeconds_one">%1$s second</string>
@@ -2333,6 +2454,13 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="xWebsites_two" />
     <string name="xWebsites_zero" />
     <string name="xWeeks" />
+    <string name="xWeeksShort" />
+    <string name="xWeeksShort_few" />
+    <string name="xWeeksShort_many" />
+    <string name="xWeeksShort_one">%1$sw</string>
+    <string name="xWeeksShort_other">%1$sw</string>
+    <string name="xWeeksShort_two" />
+    <string name="xWeeksShort_zero" />
     <string name="xWeeks_few" />
     <string name="xWeeks_many" />
     <string name="xWeeks_one">%1$s week</string>
