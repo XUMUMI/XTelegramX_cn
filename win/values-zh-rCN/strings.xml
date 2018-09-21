@@ -621,7 +621,7 @@
     <string name="Fade">褪色</string>
     <string name="FailureMessageText">"此信息由于错误而无法显示。 我们对此非常抱歉
 
-请复制下面这些可怕的错误细节并提交给support@telegram.org, 以便我们能够调查问题。 谢谢! "</string>
+请复制下面这些可怕的错误细节并提交给support@telegram.org, 以便我们能够调查问题。 谢谢!"</string>
     <string name="FeatureUnavailable">很抱歉, 此功能目前尚未在您的国家/地区提供</string>
     <string name="File">文件</string>
     <string name="FileName">文件名</string>
@@ -726,7 +726,7 @@
     <string name="InstantView">即时预览</string>
     <string name="InternalStorage">内部存储</string>
     <string name="InvalidCode">密码无效, 请重新输入</string>
-    <string name="InvalidLocalisation">应用本地化文件</string>
+    <string name="InvalidLocalisation">无效的本地化文件</string>
     <string name="InvalidPasswordTryAgain">密码无效。 请再试一次</string>
     <string name="Invite">邀请</string>
     <string name="InviteBackToChannel">邀请回到频道</string>
@@ -776,7 +776,7 @@
 翻译: %5$d%% (%6$s)"</string>
     <string name="LanguageInstall">应用本地化文件</string>
     <string name="LanguageSectionInstalled">已安装</string>
-    <string name="LanguageSectionOfficial">官方语言</string>
+    <string name="LanguageSectionOfficial">官方本地化文件</string>
     <string name="LanguageSectionRaw">未发行</string>
     <string name="LanguageWarning">警告: 不要从不受信任的来源安装本地化文件。</string>
     <string name="LastName">姓</string>
@@ -906,7 +906,7 @@ __斜体__
     <string name="MembersDetailAdmins">管理员</string>
     <string name="MembersDetailBanned">被 ban 用户</string>
     <string name="MembersDetailRestricted">受限用户</string>
-    <string name="Message">发送信息</string>
+    <string name="Message">输入信息</string>
     <string name="MessageContentPreview">图片预览</string>
     <string name="MessageLifetime">阅后即焚定时器</string>
     <string name="MessageLifetimePhoto">如果您设置了一个计时器, 图片将在查看后自毁</string>
@@ -923,6 +923,7 @@ __斜体__
     <string name="Missed">未接来电</string>
     <string name="MissedCall">未接来电</string>
     <string name="MobileUsage">移动数据使用情况</string>
+    <string name="MoreLanguages">更多语言</string>
     <string name="MoreMessageOptions">更多</string>
     <string name="MtprotoProxy">MTPROTO 代理</string>
     <string name="Music">音乐</string>
@@ -969,6 +970,7 @@ __斜体__
     <string name="NoCameraAccess">该功能需要访问相机</string>
     <string name="NoChats">您还没有聊天</string>
     <string name="NoChatsText">"**没有可以显示的聊天**
+	
 邀请您的朋友和家人加入电报"</string>
     <string name="NoContacts">无联系人</string>
     <string name="NoDocumentsToShow">无文件</string>
@@ -1089,7 +1091,7 @@ __斜体__
     <string name="OpenSupergroup">打开超级群组</string>
     <string name="OpenThisLink">"要打开这个链接吗?
 
- %1$s "</string>
+ %1$s"</string>
     <string name="Other">其他</string>
     <string name="OtherChats">其他聊天</string>
     <string name="OtherMedia">其他媒体</string>
@@ -1283,6 +1285,7 @@ __斜体__
     <string name="RecoveryCodeSent">我们已将6位数的恢复代码发送到 %1$s 。 请检查您的电子邮件, 并在这里输入</string>
     <string name="RecoveryCodeSentEmailUnknown">我们向您发送了6位数的恢复代码。 请检查您的电子邮件, 并在这里输入</string>
     <string name="ReduceMotion">减少动画</string>
+    <string name="RememberAlbumSetting">记住媒体分组设置</string>
     <string name="Remove">移除</string>
     <string name="RemoveAccountHint">退出 %1$s 的登录? 所有的加密对话都将丢失</string>
     <string name="RemoveCaptions">转发时删除文字描述</string>
@@ -1362,6 +1365,7 @@ __斜体__
     <string name="Saturation">饱和度</string>
     <string name="Save">保存</string>
     <string name="SaveGif">保存 GIF</string>
+    <string name="SaveOutgoingPhotos">将编辑过的照片保存到图库</string>
     <string name="SaveToDownloads">保存到下载</string>
     <string name="SaveToGallery">保存到图库</string>
     <string name="SaveToMusic">保存到音乐</string>
@@ -1397,55 +1401,55 @@ __斜体__
     <string name="SelectChat">选择对话</string>
     <string name="SelectChats">选择对话</string>
     <string name="SelectMessagesInBetween">选择之间的信息</string>
-    <string name="SelectedAudioSuffix">" 音频"</string>
-    <string name="SelectedAudioSuffix_few">" 音频"</string>
-    <string name="SelectedAudioSuffix_many">" 音频"</string>
-    <string name="SelectedAudioSuffix_one">" 音频"</string>
-    <string name="SelectedAudioSuffix_other">" 音频"</string>
-    <string name="SelectedAudioSuffix_two">" 音频"</string>
-    <string name="SelectedAudioSuffix_zero">" 音频"</string>
-    <string name="SelectedFileSuffix">" 文件"</string>
-    <string name="SelectedFileSuffix_few">" 文件"</string>
-    <string name="SelectedFileSuffix_many">" 文件"</string>
-    <string name="SelectedFileSuffix_one">" 文件"</string>
-    <string name="SelectedFileSuffix_other">" 文件"</string>
-    <string name="SelectedFileSuffix_two">" 文件"</string>
-    <string name="SelectedFileSuffix_zero">" 文件"</string>
-    <string name="SelectedGifSuffix">" GIF"</string>
-    <string name="SelectedGifSuffix_few">" GIF"</string>
-    <string name="SelectedGifSuffix_many">" GIF"</string>
-    <string name="SelectedGifSuffix_one">" GIF"</string>
-    <string name="SelectedGifSuffix_other">" GIF"</string>
-    <string name="SelectedGifSuffix_two">" GIF"</string>
-    <string name="SelectedGifSuffix_zero">" GIF"</string>
-    <string name="SelectedLinkSuffix">" 链接"</string>
-    <string name="SelectedLinkSuffix_few">" 链接"</string>
-    <string name="SelectedLinkSuffix_many">" 链接"</string>
-    <string name="SelectedLinkSuffix_one">" 链接"</string>
-    <string name="SelectedLinkSuffix_other">" 链接"</string>
-    <string name="SelectedLinkSuffix_two">" 链接"</string>
-    <string name="SelectedLinkSuffix_zero">" 链接"</string>
-    <string name="SelectedMediaSuffix">" 媒体"</string>
-    <string name="SelectedMediaSuffix_few">" 媒体"</string>
-    <string name="SelectedMediaSuffix_many">" 媒体"</string>
-    <string name="SelectedMediaSuffix_one">" 媒体"</string>
-    <string name="SelectedMediaSuffix_other">" 媒体"</string>
-    <string name="SelectedMediaSuffix_two">" 媒体"</string>
-    <string name="SelectedMediaSuffix_zero">" 媒体"</string>
-    <string name="SelectedPhotoSuffix">" 图片"</string>
-    <string name="SelectedPhotoSuffix_few">" 图片"</string>
-    <string name="SelectedPhotoSuffix_many">" 图片"</string>
-    <string name="SelectedPhotoSuffix_one">" 图片"</string>
-    <string name="SelectedPhotoSuffix_other">" 图片"</string>
-    <string name="SelectedPhotoSuffix_two">" 图片"</string>
-    <string name="SelectedPhotoSuffix_zero">" 图片"</string>
-    <string name="SelectedRoundVideoSuffix">" 信息"</string>
-    <string name="SelectedRoundVideoSuffix_few">" 信息"</string>
-    <string name="SelectedRoundVideoSuffix_many">" 信息"</string>
-    <string name="SelectedRoundVideoSuffix_one">" 信息"</string>
-    <string name="SelectedRoundVideoSuffix_other">" 信息"</string>
-    <string name="SelectedRoundVideoSuffix_two">" 信息"</string>
-    <string name="SelectedRoundVideoSuffix_zero">" 信息"</string>
+    <string name="SelectedAudioSuffix">"音频"</string>
+    <string name="SelectedAudioSuffix_few">"音频"</string>
+    <string name="SelectedAudioSuffix_many">"音频"</string>
+    <string name="SelectedAudioSuffix_one">"音频"</string>
+    <string name="SelectedAudioSuffix_other">"音频"</string>
+    <string name="SelectedAudioSuffix_two">"音频"</string>
+    <string name="SelectedAudioSuffix_zero">"音频"</string>
+    <string name="SelectedFileSuffix">"文件"</string>
+    <string name="SelectedFileSuffix_few">"文件"</string>
+    <string name="SelectedFileSuffix_many">"文件"</string>
+    <string name="SelectedFileSuffix_one">"文件"</string>
+    <string name="SelectedFileSuffix_other">"文件"</string>
+    <string name="SelectedFileSuffix_two">"文件"</string>
+    <string name="SelectedFileSuffix_zero">"文件"</string>
+    <string name="SelectedGifSuffix">"GIF"</string>
+    <string name="SelectedGifSuffix_few">"GIF"</string>
+    <string name="SelectedGifSuffix_many">"GIF"</string>
+    <string name="SelectedGifSuffix_one">"GIF"</string>
+    <string name="SelectedGifSuffix_other">"GIF"</string>
+    <string name="SelectedGifSuffix_two">"GIF"</string>
+    <string name="SelectedGifSuffix_zero">"GIF"</string>
+    <string name="SelectedLinkSuffix">"链接"</string>
+    <string name="SelectedLinkSuffix_few">"链接"</string>
+    <string name="SelectedLinkSuffix_many">"链接"</string>
+    <string name="SelectedLinkSuffix_one">"链接"</string>
+    <string name="SelectedLinkSuffix_other">"链接"</string>
+    <string name="SelectedLinkSuffix_two">"链接"</string>
+    <string name="SelectedLinkSuffix_zero">"链接"</string>
+    <string name="SelectedMediaSuffix">"媒体"</string>
+    <string name="SelectedMediaSuffix_few">"媒体"</string>
+    <string name="SelectedMediaSuffix_many">"媒体"</string>
+    <string name="SelectedMediaSuffix_one">"媒体"</string>
+    <string name="SelectedMediaSuffix_other">"媒体"</string>
+    <string name="SelectedMediaSuffix_two">"媒体"</string>
+    <string name="SelectedMediaSuffix_zero">"媒体"</string>
+    <string name="SelectedPhotoSuffix">"图片"</string>
+    <string name="SelectedPhotoSuffix_few">"图片"</string>
+    <string name="SelectedPhotoSuffix_many">"图片"</string>
+    <string name="SelectedPhotoSuffix_one">"图片"</string>
+    <string name="SelectedPhotoSuffix_other">"图片"</string>
+    <string name="SelectedPhotoSuffix_two">"图片"</string>
+    <string name="SelectedPhotoSuffix_zero">"图片"</string>
+    <string name="SelectedRoundVideoSuffix">"信息"</string>
+    <string name="SelectedRoundVideoSuffix_few">"信息"</string>
+    <string name="SelectedRoundVideoSuffix_many">"信息"</string>
+    <string name="SelectedRoundVideoSuffix_one">"信息"</string>
+    <string name="SelectedRoundVideoSuffix_other">"信息"</string>
+    <string name="SelectedRoundVideoSuffix_two">"信息"</string>
+    <string name="SelectedRoundVideoSuffix_zero">"信息"</string>
     <string name="SelectedSuffix">已选中</string>
     <string name="SelectedSuffix_few">已选中</string>
     <string name="SelectedSuffix_many">已选中</string>
@@ -1453,20 +1457,20 @@ __斜体__
     <string name="SelectedSuffix_other">已选中</string>
     <string name="SelectedSuffix_two">已选中</string>
     <string name="SelectedSuffix_zero">已选中</string>
-    <string name="SelectedVideoSuffix">" 视频"</string>
-    <string name="SelectedVideoSuffix_few">" 视频"</string>
-    <string name="SelectedVideoSuffix_many">" 视频"</string>
-    <string name="SelectedVideoSuffix_one">" 视频"</string>
-    <string name="SelectedVideoSuffix_other">" 视频"</string>
-    <string name="SelectedVideoSuffix_two">" 视频"</string>
-    <string name="SelectedVideoSuffix_zero">" 视频"</string>
-    <string name="SelectedVoiceSuffix">" 信息"</string>
-    <string name="SelectedVoiceSuffix_few">" 信息"</string>
-    <string name="SelectedVoiceSuffix_many">" 信息"</string>
-    <string name="SelectedVoiceSuffix_one">" 信息"</string>
-    <string name="SelectedVoiceSuffix_other">" 信息"</string>
-    <string name="SelectedVoiceSuffix_two">" 信息"</string>
-    <string name="SelectedVoiceSuffix_zero">" 信息"</string>
+    <string name="SelectedVideoSuffix">"视频"</string>
+    <string name="SelectedVideoSuffix_few">"视频"</string>
+    <string name="SelectedVideoSuffix_many">"视频"</string>
+    <string name="SelectedVideoSuffix_one">"视频"</string>
+    <string name="SelectedVideoSuffix_other">"视频"</string>
+    <string name="SelectedVideoSuffix_two">"视频"</string>
+    <string name="SelectedVideoSuffix_zero">"视频"</string>
+    <string name="SelectedVoiceSuffix">"信息"</string>
+    <string name="SelectedVoiceSuffix_few">"信息"</string>
+    <string name="SelectedVoiceSuffix_many">"信息"</string>
+    <string name="SelectedVoiceSuffix_one">"信息"</string>
+    <string name="SelectedVoiceSuffix_other">"信息"</string>
+    <string name="SelectedVoiceSuffix_two">"信息"</string>
+    <string name="SelectedVoiceSuffix_zero">"信息"</string>
     <string name="Send">发送</string>
     <string name="SendAsCopy">不显示转发来源</string>
     <string name="SendByEnter">回车发送</string>
@@ -1605,6 +1609,9 @@ __斜体__
     <string name="TabVideoMessages">视频</string>
     <string name="TabVoiceMessages">语音</string>
     <string name="TapToSetup">点击生成</string>
+    <string name="TdlibLogClearEmpty">无需清理</string>
+    <string name="TdlibLogClearFail">清理失败</string>
+    <string name="TdlibLogClearOk">好了, 已清理 %1$s</string>
     <string name="TelegramFAQ">Telegram 常见问题</string>
     <string name="TerminateAllSessions">强制其他所有设备下线</string>
     <string name="TerminateAllWebSessions">禁用所有网站</string>
@@ -1645,10 +1652,18 @@ __斜体__
     <string name="ToolsCopyString">复制字符串</string>
     <string name="ToolsExportText">"%1$s / %2$s
 
-由 %3$s 制作"</string>
-    <string name="ToolsLocalePlaceholder">国际标准化组织 ISO 639 语言环境代码 例如: **ja-JP**, **zh-CN**, **ro-RO**</string>
+通过 %3$s 制作"</string>
+    <string name="ToolsLocalePlaceholder">"输入 ISO 639 语言代码 如: **ja-JP**, **zh-CN**, **ro-RO**"</string>
     <string name="ToolsOpenOnPlatform">翻译平台</string>
-    <string name="ToolsShowToast">显示土司</string>
+    <string name="ToolsShowToast">显示吐司</string>
+    <string name="ToolsStringSectionFormat">包含格式的字符串</string>
+    <string name="ToolsStringSectionJson">JSON 数据</string>
+    <string name="ToolsStringSectionMain">主要</string>
+    <string name="ToolsStringSectionPlural">复数</string>
+    <string name="ToolsStringSectionRelativeDate">与时间相关的字符串</string>
+    <string name="ToolsStringSectionSimple">简单的字符串</string>
+    <string name="ToolsStringSectionSimpleFormatted">已格式化字符串</string>
+    <string name="ToolsStringSectionUrl">链接</string>
     <string name="ToolsUntranslatedTitle">未翻译</string>
     <string name="TotalDataUsage">总计</string>
     <string name="TouchYourSensor">触摸您的传感器</string>
@@ -1915,7 +1930,7 @@ __斜体__
     <string name="format_PasscodeTooManyAttempts">尝试次数过多 %1$s</string>
     <string name="format_TooManyRequests">请求过多 %1$s</string>
     <string name="format_chatTitlesAndOthers">%1$s %2$s</string>
-    <string name="format_concatSeparator">", "</string>
+    <string name="format_concatSeparator">","</string>
     <string name="format_concatSeparatorLast">和</string>
     <string name="format_contentAndModifyDate">%1$s, 修改了 %2$s</string>
     <string name="format_dateViaBot">%1$s 通过 %2$s</string>
@@ -1923,7 +1938,7 @@ __斜体__
     <string name="format_fileSizeAndDescription">%2$s, %1$s</string>
     <string name="format_fileSizeAndExtension">%1$s %2$s</string>
     <string name="format_fileSizeAndModifiedDate">%1$s, %2$s</string>
-    <string name="format_ivAuthorDateSeparator">" • "</string>
+    <string name="format_ivAuthorDateSeparator">"•"</string>
     <string name="format_languageStatus">%1$s (%2$d%%)</string>
     <string name="format_locationUpdated">更新于 %1$s</string>
     <string name="format_membersAndOnline">%1$s, %2$s</string>
@@ -2005,8 +2020,16 @@ __斜体__
     <string name="inXMinutes_two">%1$s 分钟后</string>
     <string name="inXMinutes_zero">%1$s 分钟后</string>
     <string name="inactiveGroup">非活动群组</string>
+    <string name="json_ChatDemo">"{\"member\":\"Reinhardt\",\"_\":[{\"sticker\":[512,512,\"AAQCABMktIENAAQ7jAMIc7zJ7Xd8AAIC\",\"CAADAgADQQIAAkf7CQw2YkvFWC1DowI\",867500685606780933]},{\"text\":[\"Bring it on! I **LIVE** for this!\",1]},{\"text\":\"Reinhardt, we need to find you some new tunes 🎶.\",\"out\":1},{\"voice\":3,\"out\":1},{\"text\":\"Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!\"},{\"audio\":[243,\"True Survivor\",\"David Hasselhoff\"]},{\"text\":\"I can't even take you seriously right now.\",\"out\":1}]},{\"members\":[[6,\"Daenerys\"],[7,\"Angela\",\"Merkel\"],[3,\"Julian\",\"Assange\"],[1,\"Pierre\"]],\"_\":[{\"created\":\"Weekend Plans\",\"out\":1},{\"text\":\"Are you sure it's safe here?\",\"author\":6},{\"text\":\"Yes, sure, don't worry.\",\"out\":1},{\"text\":\"Hallo alle zusammen! Is the NSA reading this? 😄\",\"author\":7},{\"text\":\"Sorry, I'll have to publish this conversation on the web\",\"author\":3},{\"left\":3},{\"text\":\"Wait, we could have made so much money on this!\",\"author\":1},{\"sticker\":[467,512,\"AAQCABNfgVkqAAT-l09kzZivgi08AAIC\",\"CAADAgAD3gAD9HsZAAG9he9u98XOPQI\",7173162320003073],\"out\":1}]},{\"member\":[0,\"Eileen\",\"Lockhard\"],\"_\":[{\"sticker\":[512,512,\"AAQCABOzP0sNAATjTYV36dMVWNVCAQABAg\",\"CAADAgADfgUAAvoLtghVynd3kd-TuAI\"]},{\"text\":\"So, why is Telegram cool?\",\"out\":1},{\"text\":\"Well, look. Telegram is superfast and you can use it on all your devices at the same time – phones, tablets, even desktops.\"},{\"text\":\"😴\",\"out\":1},{\"text\":\"And it has secret chats, like this one, with end-to-end encryption!\"},{\"text\":\"End encryption to what end??\",\"out\":1},{\"text\":\"Arrgh. Forget it. You can set a timer and send message that will disappear when the time runs out. Yay!\"},{\"ttl\":15},{\"text\":\"😱🙈👍\",\"out\":1}]},{\"member\":\"Space Dandy\",\"_\":[{\"text\":[\"You see this chat preview because you are a **Translator**.\\n\\nPlease refer to @tgx_android_translate for guide on how to make your own scenes.\",1]},{\"text\":\"I knew it! Please don't ever tell me this again…\",\"out\":1},{\"text\":[\"**OK**\",1]}],\"guide\":1}"</string>
     <string name="justAdd">刚刚加入了群组</string>
+    <string name="language_appliedLanguage">语言已设置为简体中文</string>
     <string name="language_code">zh-CN</string>
+    <string name="language_continueInLanguage">继续使用英语</string>
+    <string name="language_continueInLanguagePopupText">"**Telegram X** 现在已经支持 **简体中文**.
+
+你想切换语言吗
+
+你随时可以在 设置 > 语言 中重新设置"</string>
     <string name="language_dateFormatLocale">zh-CN</string>
     <string name="language_disable_lowercase">0</string>
     <string name="language_name">简体中文</string>
@@ -2027,9 +2050,9 @@ __斜体__
     <string name="login_PhoneNumber">电话号码</string>
     <string name="login_SmsHint">我们将发送短信验证码到您的手机</string>
     <string name="login_YourName">您的名字</string>
-    <string name="message_adminSign">"  管理员"</string>
+    <string name="message_adminSign">"管理员"</string>
     <string name="message_adminSignPlain">管理员</string>
-    <string name="message_via">" 通过 "</string>
+    <string name="message_via">"通过"</string>
     <string name="network_Connecting">正在连接……</string>
     <string name="network_Updating">正在同步……</string>
     <string name="network_WaitingForNetwork">正在等待网络连接……</string>

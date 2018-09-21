@@ -501,7 +501,7 @@ You may enable it any time later in Settings > Themes."</string>
     <string name="EditUsername">Edit Username</string>
     <string name="EmailMatchesOldOne">E-Mail is the same as the old one.</string>
     <string name="EnableNotifications">Enable notifications</string>
-    <string name="EnableProxyAlertHint">You can change your proxy server later in the Settings (Data and Storage).</string>
+    <string name="EnableProxyAlertHint">You can change your proxy server later in Settings > Data and Storage.</string>
     <string name="EnableProxyAlertHintMtproto">"This proxy may display a sponsored channel in your chats list. This doesn't reveal any of your Telegram traffic."</string>
     <string name="EnableProxyAlertTitle">Are you sure you want to enable this proxy?</string>
     <string name="EnabledPasswordText">"You have enabled Two-Step verification.
@@ -923,6 +923,7 @@ __italic__
     <string name="Missed">Missed</string>
     <string name="MissedCall">Missed Call</string>
     <string name="MobileUsage">Mobile Data Usage</string>
+    <string name="MoreLanguages">More Languages</string>
     <string name="MoreMessageOptions">More</string>
     <string name="MtprotoProxy">MTPROTO Proxy</string>
     <string name="Music">Music</string>
@@ -969,6 +970,7 @@ You can log in on websites that support signing in with Telegram."</string>
     <string name="NoCameraAccess">This feature requires access to camera.</string>
     <string name="NoChats">You have no chats</string>
     <string name="NoChatsText">"**No chats to show**
+
 Invite your friends and family to join Telegram"</string>
     <string name="NoContacts">No contacts to display</string>
     <string name="NoDocumentsToShow">No documents to show</string>
@@ -1283,6 +1285,7 @@ messages from multiple devices."</string>
     <string name="RecoveryCodeSent">"We've sent 6-digit recovery code to %1$s. Check your e-mail and enter it here."</string>
     <string name="RecoveryCodeSentEmailUnknown">"We've sent you 6-digit recovery code. Check your e-mail and enter it here."</string>
     <string name="ReduceMotion">Reduce Motion</string>
+    <string name="RememberAlbumSetting">Remember media grouping setting</string>
     <string name="Remove">Remove</string>
     <string name="RemoveAccountHint">Sign out as %1$s? All secret chats on this account will be lost.</string>
     <string name="RemoveCaptions">Remove captions in copies</string>
@@ -1362,6 +1365,7 @@ messages from multiple devices."</string>
     <string name="Saturation">Saturation</string>
     <string name="Save">Save</string>
     <string name="SaveGif">Save GIF</string>
+    <string name="SaveOutgoingPhotos">Save edited photos to gallery</string>
     <string name="SaveToDownloads">Save to Downloads</string>
     <string name="SaveToGallery">Save to Gallery</string>
     <string name="SaveToMusic">Save to Music</string>
@@ -1605,6 +1609,9 @@ Tap Settings > Permissions, and turn Contacts on."</string>
     <string name="TabVideoMessages">Video</string>
     <string name="TabVoiceMessages">Voice</string>
     <string name="TapToSetup">Tap to setup</string>
+    <string name="TdlibLogClearEmpty">Nothing to clear.</string>
+    <string name="TdlibLogClearFail">Failure.</string>
+    <string name="TdlibLogClearOk">OK. Freed %1$s.</string>
     <string name="TelegramFAQ">Telegram FAQ</string>
     <string name="TerminateAllSessions">Terminate All Other Sessions</string>
     <string name="TerminateAllWebSessions">Disconnect All Websites</string>
@@ -1649,6 +1656,14 @@ Exported from %3$s"</string>
     <string name="ToolsLocalePlaceholder">Locale. Examples: **ja-JP**, **zh-CN**, **ro-RO**</string>
     <string name="ToolsOpenOnPlatform">Translations Platform</string>
     <string name="ToolsShowToast">Show Toast</string>
+    <string name="ToolsStringSectionFormat">Formats</string>
+    <string name="ToolsStringSectionJson">JSON data</string>
+    <string name="ToolsStringSectionMain">Main</string>
+    <string name="ToolsStringSectionPlural">Plurals</string>
+    <string name="ToolsStringSectionRelativeDate">Relative dates</string>
+    <string name="ToolsStringSectionSimple">Simple strings</string>
+    <string name="ToolsStringSectionSimpleFormatted">Formatted strings</string>
+    <string name="ToolsStringSectionUrl">URLs</string>
     <string name="ToolsUntranslatedTitle">Untranslated</string>
     <string name="TotalDataUsage">Total</string>
     <string name="TouchYourSensor">Touch your sensor</string>
@@ -2005,8 +2020,16 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="inXMinutes_two" />
     <string name="inXMinutes_zero" />
     <string name="inactiveGroup">inactive group</string>
+    <string name="json_ChatDemo">"{\"member\":\"Reinhardt\",\"_\":[{\"sticker\":[512,512,\"AAQCABMktIENAAQ7jAMIc7zJ7Xd8AAIC\",\"CAADAgADQQIAAkf7CQw2YkvFWC1DowI\",867500685606780933]},{\"text\":[\"Bring it on! I **LIVE** for this!\",1]},{\"text\":\"Reinhardt, we need to find you some new tunes 🎶.\",\"out\":1},{\"voice\":3,\"out\":1},{\"text\":\"Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!\"},{\"audio\":[243,\"True Survivor\",\"David Hasselhoff\"]},{\"text\":\"I can't even take you seriously right now.\",\"out\":1}]},{\"members\":[[6,\"Daenerys\"],[7,\"Angela\",\"Merkel\"],[3,\"Julian\",\"Assange\"],[1,\"Pierre\"]],\"_\":[{\"created\":\"Weekend Plans\",\"out\":1},{\"text\":\"Are you sure it's safe here?\",\"author\":6},{\"text\":\"Yes, sure, don't worry.\",\"out\":1},{\"text\":\"Hallo alle zusammen! Is the NSA reading this? 😄\",\"author\":7},{\"text\":\"Sorry, I'll have to publish this conversation on the web\",\"author\":3},{\"left\":3},{\"text\":\"Wait, we could have made so much money on this!\",\"author\":1},{\"sticker\":[467,512,\"AAQCABNfgVkqAAT-l09kzZivgi08AAIC\",\"CAADAgAD3gAD9HsZAAG9he9u98XOPQI\",7173162320003073],\"out\":1}]},{\"member\":[0,\"Eileen\",\"Lockhard\"],\"_\":[{\"sticker\":[512,512,\"AAQCABOzP0sNAATjTYV36dMVWNVCAQABAg\",\"CAADAgADfgUAAvoLtghVynd3kd-TuAI\"]},{\"text\":\"So, why is Telegram cool?\",\"out\":1},{\"text\":\"Well, look. Telegram is superfast and you can use it on all your devices at the same time – phones, tablets, even desktops.\"},{\"text\":\"😴\",\"out\":1},{\"text\":\"And it has secret chats, like this one, with end-to-end encryption!\"},{\"text\":\"End encryption to what end??\",\"out\":1},{\"text\":\"Arrgh. Forget it. You can set a timer and send message that will disappear when the time runs out. Yay!\"},{\"ttl\":15},{\"text\":\"😱🙈👍\",\"out\":1}]},{\"member\":\"Space Dandy\",\"_\":[{\"text\":[\"You see this chat preview because you are a **Translator**.\\n\\nPlease refer to @tgx_android_translate for guide on how to make your own scenes.\",1]},{\"text\":\"I knew it! Please don't ever tell me this again…\",\"out\":1},{\"text\":[\"**OK**\",1]}],\"guide\":1}"</string>
     <string name="justAdd">Just add to group</string>
+    <string name="language_appliedLanguage">App language has been set to English.</string>
     <string name="language_code">en</string>
+    <string name="language_continueInLanguage">Continue in English</string>
+    <string name="language_continueInLanguagePopupText">"**Telegram X** is now available in **English**.
+
+Would you like to switch app language?
+
+You can revert changes anytime later in Settings > Language."</string>
     <string name="language_dateFormatLocale">en-UK</string>
     <string name="language_disable_lowercase">0</string>
     <string name="language_name">English</string>
