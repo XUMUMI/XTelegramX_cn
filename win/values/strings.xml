@@ -976,6 +976,8 @@ Invite your friends and family to join Telegram"</string>
     <string name="NoDocumentsToShow">No documents to show</string>
     <string name="NoDocumentsToShowInChannel">"Published documents and files
 will be shown here."</string>
+    <string name="NoDocumentsToShowInChat">"Share photos and videos in this chat and
+access them on any of your devices."</string>
     <string name="NoFiles">No Files</string>
     <string name="NoGIFs">No GIFs</string>
     <string name="NoGalleryAccess">Permission error</string>
@@ -1361,6 +1363,7 @@ messages from multiple devices."</string>
     <string name="RingtoneCustom">Custom</string>
     <string name="RingtoneDisabled">Disabled</string>
     <string name="RoamingUsage">Roaming Data Usage</string>
+    <string name="RootDirectory">Root Directory</string>
     <string name="RoundVideoPlaybackError">Failed to play video message, see logs for details.</string>
     <string name="Saturation">Saturation</string>
     <string name="Save">Save</string>
@@ -1938,6 +1941,7 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="format_fileSizeAndDescription">%2$s, %1$s</string>
     <string name="format_fileSizeAndExtension">%1$s %2$s</string>
     <string name="format_fileSizeAndModifiedDate">%1$s, %2$s</string>
+    <string name="format_filesAndFolders">%1$s, %2$s</string>
     <string name="format_ivAuthorDateSeparator">" • "</string>
     <string name="format_languageStatus">%1$s (%2$d%%)</string>
     <string name="format_locationUpdated">updated %1$s</string>
@@ -2020,7 +2024,37 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="inXMinutes_two" />
     <string name="inXMinutes_zero" />
     <string name="inactiveGroup">inactive group</string>
-    <string name="json_ChatDemo">"{\"member\":\"Reinhardt\",\"_\":[{\"sticker\":[512,512,\"AAQCABMktIENAAQ7jAMIc7zJ7Xd8AAIC\",\"CAADAgADQQIAAkf7CQw2YkvFWC1DowI\",867500685606780933]},{\"text\":[\"Bring it on! I **LIVE** for this!\",1]},{\"text\":\"Reinhardt, we need to find you some new tunes 🎶.\",\"out\":1},{\"voice\":3,\"out\":1},{\"text\":\"Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!\"},{\"audio\":[243,\"True Survivor\",\"David Hasselhoff\"]},{\"text\":\"I can't even take you seriously right now.\",\"out\":1}]},{\"members\":[[6,\"Daenerys\"],[7,\"Angela\",\"Merkel\"],[3,\"Julian\",\"Assange\"],[1,\"Pierre\"]],\"_\":[{\"created\":\"Weekend Plans\",\"out\":1},{\"text\":\"Are you sure it's safe here?\",\"author\":6},{\"text\":\"Yes, sure, don't worry.\",\"out\":1},{\"text\":\"Hallo alle zusammen! Is the NSA reading this? 😄\",\"author\":7},{\"text\":\"Sorry, I'll have to publish this conversation on the web\",\"author\":3},{\"left\":3},{\"text\":\"Wait, we could have made so much money on this!\",\"author\":1},{\"sticker\":[467,512,\"AAQCABNfgVkqAAT-l09kzZivgi08AAIC\",\"CAADAgAD3gAD9HsZAAG9he9u98XOPQI\",7173162320003073],\"out\":1}]},{\"member\":[0,\"Eileen\",\"Lockhard\"],\"_\":[{\"sticker\":[512,512,\"AAQCABOzP0sNAATjTYV36dMVWNVCAQABAg\",\"CAADAgADfgUAAvoLtghVynd3kd-TuAI\"]},{\"text\":\"So, why is Telegram cool?\",\"out\":1},{\"text\":\"Well, look. Telegram is superfast and you can use it on all your devices at the same time – phones, tablets, even desktops.\"},{\"text\":\"😴\",\"out\":1},{\"text\":\"And it has secret chats, like this one, with end-to-end encryption!\"},{\"text\":\"End encryption to what end??\",\"out\":1},{\"text\":\"Arrgh. Forget it. You can set a timer and send message that will disappear when the time runs out. Yay!\"},{\"ttl\":15},{\"text\":\"😱🙈👍\",\"out\":1}]},{\"member\":\"Space Dandy\",\"_\":[{\"text\":[\"You see this chat preview because you are a **Translator**.\\n\\nPlease refer to @tgx_android_translate for guide on how to make your own scenes.\",1]},{\"text\":\"I knew it! Please don't ever tell me this again…\",\"out\":1},{\"text\":[\"**OK**\",1]}],\"guide\":1}"</string>
+    <string name="json_1_audioPerformer">David Hasselhoff</string>
+    <string name="json_1_audioTitle">True Survivor</string>
+    <string name="json_1_name">Reinhardt</string>
+    <string name="json_1_text1">Bring it on! I **LIVE** for this!</string>
+    <string name="json_1_text2">Reinhardt, we need to find you some new tunes 🎶.</string>
+    <string name="json_1_text3">Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!</string>
+    <string name="json_1_text4">"I can't even take you seriously right now."</string>
+    <string name="json_2_name1">Daenerys</string>
+    <string name="json_2_name2">Angela Merkel</string>
+    <string name="json_2_name3">Julian Assange</string>
+    <string name="json_2_name4">Pierre</string>
+    <string name="json_2_text1">"Are you sure it's safe here?"</string>
+    <string name="json_2_text2">"Yes, sure, don't worry."</string>
+    <string name="json_2_text3">Hallo alle zusammen! Is the NSA reading this? 😄</string>
+    <string name="json_2_text4">"Sorry, I'll have to publish this conversation on the web."</string>
+    <string name="json_2_text5">Wait, we could have made so much money on this!</string>
+    <string name="json_2_title">Weekend Plans</string>
+    <string name="json_3_name">Eileen Lockhard</string>
+    <string name="json_3_text1">So, why is Telegram cool?</string>
+    <string name="json_3_text2">Well, look. Telegram is superfast and you can use it on all your devices at the same time – phones, tablets, even desktops.</string>
+    <string name="json_3_text3">😴</string>
+    <string name="json_3_text4">And it has secret chats, like this one, with end-to-end encryption!</string>
+    <string name="json_3_text5">End encryption to what end??</string>
+    <string name="json_3_text6">Arrgh. Forget it. You can set a timer and send message that will disappear when the time runs out. Yay!</string>
+    <string name="json_3_text7">😱🙈👍</string>
+    <string name="json_4_name">Space Dandy</string>
+    <string name="json_4_text1">"You see this chat preview because you are a **Translator**.
+
+Please refer to @tgx_android_translate for guide on how to make your own scenes."</string>
+    <string name="json_4_text2">"I knew it! Please don't ever tell me this again…"</string>
+    <string name="json_ChatDemo">0</string>
     <string name="justAdd">Just add to group</string>
     <string name="language_appliedLanguage">App language has been set to English.</string>
     <string name="language_code">en</string>
@@ -2036,10 +2070,10 @@ You can revert changes anytime later in Settings > Language."</string>
     <string name="language_nameInEnglish">English</string>
     <string name="language_rtl">0</string>
     <string name="location_AwayKilometers">%1$s km away</string>
-    <string name="location_AwayMeters">%1$sm away</string>
+    <string name="location_AwayMeters">%1$s m away</string>
     <string name="location_Nearby">Nearby</string>
     <string name="location_personAwayKilometers">is %1$s km away</string>
-    <string name="location_personAwayMeters">is %1$sm away</string>
+    <string name="location_personAwayMeters">is %1$s m away</string>
     <string name="location_personNearby">is nearby</string>
     <string name="login_Code">Code</string>
     <string name="login_Country">Country</string>
@@ -2217,6 +2251,13 @@ You can revert changes anytime later in Settings > Language."</string>
     <string name="xFiles_other">%1$s files</string>
     <string name="xFiles_two" />
     <string name="xFiles_zero" />
+    <string name="xFolders" />
+    <string name="xFolders_few" />
+    <string name="xFolders_many" />
+    <string name="xFolders_one">%1$s folder</string>
+    <string name="xFolders_other">%1$s folders</string>
+    <string name="xFolders_two" />
+    <string name="xFolders_zero" />
     <string name="xGIFs" />
     <string name="xGIFs_few" />
     <string name="xGIFs_many" />
