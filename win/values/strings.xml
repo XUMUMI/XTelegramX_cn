@@ -13,6 +13,7 @@
     <string name="ActionChannelChangedTitle">Channel title changed</string>
     <string name="ActionChannelRemovedPhoto">Channel photo removed</string>
     <string name="ActionCreateChannel">Channel created</string>
+    <string name="ActionDone">Done</string>
     <string name="ActionIrreversible">This action cannot be undone</string>
     <string name="ActionPinnedFile">%1$s pinned a **file**</string>
     <string name="ActionPinnedGame">%1$s pinned %2$s</string>
@@ -83,6 +84,14 @@
     <string name="AppUpdateOk">Update</string>
     <string name="AppUpdateRequiredText">To perform this action, please update Telegram version.</string>
     <string name="AppUpdateRequiredTitle">Update required</string>
+    <string name="ApplicationFolder">Application Files</string>
+    <string name="ApplicationFolderExternal">Application Media</string>
+    <string name="ApplicationFolderWarning">"**Warning!**
+
+The folder you are about to access contains your private Telegram data.
+
+Don't send files from this folder to anyone, unless you know what you are doing."</string>
+    <string name="ApplicationFolderWarningConfirm">Proceed</string>
     <string name="Apply">Apply</string>
     <string name="ApplyToAll">Apply to all</string>
     <string name="ArchivePack">Archive pack</string>
@@ -224,6 +233,10 @@ Example: 23 y.o. designer from San Francisco."</string>
     <string name="Calls">Calls</string>
     <string name="Cancel">Cancel</string>
     <string name="Cancelled">Cancelled</string>
+    <string name="ChangeLogText">"**Telegram X** was updated to version %1$s
+
+Brief overview of new features:
+%2$s"</string>
     <string name="ChangePasscode">Change Passcode</string>
     <string name="ChangePasscodeInfo">"When you set up an additional passcode, a lock icon will appear on the chats page. Tap it to lock and unlock the app.
 
@@ -976,7 +989,7 @@ Invite your friends and family to join Telegram"</string>
     <string name="NoDocumentsToShow">No documents to show</string>
     <string name="NoDocumentsToShowInChannel">"Published documents and files
 will be shown here."</string>
-    <string name="NoDocumentsToShowInChat">"Share photos and videos in this chat and
+    <string name="NoDocumentsToShowInChat">"Share files and documents in this chat and
 access them on any of your devices."</string>
     <string name="NoFiles">No Files</string>
     <string name="NoGIFs">No GIFs</string>
@@ -1124,10 +1137,18 @@ messages from multiple devices."</string>
     <string name="PaintModeFill">Fill color</string>
     <string name="PaintModeRect">Rectangle</string>
     <string name="ParticipantLimitReached">"You can't add more members to this group"</string>
-    <string name="PasscodeDoNotMatch">Passcodes do not match</string>
     <string name="PasscodeFingerprint">Fingerprint</string>
     <string name="PasscodeGesture">Gesture</string>
+    <string name="PasscodeInvalidGesture">Invalid Gesture</string>
+    <string name="PasscodeInvalidPassword">Invalid Password</string>
+    <string name="PasscodeInvalidPattern">Invalid Pattern</string>
+    <string name="PasscodeInvalidPin">Invalid PIN</string>
     <string name="PasscodeItem">Passcode Lock</string>
+    <string name="PasscodeMismatchFingerprint">Fingerprints do not match</string>
+    <string name="PasscodeMismatchGesture">Gestures do not match</string>
+    <string name="PasscodeMismatchPassword">Passwords do not match</string>
+    <string name="PasscodeMismatchPattern">Patterns do not match</string>
+    <string name="PasscodeMismatchPin">PINs do not match</string>
     <string name="PasscodePIN">PIN</string>
     <string name="PasscodePattern">Pattern</string>
     <string name="PasscodeSettingDisabled">Disabled</string>
@@ -1225,6 +1246,7 @@ messages from multiple devices."</string>
     <string name="Proceed">Proceed</string>
     <string name="ProcessingFile">Processing…</string>
     <string name="ProcessingFileWait">Processing files. Please wait…</string>
+    <string name="ProcessingMedia">Processing %1$s</string>
     <string name="ProfilePhoto">Profile photo</string>
     <string name="ProgressCreateChannel">Creating channel…</string>
     <string name="PromotedByX">Promoted by %1$s</string>
@@ -1385,7 +1407,7 @@ You may need to restart the app for this to take effect."</string>
     <string name="SearchPeople">Search People</string>
     <string name="SecretChatCancelled">Secret chat cancelled</string>
     <string name="SecretChatContextBotAlert">"Please note that inline bots are provided by third-party developers. For the bot to work, the symbols you type after the bot's username are sent to the respective developer."</string>
-    <string name="SecretChatFeatureUnsupported">%1$s Telegram client does not support this feature. Recommend installing an update.</string>
+    <string name="SecretChatFeatureUnsupported">"%1$s's Telegram client doesn't support this feature. They need to install an update first."</string>
     <string name="SecretChatWithUser">Secret chat with %1$s</string>
     <string name="SecretChats">Secret Chats</string>
     <string name="SecretFiles">Secret media and files</string>
@@ -1578,7 +1600,13 @@ This can be useful for integration with other services."</string>
     <string name="SuggestContactsAlert">This will delete all data about the people you message frequently as well as the inline bots you are likely to use.</string>
     <string name="SuggestContactsDone">Delete and Disable</string>
     <string name="SuggestInvitingUser">%1$s is not on Telegram yet. Would you like to invite them via SMS?</string>
-    <string name="SuggestInvitingUserWithImporters">%1$s is not on Telegram yet. Would you like to invite them via SMS? You have %2$s contacts in common.</string>
+    <string name="SuggestInvitingUserCommon" />
+    <string name="SuggestInvitingUserCommon_few" />
+    <string name="SuggestInvitingUserCommon_many" />
+    <string name="SuggestInvitingUserCommon_one">%2$s is not on Telegram yet. Would you like to invite them via SMS? They may have up to %1$s contact on Telegram.</string>
+    <string name="SuggestInvitingUserCommon_other">%2$s is not on Telegram yet. Would you like to invite them via SMS? They may have up to %1$s contacts on Telegram.</string>
+    <string name="SuggestInvitingUserCommon_two" />
+    <string name="SuggestInvitingUserCommon_zero" />
     <string name="SuggestStickers">Sticker suggestions by emoji</string>
     <string name="SuggestStickersAll">Installed + recommended</string>
     <string name="SuggestStickersInstalled">Only installed</string>
@@ -1962,6 +1990,7 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="format_sessionsAndWebsites">%1$s, %2$s</string>
     <string name="format_thousandsSeparator">,</string>
     <string name="format_timestamp">%1$02d.%2$02d.%3$02d %4$s</string>
+    <string name="format_uploadStatus">%1$d%% %2$s</string>
     <string name="game_ActionUserScored" />
     <string name="game_ActionUserScoredInGame" />
     <string name="game_ActionUserScoredInGame_few" />
@@ -2094,7 +2123,6 @@ You can revert changes anytime later in Settings > Language."</string>
     <string name="passcode_auto_hint">Require passcode if away for a time.</string>
     <string name="passcode_confirm_invisible">%1$s (invisible)</string>
     <string name="passcode_fingerprint">Unlock with Fingerprint</string>
-    <string name="passcode_invalid">Passcode is invalid</string>
     <string name="passcode_passcodeInvisibility">Passcode Invisibility</string>
     <string name="passcode_password_tooshort">Password should be at least 1 character long</string>
     <string name="passcode_pattern_tooshort">Pattern should be at least 4 dots long</string>

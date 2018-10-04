@@ -5,6 +5,8 @@
     <dimen name="compat_button_padding_horizontal_material">8.0dip</dimen>
     <dimen name="compat_button_padding_vertical_material">4.0dip</dimen>
     <dimen name="compat_control_corner_material">2.0dip</dimen>
+    <dimen name="compat_notification_large_icon_max_height">320.0dip</dimen>
+    <dimen name="compat_notification_large_icon_max_width">320.0dip</dimen>
     <dimen name="fastscroll_default_thickness">8.0dip</dimen>
     <dimen name="fastscroll_margin">0.0dip</dimen>
     <dimen name="fastscroll_minimum_range">50.0dip</dimen>
@@ -26,4 +28,8 @@
     <dimen name="notification_subtext_size">13.0sp</dimen>
     <dimen name="notification_top_pad">10.0dip</dimen>
     <dimen name="notification_top_pad_large_text">5.0dip</dimen>
+    <dimen name="subtitle_corner_radius">2.0dip</dimen>
+    <dimen name="subtitle_outline_width">2.0dip</dimen>
+    <dimen name="subtitle_shadow_offset">2.0dip</dimen>
+    <dimen name="subtitle_shadow_radius">2.0dip</dimen>
 </resources>

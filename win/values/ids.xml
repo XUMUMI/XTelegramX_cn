@@ -489,7 +489,6 @@
     <item type="id" name="btn_storagePath">false</item>
     <item type="id" name="btn_storageUsage">false</item>
     <item type="id" name="btn_string">false</item>
-    <item type="id" name="btn_submitCrash">false</item>
     <item type="id" name="btn_suggestContacts">false</item>
     <item type="id" name="btn_switchPmButton">false</item>
     <item type="id" name="btn_syncContacts">false</item>
@@ -498,6 +497,7 @@
     <item type="id" name="btn_tdlib_androidLogs">false</item>
     <item type="id" name="btn_tdlib_clearLogs">false</item>
     <item type="id" name="btn_tdlib_debugDatacenter">false</item>
+    <item type="id" name="btn_tdlib_logSize">false</item>
     <item type="id" name="btn_tdlib_shareLogs">false</item>
     <item type="id" name="btn_tdlib_verbosity">false</item>
     <item type="id" name="btn_tdlib_viewLogs">false</item>
@@ -803,6 +803,8 @@
     <item type="id" name="status_bar_latest_event_content">false</item>
     <item type="id" name="string">false</item>
     <item type="id" name="tag_transition_group">false</item>
+    <item type="id" name="tag_unhandled_key_event_manager">false</item>
+    <item type="id" name="tag_unhandled_key_listeners">false</item>
     <item type="id" name="text">false</item>
     <item type="id" name="text2">false</item>
     <item type="id" name="text_email">false</item>
