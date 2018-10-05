@@ -13,7 +13,7 @@
     <string name="ActionChannelChangedTitle">Channel title changed</string>
     <string name="ActionChannelRemovedPhoto">Channel photo removed</string>
     <string name="ActionCreateChannel">Channel created</string>
-    <string name="ActionDone">Done</string>
+    <string name="ActionDone">Hide</string>
     <string name="ActionIrreversible">This action cannot be undone</string>
     <string name="ActionPinnedFile">%1$s pinned a **file**</string>
     <string name="ActionPinnedGame">%1$s pinned %2$s</string>
@@ -1979,6 +1979,7 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="format_newMessagesFromChats">%1$s %2$s</string>
     <string name="format_notificationContentGroup">%1$s: %2$s</string>
     <string name="format_notificationTitle">%1$s (%2$s)</string>
+    <string name="format_notificationTitleShort">%1$s (%2$s)</string>
     <string name="format_numberSuffix_billion">B</string>
     <string name="format_numberSuffix_million">M</string>
     <string name="format_numberSuffix_thousand">K</string>
@@ -2116,6 +2117,13 @@ You can revert changes anytime later in Settings > Language."</string>
     <string name="message_adminSign">"  admin"</string>
     <string name="message_adminSignPlain">admin</string>
     <string name="message_via">" via "</string>
+    <string name="messagesCount" />
+    <string name="messagesCount_few" />
+    <string name="messagesCount_many" />
+    <string name="messagesCount_one">%1$s</string>
+    <string name="messagesCount_other">%1$s</string>
+    <string name="messagesCount_two" />
+    <string name="messagesCount_zero" />
     <string name="network_Connecting">Connecting…</string>
     <string name="network_Updating">Updating…</string>
     <string name="network_WaitingForNetwork">Waiting for network…</string>
