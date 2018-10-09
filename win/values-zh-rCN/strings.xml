@@ -68,7 +68,7 @@
     <string name="AlwaysAllow">始终允许</string>
     <string name="AlwaysShareWith">始终与其分享</string>
     <string name="AndroidVersionWarning">很抱歉, 此功能仅适用于Android %1$s (%2$s) 或更高版本</string>
-    <string name="AnimalsAndNature">动物&amp;自然</string>
+    <string name="AnimalsAndNature">动物与自然</string>
     <string name="AnswerCall">接听</string>
     <string name="AnyMedia">任何媒体</string>
     <string name="AppBadge">未读数量标记</string>
@@ -177,7 +177,7 @@
 
 小点表示您的设备测量到当前环境亮度的级别"</string>
     <string name="AutoNightModeDescriptionScheduled">根据您的时间偏好切换到夜间模式</string>
-    <string name="AutoNightModeScheduledByLocation">检测当地的日出&amp;日落时间</string>
+    <string name="AutoNightModeScheduledByLocation">检测当地的日出及日落时间</string>
     <string name="AutoNightModeScheduledByLocationProgress">正在定位……</string>
     <string name="AutoNightModeScheduledTurnOff">关闭于</string>
     <string name="AutoNightModeScheduledTurnOn">开启于</string>
@@ -225,7 +225,7 @@
     <string name="CallBack">回电</string>
     <string name="CallBrandingIncoming">Telegram 来电</string>
     <string name="CallEmojiHint">如果这些表情(emoji)和 %1$s 的是一样的, 则此次呼叫是绝对加密的</string>
-    <string name="CallInProgressDesc">您正在呼叫 &lt;b>%1$s &lt;/b>, 您想挂断并呼叫 &lt;b>%2$s&lt;/b>吗?</string>
+    <string name="CallInProgressDesc">您正在呼叫 **%1$s **, 您想挂断并呼叫 **%2$s**吗?</string>
     <string name="CallMessageIncomingDeclined">已挂断</string>
     <string name="CallMessageOutgoingMissed">已取消通话</string>
     <string name="CallNoLongerActive">此通话已结束</string>
@@ -322,7 +322,7 @@
     <string name="ClearHistory">清除历史记录</string>
     <string name="ClearHistoryConfirm">您真的要清除历史记录吗? 该操作不可撤销!</string>
     <string name="ClearOtherSessionsHelp">注销除此之外的所有设备</string>
-    <string name="ClearOtherWebSessionsHelp">您可以登录支持使用电报登录的网站</string>
+    <string name="ClearOtherWebSessionsHelp">您可以登录支持使用 telegram 登录的网站</string>
     <string name="ClearRecentEmojiAction">清除最近使用的表贴纸?</string>
     <string name="ClearRecentStickers">清空最近贴纸?</string>
     <string name="ClearRecentsHint">清除查找记录?</string>
@@ -555,22 +555,22 @@
     <string name="EventLogEditedChannelDescription">%1$s 修改了频道描述:</string>
     <string name="EventLogEditedGroupDescription">%1$s 修改了群组描述:</string>
     <string name="EventLogEditedMessages">%1$s 编辑了这条信息:</string>
-    <string name="EventLogEmpty">"&lt;b>这里还没有活动&lt;/b>
+    <string name="EventLogEmpty">"**这里还没有活动**
 
 该群组的成员和管理员
 在过去的48小时内
 没有采取任何服务行动"</string>
-    <string name="EventLogEmptyChannel">"&lt;b>这里还没有活动&lt;/b>
+    <string name="EventLogEmptyChannel">"**这里还没有活动**
 
 该群组的成员和管理员
 在过去的48小时内
 没有采取任何服务行动"</string>
     <string name="EventLogEmptyFilter">请至少指定一个筛选选择</string>
-    <string name="EventLogEmptySearch">"&lt;b>未找到活动&lt;/b>
+    <string name="EventLogEmptySearch">"**未找到活动**
 
 与您查询相匹配的活动
 不存在"</string>
-    <string name="EventLogEmptyTextSearch">"找不到包含 '&lt;b>%1$s &lt;/b>' 的活动"</string>
+    <string name="EventLogEmptyTextSearch">"找不到包含 '%1$s' 的活动"</string>
     <string name="EventLogFilterAll">所有活动</string>
     <string name="EventLogFilterChannelInfo">频道信息</string>
     <string name="EventLogFilterDeletedMessages">删除信息</string>
@@ -617,7 +617,7 @@
     <string name="EventLogRestrictedSendEmbed">嵌入链接</string>
     <string name="EventLogRestrictedSendMedia">发送媒体</string>
     <string name="EventLogRestrictedSendMessages">发送信息</string>
-    <string name="EventLogRestrictedSendStickers">发送贴纸 &amp; GIF</string>
+    <string name="EventLogRestrictedSendStickers">发送贴纸或 GIF</string>
     <string name="EventLogRestrictedUntil">"设置 %1$s 的限制
 
 时长: %2$s"</string>
@@ -984,67 +984,77 @@ __斜体__
     <string name="NoChats">您还没有聊天</string>
     <string name="NoChatsText">"**没有可以显示的聊天**
 	
-邀请您的朋友和家人加入电报"</string>
-    <string name="NoContacts">无联系人</string>
-    <string name="NoDocumentsToShow">无文件</string>
-    <string name="NoDocumentsToShowInChannel">"发布的文档和文件
+邀请您的朋友和家人加入 telegram"</string>
+    <string name="NoContacts">没有联系人</string>
+    <string name="NoDocumentsToShow">没有文件</string>
+    <string name="NoDocumentsToShowInChannel">"发送的文档和文件
 将显示在这里"</string>
     <string name="NoDocumentsToShowInChat">"在此聊天中分享的文档和文件
 可以在您的任何设备上访问"</string>
     <string name="NoFiles">没有文件</string>
     <string name="NoGIFs">没有 GIF</string>
     <string name="NoGalleryAccess">没有权限</string>
-    <string name="NoGifsToShow">No GIFs to show</string>
-    <string name="NoGifsToShowInChannel">发布的 GIF </string>
+    <string name="NoGifsToShow">没有 GIF 可以显示</string>
+    <string name="NoGifsToShowInChannel">发送的 GIF </string>
     <string name="NoGifsToShowInChat">"在此聊天中分享的 GIF
 可以在您的任何设备上访问"</string>
     <string name="NoGoogleMaps">此功能需要安装 Google 地图</string>
     <string name="NoGroupsToShow">没有群组可以显示</string>
-    <string name="NoLinksToShow">无链接</string>
+    <string name="NoLinksToShow">没有链接</string>
     <string name="NoLinksToShowInChannel">"在此聊天中分享的链接和文章
 可以在您的任何设备上访问"</string>
     <string name="NoLinksToShowInChat">"在此聊天中分享的链接
 可以在您的任何设备上访问"</string>
     <string name="NoLocationAccess">此功能需要访问您的位置</string>
     <string name="NoMasks">没有安装面具</string>
-    <string name="NoMediaToShow">无媒体</string>
-    <string name="NoMediaToShowInChannel">"发布的图片和视频
+    <string name="NoMediaToShow">没有媒体</string>
+    <string name="NoMediaToShowInChannel">"发送的图片和视频
 将显示在这里"</string>
     <string name="NoMediaToShowInChat">"在此聊天中分享的图片和视频
 可以在您的任何设备上访问"</string>
-    <string name="NoMediaYet">还没有图片或视频</string>
-    <string name="NoMembersToShow">无成员</string>
+    <string name="NoMediaYet">这里还没有图片或视频……</string>
+    <string name="NoMembersToShow">没有成员</string>
     <string name="NoMembersToShowDesc">"尝试更改您的搜索查询
 找到的成员将在这里显示"</string>
     <string name="NoMessages">这里还没有信息……</string>
     <string name="NoMicrophoneAccess">此功能需要访问话筒</string>
     <string name="NoMusic">没有音乐</string>
-    <string name="NoMusicFilesFound">找不到音乐文件</string>
-    <string name="NoMusicToShow">无音乐</string>
-    <string name="NoMusicToShowInChannel">"发布的音乐和音频
+    <string name="NoMusicFilesFound">没有音乐</string>
+    <string name="NoMusicToShow">这里还没有音乐……</string>
+    <string name="NoMusicToShowInChannel">"发送的音乐和音频
 将显示在这里"</string>
     <string name="NoMusicToShowInChat">"在此聊天中分享的音乐和音频
 可以在您的任何设备上访问"</string>
     <string name="NoOtherSessions">没有其他活动会话</string>
     <string name="NoOtherSessionsInfo">您可以使用同一个电话号码在其他手机, 平板电脑和桌面设备登录到 Telegram, 所有的数据将会立即同步</string>
     <string name="NoPhotos">没有图片</string>
+    <string name="NoPhotosToShow">这里还没有图片……</string>
+    <string name="NoPhotosToShowInChannel">"发送的图片
+将显示在这里"</string>
+    <string name="NoPhotosToShowInChat">"在此聊天中分享的图片
+可以在您的任何设备上访问"</string>
     <string name="NoPlacesFound">没有位置</string>
-    <string name="NoRestrictions">无限制</string>
+    <string name="NoRestrictions">没有限制</string>
     <string name="NoRestrictionsHint">至少指定一个限制规则</string>
     <string name="NoReturnToChat">您无法返回此聊天</string>
-    <string name="NoRightToCall">抱歉, &lt;b>%1$s &lt;/b>不接受电话</string>
+    <string name="NoRightToCall">抱歉, **%1$s **不接受电话</string>
     <string name="NoStickerSets">没有已安装的贴纸</string>
     <string name="NoStorageAccess">该功能需要存储访问权限</string>
     <string name="NoVideoMessages">没有视频信息</string>
     <string name="NoVideoToShow">这里还没有视频信息……</string>
-    <string name="NoVideoToShowInChannel">"发布的视频信息
+    <string name="NoVideoToShowInChannel">"发送的视频信息
 将显示在这里"</string>
     <string name="NoVideoToShowInChat">"在此聊天中分享的视频信息
 可以在您的任何设备上访问"</string>
     <string name="NoVideos">没有视频</string>
+    <string name="NoVideosToShow">这里还没有视频……</string>
+    <string name="NoVideosToShowInChannel">"发送的视频
+将显示在这里"</string>
+    <string name="NoVideosToShowInChat">"在此聊天中分享的视频
+可以在您的任何设备上访问"</string>
     <string name="NoVoiceMessages">没有语音信息</string>
     <string name="NoVoiceToShow">这里还没有语音信息……</string>
-    <string name="NoVoiceToShowInChannel">"发布的语音信息
+    <string name="NoVoiceToShowInChannel">"发送的语音信息
 将显示在这里"</string>
     <string name="NoVoiceToShowInChat">"在此聊天中分享的语音信息
 可以在您的任何设备上访问"</string>
@@ -1341,7 +1351,7 @@ __斜体__
     <string name="Report">举报</string>
     <string name="ReportChat">举报 %1$s</string>
     <string name="ReportChatSent">举报已发送</string>
-    <string name="ReportChatSpam">您真的要举报&lt;b>%1$s &lt;/b>为垃圾信息?</string>
+    <string name="ReportChatSpam">您真的要举报**%1$s **为垃圾信息?</string>
     <string name="ReportMessage">举报 %1$s 的信息</string>
     <string name="ReportMessageUser">举报来自 %1$s 的信息</string>
     <string name="ReportMessages">举报 %1$s 的信息</string>
@@ -1522,6 +1532,7 @@ __斜体__
 
 请不要接听, Telegram 将会自动处理所有内容"</string>
     <string name="SentSmsCode">我们已经将验证码发送到您的手机 **%1$s**.</string>
+    <string name="SeparateMediaTab">独立照片和视频标签</string>
     <string name="ServiceNotifications">服务通知</string>
     <string name="Sessions">会话</string>
     <string name="SessionsTitle">已登录设备</string>
@@ -1574,7 +1585,7 @@ __斜体__
     <string name="ShowSourceMessage">跳转到原对话</string>
     <string name="SinceNotProvided">由于您在设置密码时没有提供恢复电子邮件, 因此您只能回忆起您的密码或重置您的帐户</string>
     <string name="Skip">跳过</string>
-    <string name="SmileysAndPeople">表情&amp;人</string>
+    <string name="SmileysAndPeople">人和表情</string>
     <string name="Socks5Proxy">SOCKS5代理</string>
     <string name="SomeCallInProgressDesc">通话处于活动状态时无法完成此操作</string>
     <string name="Somebody">有人</string>
@@ -1613,7 +1624,7 @@ __斜体__
     <string name="SuggestStickersNone">无</string>
     <string name="SwipeReply">回复</string>
     <string name="SwipeShare">分享</string>
-    <string name="SymbolsAndObjects">符号&amp;物体</string>
+    <string name="SymbolsAndObjects">符号和物体</string>
     <string name="SyncContacts">同步联系人</string>
     <string name="SyncContactsDelete">删除已同步的联系人</string>
     <string name="SyncContactsDeleteButton">删除</string>
@@ -1635,10 +1646,13 @@ __斜体__
     <string name="TabMedia">媒体</string>
     <string name="TabMembers">成员</string>
     <string name="TabMessages">信息</string>
+    <string name="TabPhoto">照片</string>
     <string name="TabRestricted">黑名单</string>
     <string name="TabSharedGroups">群组</string>
+    <string name="TabVideo">视频</string>
     <string name="TabVideoMessages">视频</string>
     <string name="TabVoiceMessages">语音</string>
+    <string name="TabVideoMessagesLong">视频信息</string>
     <string name="TapToSetup">点击生成</string>
     <string name="TdlibLogClearEmpty">无需清理</string>
     <string name="TdlibLogClearFail">清理失败</string>
@@ -1693,7 +1707,7 @@ __斜体__
     <string name="ToolsStringSectionPlural">复数</string>
     <string name="ToolsStringSectionRelativeDate">与时间相关的字符串</string>
     <string name="ToolsStringSectionSimple">简单的字符串</string>
-    <string name="ToolsStringSectionSimpleFormatted">已格式化字符串</string>
+    <string name="ToolsStringSectionSimpleFormatted">包含变量的字符串</string>
     <string name="ToolsStringSectionUrl">链接</string>
     <string name="ToolsUntranslatedTitle">未翻译</string>
     <string name="TotalDataUsage">总计</string>
@@ -1713,7 +1727,7 @@ __斜体__
     <string name="TranslationsMissing_other">%1$s 未翻译</string>
     <string name="TranslationsMissing_two">%1$s 未翻译</string>
     <string name="TranslationsMissing_zero">%1$s 未翻译</string>
-    <string name="TravelAndPlaces">旅行&amp;地点</string>
+    <string name="TravelAndPlaces">旅行和地点</string>
     <string name="Trending">热门</string>
     <string name="TryAgainHours">请在 %1$s 小时后重试</string>
     <string name="TryAgainHours_few">请在 %1$s 小时后重试</string>
@@ -1783,7 +1797,7 @@ __斜体__
     <string name="UserRestrictionsEmbedLinks">嵌入链接</string>
     <string name="UserRestrictionsRead">阅读信息</string>
     <string name="UserRestrictionsSend">发送信息</string>
-    <string name="UserRestrictionsSendStickers">发送贴纸&amp;GIF</string>
+    <string name="UserRestrictionsSendStickers">发送贴纸或 GIF</string>
     <string name="UserRestrictionsUntilForever">永远</string>
     <string name="UserUnavailable">用户不可用</string>
     <string name="Username">用户名</string>
@@ -1873,15 +1887,9 @@ __斜体__
     <string name="XChangedGroupTitle">%1$s 更改群组标题</string>
     <string name="XCreatedGroup">%1$s 创建了该群组</string>
     <string name="XDisabledTimer">%1$s 禁用了阅后即焚</string>
-    <string name="XInvitedY">%1$s 邀请了 %2$s</string>
-    <string name="XJoinedByLink">%1$s 通过链接加入</string>
-    <string name="XJoinedChannel">%1$s 加入频道</string>
-    <string name="XJoinedGroup">%1$s 加入群组</string>
+    <string name="XJoinedByLink">%1$s 通过邀请链接加入</string>
     <string name="XJoinedSecretChat">%1$s 加入了加密对话</string>
-    <string name="XKickedY">%1$s 踢掉了 %2$s</string>
-    <string name="XLeftChannel">%1$s 退出频道</string>
-    <string name="XLeftGroup">%1$s 退出群组</string>
-    <string name="XMadeGroupHistoryHidden">%1$s 为新成员隐藏了群组历史记录</string>
+    <string name="XMadeGroupHistoryHidden">%1$s 对新成员隐藏了群组历史记录</string>
     <string name="XMadeGroupHistoryVisible">%1$s 为新成员显示了群组历史记录</string>
     <string name="XOnlyIfSilent">%1$s (仅静音时)</string>
     <string name="XRemovedGroupStickerSet">%1$s 移除了群组贴纸集</string>
@@ -1911,6 +1919,7 @@ __斜体__
     <string name="YouCreatedGroup">您创建了这个群组</string>
     <string name="YouDisabledTimer">您禁用了阅后即焚</string>
     <string name="YouHaveNewMessage">您有一条信息</string>
+    <string name="YouJoinedByLink">你通过邀请链接加入</string>
     <string name="YouSetTimer">您将阅后即焚时间修改为 %1$s</string>
     <string name="YouTookAScreenshot">您截了一张图</string>
     <string name="YouWereKicked">您被踢了</string>
@@ -1925,8 +1934,9 @@ __斜体__
     <string name="cam_hint">请允许 Telegram X 使用相机, 在 系统设置->应用程序->Telegram X->权限 中设置</string>
     <string name="channel_create_somebody">频道「%1$s」已创建</string>
     <string name="channel_user_add">%1$s 加入频道</string>
-    <string name="channel_user_join_by_link">%1$s 通过邀请链接加入了频道</string>
-    <string name="channel_user_remove">%1$s 退出频道</string>
+    <string name="channel_user_add_self">你加入了频道</string>
+    <string name="channel_user_remove">%1$s 退出了频道</string>
+    <string name="channel_user_remove_self">你退出了频道</string>
     <string name="common_google_play_services_enable_button">启用</string>
     <string name="common_google_play_services_enable_text">您必须先启用 Google Play 服务, 然后才能运行 %1$s </string>
     <string name="common_google_play_services_enable_title">启用 Google Play 服务</string>
@@ -2035,10 +2045,17 @@ __斜体__
     <string name="group_title_changed">%1$s 将群组更名为「%2$s」</string>
     <string name="group_title_changed_you">您将群组更名为「%1$s」</string>
     <string name="group_user_add">%1$s 加入群组</string>
+    <string name="group_user_add_self">你加入了群组</string>
     <string name="group_user_added">%1$s 添加了%2$s</string>
+    <string name="group_user_added_self">%1$s 添加了你</string>
     <string name="group_user_join_by_link">%1$s 通过邀请链接加入了该群组</string>
+    <string name="group_user_join_by_link_self">你通过邀请链接加入群组</string>
     <string name="group_user_remove">%1$s 退出群组</string>
+    <string name="group_user_remove_self">你退出了群组</string>
     <string name="group_user_removed">%1$s 踢掉了%2$s</string>
+    <string name="group_user_removed_self">%1$s 踢掉了你</string>
+    <string name="group_user_self_added">你添加了 %1$s</string>
+    <string name="group_user_self_removed">你踢掉了 %1$s</string>
     <string name="inXHours">%1$s 小时后</string>
     <string name="inXHours_few">%1$s 小时后</string>
     <string name="inXHours_many">%1$s 小时后</string>
