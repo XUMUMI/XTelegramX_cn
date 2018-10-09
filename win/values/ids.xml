@@ -453,6 +453,7 @@
     <item type="id" name="btn_selectChat">false</item>
     <item type="id" name="btn_send">false</item>
     <item type="id" name="btn_sendByEnter">false</item>
+    <item type="id" name="btn_separateMedia">false</item>
     <item type="id" name="btn_session">false</item>
     <item type="id" name="btn_sessions">false</item>
     <item type="id" name="btn_sessionsEmpty_image">false</item>

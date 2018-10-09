@@ -1028,6 +1028,11 @@ access them on any device you have."</string>
     <string name="NoOtherSessions">No Other Active Sessions</string>
     <string name="NoOtherSessionsInfo">You can log in to Telegram from other mobile, tablet and desktop devices, using the same phone number. All your data will be instantly synchronized.</string>
     <string name="NoPhotos">No Photos</string>
+    <string name="NoPhotosToShow">No photos to show</string>
+    <string name="NoPhotosToShowInChannel">"Published photos
+will be shown here."</string>
+    <string name="NoPhotosToShowInChat">"Share photos in this chat and
+access them on any of your devices."</string>
     <string name="NoPlacesFound">No places found</string>
     <string name="NoRestrictions">No restrictions</string>
     <string name="NoRestrictionsHint">Specify at least one restriction rule</string>
@@ -1042,6 +1047,11 @@ will be shown here."</string>
     <string name="NoVideoToShowInChat">"Share video messages in this chat and
 access them on any device you have."</string>
     <string name="NoVideos">No Videos</string>
+    <string name="NoVideosToShow">No videos to show</string>
+    <string name="NoVideosToShowInChannel">"Published videos
+will be shown here."</string>
+    <string name="NoVideosToShowInChat">"Share videos in this chat and
+access them on any of your devices."</string>
     <string name="NoVoiceMessages">No Voice messages</string>
     <string name="NoVoiceToShow">No voice messages to show</string>
     <string name="NoVoiceToShowInChannel">"Published voice messages
@@ -1522,6 +1532,7 @@ If you need a global passcode, use Settings > Privacy and Security > Passcode Lo
 
 Don't take it, Telegram will process everything automatically."</string>
     <string name="SentSmsCode">"We've sent an SMS with an activation code to your phone **%1$s**."</string>
+    <string name="SeparateMediaTab">Separate photo and video tabs</string>
     <string name="ServiceNotifications">service notifications</string>
     <string name="Sessions">Sessions</string>
     <string name="SessionsTitle">Active Sessions</string>
@@ -1635,9 +1646,12 @@ Tap Settings > Permissions, and turn Contacts on."</string>
     <string name="TabMedia">Media</string>
     <string name="TabMembers">Members</string>
     <string name="TabMessages">Messages</string>
+    <string name="TabPhoto">Photos</string>
     <string name="TabRestricted">Restricted</string>
     <string name="TabSharedGroups">Groups</string>
+    <string name="TabVideo">Videos</string>
     <string name="TabVideoMessages">Video</string>
+    <string name="TabVideoMessagesLong">Video Messages</string>
     <string name="TabVoiceMessages">Voice</string>
     <string name="TapToSetup">Tap to setup</string>
     <string name="TdlibLogClearEmpty">Nothing to clear.</string>
