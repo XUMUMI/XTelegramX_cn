@@ -705,6 +705,7 @@ To go over the **%1$s** members limit, you can convert your group to a **supergr
     <string name="HavingTroubleAccessing">"Having trouble accessing your e-mail
 %1$s?"</string>
     <string name="Help">Help</string>
+    <string name="HelpEmailError">Please send an email to %1$s and tell us about your problem</string>
     <string name="HiddenName">Deleted Account</string>
     <string name="HiddenNameShort">Deleted</string>
     <string name="HideChatKeyboard">Hide keyboard on chat scroll</string>
@@ -873,6 +874,13 @@ Minimum length is **5** characters."</string>
     <string name="Locating">Waiting for location…</string>
     <string name="Location">Location</string>
     <string name="LogOut">Log out</string>
+    <string name="LoginErrorAirplane">You currently have airplane mode enabled. Please turn it off or connect to Wi-Fi in order to start messaging.</string>
+    <string name="LoginErrorLongConnecting">"Telegram X is unable to quickly establish connection with the server.
+
+Please check your network connection or wait until this pop-up disappears automatically.
+
+Proxy servers may be helpful in accessing Telegram if there is no connection in your region."</string>
+    <string name="LoginErrorOffline">"You're currently offline. Please connect to the Internet in order to start messaging."</string>
     <string name="LoginPasswordText">You have enabled Two-Step Verification, so your account is protected with an additional password.</string>
     <string name="Long">Long</string>
     <string name="ManageChannel">Manage Channel</string>
@@ -1316,8 +1324,8 @@ messages from multiple devices."</string>
     <string name="RecordingRound">recording video</string>
     <string name="RecordingVideo">recording video</string>
     <string name="RecoveryCodeInvalid">Invalid recovery code. Please try again</string>
-    <string name="RecoveryCodeSent">"We've sent 6-digit recovery code to %1$s. Check your e-mail and enter it here."</string>
-    <string name="RecoveryCodeSentEmailUnknown">"We've sent you 6-digit recovery code. Check your e-mail and enter it here."</string>
+    <string name="RecoveryCodeSent">"We've sent you a 6-digit recovery code to %1$s. Check your e-mail and enter it here."</string>
+    <string name="RecoveryCodeSentEmailUnknown">"We've sent you a 6-digit recovery code. Check your e-mail and enter it here."</string>
     <string name="ReduceMotion">Reduce Motion</string>
     <string name="RememberAlbumSetting">Remember media grouping setting</string>
     <string name="Remove">Remove</string>
@@ -1583,6 +1591,7 @@ This can be useful for integration with other services."</string>
     <string name="ShowInChat">Show in Chat</string>
     <string name="ShowOnFoursquare">Foursquare</string>
     <string name="ShowSourceMessage">Go to source chat</string>
+    <string name="SignOutHint">Are you sure you want to sign out as %1$s? All secret chats will be lost.</string>
     <string name="SinceNotProvided">"Since you haven't provided a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account."</string>
     <string name="Skip">Skip</string>
     <string name="SmileysAndPeople">Smileys &amp; People</string>
@@ -1669,7 +1678,7 @@ Tap Settings > Permissions, and turn Contacts on."</string>
     <string name="TextFormatItalic">Italic</string>
     <string name="TextFormatLink">Create Link</string>
     <string name="TextFormatMonospace">Monospace</string>
-    <string name="TextNotLoadedHint">Please wait until the text will be fully loaded</string>
+    <string name="TextNotLoadedHint">Please wait until the text has finished loading</string>
     <string name="TextSize">Text Size</string>
     <string name="TextSizeReset">Reset to Default</string>
     <string name="TextSizeScaleDisable">Disable Size Scaling</string>
@@ -1958,6 +1967,16 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="copied_phone">Phone number has been copied to the clipboard</string>
     <string name="deletedUser">deleted user</string>
     <string name="edit">Edit</string>
+    <string name="email_LoginTooLong_subject">Telegram X connection issue</string>
+    <string name="email_LoginTooLong_text">"My Internet service provider is: (please enter the name)
+
+I've just installed the application and tried to start messaging, but Telegram X is unable to connect to the server. Please help.
+
+App version: %1$s
+Language: %2$s
+Await time: %3$s
+System Language: %4$s
+System Version: %5$s"</string>
     <string name="failed">failed</string>
     <string name="fileSize_GB">%1$s GB</string>
     <string name="fileSize_KB">%1$s KB</string>
@@ -2184,6 +2203,7 @@ You can revert changes anytime later in Settings > Language."</string>
     <string name="status_Online">online</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sticker">%1$s Sticker</string>
+    <string name="suggested_language_code" />
     <string name="takePhoto">Take photo</string>
     <string name="timestampShort_date">%1$s at %2$s</string>
     <string name="timestampShort_hours" />
