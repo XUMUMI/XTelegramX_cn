@@ -22,7 +22,7 @@
     <string name="ActionPinnedGif">%1$s 置顶了一张 **GIF**</string>
     <string name="ActionPinnedMusic">%1$s 置顶了一段 **音轨**</string>
     <string name="ActionPinnedNoText">%1$s 置顶了一条 **信息**</string>
-    <string name="ActionPinnedPhoto">%1$s 置顶一张 **照片**</string>
+    <string name="ActionPinnedPhoto">%1$s 置顶一张 **图片**</string>
     <string name="ActionPinnedRound">%1$s 置顶了一段 **视频信息**</string>
     <string name="ActionPinnedSticker">%1$s 置顶了一张 **贴纸**</string>
     <string name="ActionPinnedText">%1$s 置顶了 %2$s</string>
@@ -88,7 +88,7 @@
     <string name="ApplicationFolderExternal">应用媒体</string>
     <string name="ApplicationFolderWarning">"**警告!**
 
-您要访问的文件夹包含您的 Telegram 个人数据
+您要访问的文件夹包含您的 Telegram 敏感数据
 
 除非您知道自己在做什么, 否则请勿将此文件夹中的文件发送给任何人"</string>
     <string name="ApplicationFolderWarningConfirm">Proceed</string>
@@ -445,7 +445,7 @@
     <string name="DeleteMessages">删除信息</string>
     <string name="DeleteMultipleFilesHint">提醒: 您将可以在任何时候下载这些文件</string>
     <string name="DeletePack">删除包</string>
-    <string name="DeletePhoto">删除照片</string>
+    <string name="DeletePhoto">删除图片</string>
     <string name="DeleteSecretChatClosedConfirm">您真的要删除与 %1$s 的加密对话吗? 此操作不可撤销。</string>
     <string name="DeleteSecretChatConfirm">您真的要删除与 %1$s 的加密对话吗? 所有的历史记录将全部被清除, 此操作不可撤销。</string>
     <string name="DeleteSecretChatHistoryForOtherParty">删除与 %1$s 的所有对话</string>
@@ -777,7 +777,7 @@
     <string name="JoinGroupX">加入群组 %1$s ?</string>
     <string name="KeepMedia">保留媒体</string>
     <string name="KeepMediaForever">永远</string>
-    <string name="KeepMediaInfo">"在此期间您有**未访问**的云聊天中的照片, 视频和其他文件将从此设备中删除以节省磁盘空间
+    <string name="KeepMediaInfo">"在此期间您有**未访问**的云聊天中的图片, 视频和其他文件将从此设备中删除以节省磁盘空间
 
 所有媒体将保留在 Telegram 云中, 如果您再次需要, 可以重新下载"</string>
     <string name="KickFromGroup">从群组中删除</string>
@@ -999,6 +999,7 @@ __斜体__
 将显示在这里"</string>
     <string name="NoDocumentsToShowInChat">"在此聊天中分享的文档和文件
 可以在您的任何设备上访问"</string>
+    <string name="NoEmailApp">找不到邮件应用</string>
     <string name="NoFiles">没有文件</string>
     <string name="NoGIFs">没有 GIF</string>
     <string name="NoGalleryAccess">没有权限</string>
@@ -1408,7 +1409,7 @@ __斜体__
     <string name="Saturation">饱和度</string>
     <string name="Save">保存</string>
     <string name="SaveGif">保存 GIF</string>
-    <string name="SaveOutgoingPhotos">将编辑过的照片保存到图库</string>
+    <string name="SaveOutgoingPhotos">将编辑过的图片保存到图库</string>
     <string name="SaveToDownloads">保存到下载</string>
     <string name="SaveToGallery">保存到图库</string>
     <string name="SaveToMusic">保存到音乐</string>
@@ -1540,7 +1541,7 @@ __斜体__
 
 请不要接听, Telegram 将会自动处理所有内容"</string>
     <string name="SentSmsCode">我们已经将验证码发送到您的手机 **%1$s**.</string>
-    <string name="SeparateMediaTab">独立照片和视频标签</string>
+    <string name="SeparateMediaTab">独立图片和视频标签</string>
     <string name="ServiceNotifications">服务通知</string>
     <string name="Sessions">会话</string>
     <string name="SessionsTitle">已登录设备</string>
@@ -1655,7 +1656,7 @@ __斜体__
     <string name="TabMedia">媒体</string>
     <string name="TabMembers">成员</string>
     <string name="TabMessages">信息</string>
-    <string name="TabPhoto">照片</string>
+    <string name="TabPhoto">图片</string>
     <string name="TabRestricted">黑名单</string>
     <string name="TabSharedGroups">群组</string>
     <string name="TabVideo">视频</string>
@@ -1666,6 +1667,11 @@ __斜体__
     <string name="TdlibLogClearEmpty">无需清理</string>
     <string name="TdlibLogClearFail">清理失败</string>
     <string name="TdlibLogClearOk">好了, 已清理 %1$s</string>
+    <string name="TdlibLogs">TDLib 日志</string>
+    <string name="TdlibLogsWarning">"**警告:** TDLib 日志可能包含有 **敏感数据**
+
+请不要分享给任何人, 除非你清楚你在做什么"</string>
+    <string name="TdlibLogsWarningConfirm">继续</string>
     <string name="TelegramFAQ">Telegram 常见问题</string>
     <string name="TerminateAllSessions">强制其他所有设备下线</string>
     <string name="TerminateAllWebSessions">禁用所有网站</string>
@@ -1784,7 +1790,7 @@ __斜体__
     <string name="Unselect">取消选择</string>
     <string name="UnsupportedMessage">不支持的信息</string>
     <string name="UntilX">直到 %1$s</string>
-    <string name="UploadingPhotoWait">正在上传照片, 请稍候……</string>
+    <string name="UploadingPhotoWait">正在上传图片, 请稍候……</string>
     <string name="Use169Output">16:9 相机输出</string>
     <string name="UseHqRoundVideos">录制高品质圆形视频</string>
     <string name="UseInAppBrowser">使用应用内浏览器</string>
@@ -1890,7 +1896,7 @@ __斜体__
     <string name="WhoCanAddMembersAllMembers">所有成员</string>
     <string name="WhoCanAddYouToGroupsAndChannels">谁可以将您添加到群组和频道?</string>
     <string name="WhoCanCallMe">谁可以打电话给我</string>
-    <string name="WiFiUsage">WLAN数据使用情况</string>
+    <string name="WiFiUsage">WLAN 数据使用情况</string>
     <string name="XButOnlyIfSilent">%1$s (仅静音时)</string>
     <string name="XChangedGroupStickerSet">%1$s 更改群组贴纸集</string>
     <string name="XChangedGroupTitle">%1$s 更改群组标题</string>

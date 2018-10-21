@@ -826,13 +826,13 @@ Translated: %5$d%% (%6$s)"</string>
     <string name="LedWhite">White</string>
     <string name="LedYellow">Yellow</string>
     <string name="Link">Link</string>
-    <string name="LinkChannelHelp">"You can setup a public link on **Telegram**. If you do, other people will be able to find and follow your channel by this link.
+    <string name="LinkChannelHelp">"You can set a public link on **Telegram**. If you do, other people will be able to find and follow your channel by this link.
 
 You can use **a–z**, **0–9** and underscores.
 Minimum length is **5** characters."</string>
     <string name="LinkChecking">Checking link availability…</string>
     <string name="LinkCurrent">t.me/%1$s is your current public link.</string>
-    <string name="LinkGroupHelp">"You can setup a public link on **Telegram**. If you do, other people will be able to find and join your group by this link.
+    <string name="LinkGroupHelp">"You can set a public link on **Telegram**. If you do, other people will be able to find and join your group by this link.
 
 You can use **a–z**, **0–9** and underscores.
 Minimum length is **5** characters."</string>
@@ -999,6 +999,7 @@ Invite your friends and family to join Telegram"</string>
 will be shown here."</string>
     <string name="NoDocumentsToShowInChat">"Share files and documents in this chat and
 access them on any of your devices."</string>
+    <string name="NoEmailApp">No E-Mail application found</string>
     <string name="NoFiles">No Files</string>
     <string name="NoGIFs">No GIFs</string>
     <string name="NoGalleryAccess">Permission error</string>
@@ -1295,7 +1296,7 @@ messages from multiple devices."</string>
     <string name="ProxySaveForLater">Save Proxy</string>
     <string name="ProxySecretHint">Secret</string>
     <string name="ProxySettings">Proxy settings</string>
-    <string name="ProxySetup">Tap to setup</string>
+    <string name="ProxySetup">Tap to set up</string>
     <string name="ProxyShowErrors">Show error details</string>
     <string name="ProxySocks5">SOCKS5 %1$s</string>
     <string name="ProxySponsor">Proxy sponsor</string>
@@ -1552,7 +1553,7 @@ Don't take it, Telegram will process everything automatically."</string>
     <string name="SetAsCurrent">Set as current</string>
     <string name="SetProfilePhotoError">Error updating photo: %1$s</string>
     <string name="SetRecoveryEmail">Set Recovery E-Mail</string>
-    <string name="SetUpUsername">Setup Username</string>
+    <string name="SetUpUsername">Set Username</string>
     <string name="Settings">Settings</string>
     <string name="Shadows">Shadows</string>
     <string name="Share">Share</string>
@@ -1662,10 +1663,15 @@ Tap Settings > Permissions, and turn Contacts on."</string>
     <string name="TabVideoMessages">Video</string>
     <string name="TabVideoMessagesLong">Video Messages</string>
     <string name="TabVoiceMessages">Voice</string>
-    <string name="TapToSetup">Tap to setup</string>
+    <string name="TapToSetup">Tap to set</string>
     <string name="TdlibLogClearEmpty">Nothing to clear.</string>
     <string name="TdlibLogClearFail">Failure.</string>
     <string name="TdlibLogClearOk">OK. Freed %1$s.</string>
+    <string name="TdlibLogs">TDLib Logs</string>
+    <string name="TdlibLogsWarning">"**Warning:** TDLib Logs may contain **private data**.
+
+Do not share them with anyone, unless you know what you are doing."</string>
+    <string name="TdlibLogsWarningConfirm">Proceed</string>
     <string name="TelegramFAQ">Telegram FAQ</string>
     <string name="TerminateAllSessions">Terminate All Other Sessions</string>
     <string name="TerminateAllWebSessions">Disconnect All Websites</string>

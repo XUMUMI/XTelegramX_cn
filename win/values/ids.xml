@@ -495,10 +495,12 @@
     <item type="id" name="btn_syncContacts">false</item>
     <item type="id" name="btn_syncContactsInfo">false</item>
     <item type="id" name="btn_systemEmoji">false</item>
+    <item type="id" name="btn_tdlib">false</item>
     <item type="id" name="btn_tdlib_androidLogs">false</item>
     <item type="id" name="btn_tdlib_clearLogs">false</item>
     <item type="id" name="btn_tdlib_debugDatacenter">false</item>
     <item type="id" name="btn_tdlib_logSize">false</item>
+    <item type="id" name="btn_tdlib_resetLogSettings">false</item>
     <item type="id" name="btn_tdlib_shareLogs">false</item>
     <item type="id" name="btn_tdlib_verbosity">false</item>
     <item type="id" name="btn_tdlib_viewLogs">false</item>
