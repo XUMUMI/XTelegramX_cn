@@ -597,7 +597,7 @@ Duration: %2$s"</string>
     <string name="EventLogPromotedAddAdmins">Add admins</string>
     <string name="EventLogPromotedAddUsers">Add users</string>
     <string name="EventLogPromotedBanUsers">Ban users</string>
-    <string name="EventLogPromotedChangeChannelInfo">Change channel Info</string>
+    <string name="EventLogPromotedChangeChannelInfo">Change channel info</string>
     <string name="EventLogPromotedChangeGroupInfo">Change group Info</string>
     <string name="EventLogPromotedDeleteMessages">Delete messages</string>
     <string name="EventLogPromotedEditMessages">Edit messages</string>
@@ -2386,6 +2386,13 @@ You can revert changes anytime later in Settings > Language."</string>
     <string name="xMasks_other">%1$s masks</string>
     <string name="xMasks_two" />
     <string name="xMasks_zero" />
+    <string name="xMedia" />
+    <string name="xMedia_few" />
+    <string name="xMedia_many" />
+    <string name="xMedia_one">%1$s media</string>
+    <string name="xMedia_other">%1$s medias</string>
+    <string name="xMedia_two" />
+    <string name="xMedia_zero" />
     <string name="xMembers" />
     <string name="xMembers_few" />
     <string name="xMembers_many" />

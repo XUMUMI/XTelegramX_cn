@@ -706,7 +706,7 @@
  %1$s ?"</string>
     <string name="Help">帮助</string>
     <string name="HelpEmailError">请发送电子邮件至 %1$s 并告诉我们您的问题</string>
-    <string name="HiddenName">账户已删除</string>
+    <string name="HiddenName">已删除的用户</string>
     <string name="HiddenNameShort">已删除</string>
     <string name="HideChatKeyboard">滚动聊天界面时隐藏键盘</string>
     <string name="HideForYourself">为自己隐藏</string>
@@ -1971,7 +1971,7 @@ __斜体__
     <string name="common_signin_button_text">登录</string>
     <string name="common_signin_button_text_long">使用 Google 帐号登录</string>
     <string name="copied_phone">电话号码已被复制到剪贴板</string>
-    <string name="deletedUser">用户已删除</string>
+    <string name="deletedUser">已删除的用户</string>
     <string name="edit">编辑</string>
     <string name="email_LoginTooLong_subject">Telegram X 连接失败</string>
     <string name="email_LoginTooLong_text">"我的互联网服务提供商是: [请输入名称]
@@ -2386,6 +2386,13 @@ Please refer to @tgx_android_translate for guide on how to make your own scenes.
     <string name="xMasks_other">%1$s 个面具</string>
     <string name="xMasks_two">%1$s 个面具</string>
     <string name="xMasks_zero">%1$s 个面具</string>
+    <string name="xMedia">%1$s 个媒体</string>
+    <string name="xMedia_few">%1$s 个媒体</string>
+    <string name="xMedia_many">%1$s 个媒体</string>
+    <string name="xMedia_one">%1$s 个媒体</string>
+    <string name="xMedia_other">%1$s 个媒体</string>
+    <string name="xMedia_two">%1$s 个媒体</string>
+    <string name="xMedia_zero">%1$s 个媒体</string>
     <string name="xMembers">%1$s 位成员</string>
     <string name="xMembers_few">%1$s 位成员</string>
     <string name="xMembers_many">%1$s 位成员</string>
