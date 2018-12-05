@@ -20,7 +20,7 @@
     <string name="ActionPinnedGeo">%1$s 置顶 **地点**</string>
     <string name="ActionPinnedGeoLive">%1$s 置顶 **实时位置**</string>
     <string name="ActionPinnedGif">%1$s 置顶了一张 **GIF**</string>
-    <string name="ActionPinnedMusic">%1$s 置顶了一段 **音轨**</string>
+    <string name="ActionPinnedMusic">%1$s 置顶了一段 **音频消息**</string>
     <string name="ActionPinnedNoText">%1$s 置顶了一条 **信息**</string>
     <string name="ActionPinnedPhoto">%1$s 置顶一张 **图片**</string>
     <string name="ActionPinnedRound">%1$s 置顶了一段 **视频信息**</string>
@@ -91,7 +91,7 @@
 您要访问的文件夹包含您的 Telegram 敏感数据
 
 除非您知道自己在做什么, 否则请勿将此文件夹中的文件发送给任何人"</string>
-    <string name="ApplicationFolderWarningConfirm">Proceed</string>
+    <string name="ApplicationFolderWarningConfirm">继续</string>
     <string name="Apply">应用</string>
     <string name="ApplyToAll">全部应用</string>
     <string name="ArchivePack">归档包</string>
@@ -190,6 +190,7 @@
     <string name="BanUser">将用户拉黑</string>
     <string name="Banned">已拉黑</string>
     <string name="BannedByX">被 %1$s 拉黑</string>
+    <string name="BannedByXOnDate">被 %1$s 在 %2$s 拉黑</string>
     <string name="BannedWillBeShownHere">被拉黑的成员将在这里显示</string>
     <string name="Beginning">开始</string>
     <string name="BioDescription">"您可以描述任何细节, 如年龄, 职业或城市
@@ -260,6 +261,7 @@
     <string name="ChannelName">频道名称</string>
     <string name="ChannelNotifyMembersInfoOff">当您发布广播时, 成员不会收到推送</string>
     <string name="ChannelNotifyMembersInfoOn">当您发布广播时, 成员将会收到推送</string>
+    <string name="ChannelPhoto">频道图片</string>
     <string name="ChannelPrivate">私人频道</string>
     <string name="ChannelPrivateInfo">私人频道只能通过邀请链接加入</string>
     <string name="ChannelPrivateLinkHelp">人们可以通过以下链接加入您的频道, 您可以随时撤销该链接。.</string>
@@ -294,10 +296,9 @@
     <string name="ChatHistoryVisible">可见</string>
     <string name="ChatHistoryVisibleInfo">新成员将看到他们加入之前发送的信息</string>
     <string name="ChatLinkRemove">移除链接</string>
-    <string name="ChatLinkRemoveAlert">等一下! 你确定要将 %1$s 设置为私有而又发布公开链接吗? 虽然这样很方便但是拿到链接的人都可以加进来</string>
+    <string name="ChatLinkRemoveAlert">等一下! 您确定要将 %1$s 设置为私有而又发布公开链接吗? 虽然这样很方便但是拿到链接的人都可以加进来</string>
     <string name="ChatLinkView">对话预览</string>
     <string name="ChatMode">对话模式</string>
-    <string name="ChatPhoto">对话头像</string>
     <string name="ChatPreview">对话预览</string>
     <string name="ChatQuickActions">滑动</string>
     <string name="ChatStyleBubbles">对话气泡</string>
@@ -330,7 +331,42 @@
     <string name="CloudDownload">下载</string>
     <string name="CloudPause">暂停下载</string>
     <string name="CloudResume">恢复下载</string>
+    <string name="ColorAlpha">透明度</string>
+    <string name="ColorAlphaPercentage">A%</string>
+    <string name="ColorBlue">蓝色</string>
+    <string name="ColorClearAll" />
+    <string name="ColorClearAll_few" />
+    <string name="ColorClearAll_many" />
+    <string name="ColorClearAll_one">"删除 %1$s 的其他 %2$s 版本?
+
+该操作不可撤销"</string>
+    <string name="ColorClearAll_other">"删除 %1$s 的其他 %2$s 版本?
+
+该操作不可撤销"</string>
+    <string name="ColorClearAll_two" />
+    <string name="ColorClearAll_zero" />
+    <string name="ColorClearDone" />
+    <string name="ColorClearDone_few" />
+    <string name="ColorClearDone_many" />
+    <string name="ColorClearDone_one">已删除颜色 %1$s</string>
+    <string name="ColorClearDone_other">已删除颜色 %1$s</string>
+    <string name="ColorClearDone_two" />
+    <string name="ColorClearDone_zero" />
+    <string name="ColorDefault">默认</string>
+    <string name="ColorGreen">绿色</string>
+    <string name="ColorHex">十六进制代码</string>
+    <string name="ColorHue">色调</string>
+    <string name="ColorLightness">亮度</string>
+    <string name="ColorRed">红色</string>
+    <string name="ColorRemove">"删除当前版本的%1$s?
+
+此操作无法撤消。"</string>
+    <string name="ColorRemoveDone">删除颜色</string>
+    <string name="ColorSaturation">饱和度</string>
     <string name="ColorTheme">颜色主题</string>
+    <string name="ColorTypeHSLA">HSLA (色调, 饱和度, 亮度, 透明度)</string>
+    <string name="ColorTypeHex">Hex (#RRGGBBAA)</string>
+    <string name="ColorTypeRGBA">RGBA (红色, 绿色, 蓝色, 透明度)</string>
     <string name="ComeAgainLater">稍后回来</string>
     <string name="Confirm">确认</string>
     <string name="ConfirmCalls">通话时提醒</string>
@@ -362,7 +398,8 @@
     <string name="Convert">升级群组</string>
     <string name="ConvertGroup">升级为超级群组</string>
     <string name="CopiedCashtag">缓存信息已复制到粘贴板</string>
-    <string name="CopiedCoordinates">坐标已复制到剪贴板</string>
+    <string name="CopiedColor">颜色及其名称已复制到粘贴板</string>
+    <string name="CopiedCoordinates">坐标已复制到粘贴板</string	>
     <string name="CopiedHashtag">话题已复制到粘贴板</string>
     <string name="CopiedLink">链接已复制到粘贴板</string>
     <string name="CopiedMessages">信息已复制到粘贴板</string>
@@ -433,12 +470,12 @@
     <string name="DeleteContact">删除联系人</string>
     <string name="DeleteContactConfirm">您确定要从联系人列表中删除 %1$s 吗?</string>
     <string name="DeleteEntry">删除条目</string>
-    <string name="DeleteFileHint">提醒: 您将可以在任何时候下载此文件</string>
+    <string name="DeleteFileHint">提示: 您可以在任何时候重新下载此文件</string>
     <string name="DeleteForEveryone">为所有人删除</string>
     <string name="DeleteForMeAndX">为我和 %1$s 删除</string>
     <string name="DeleteForUser">为 %1$s 删除</string>
     <string name="DeleteFromCache">清除缓存</string>
-    <string name="DeleteLanguageConfirm">"你真的想删除这个本地化文件?
+    <string name="DeleteLanguageConfirm">"您真的想删除这个本地化文件?
 
 %1$s / %2$s 该语言将无法使用"</string>
     <string name="DeleteMessage">删除信息</string>
@@ -453,6 +490,7 @@
     <string name="DeleteUserChatConfirm">您真的要取消和 %1$s 的对话吗? 此操作不可撤销。</string>
     <string name="DeleteXFromRecents">在历史记录中删除 %1$s ?</string>
     <string name="DeletedMessage">信息已被删除</string>
+    <string name="Demo">演示</string>
     <string name="Description">描述</string>
     <string name="DescriptionEmptyHint">在此输入说明</string>
     <string name="DescriptionInfo">您可以为您的频道提供可选的说明</string>
@@ -542,7 +580,7 @@
     <string name="ErrorPinnedChatsLimit_two">抱歉, 您可以跳转到 %1$s 的聊天并开始加密对话。</string>
     <string name="ErrorPinnedChatsLimit_zero">抱歉, 您可以跳转到 %1$s 的聊天并开始加密对话。</string>
     <string name="ErrorUserDeleted">操作失败, 因为该用户已被停用</string>
-    <string name="ErrorUsersTooFew">成员人数不足: 所有人都可以自由邀请</string>
+    <string name="ErrorUsersTooFew">由于隐私设置, 您无法将所选用户添加到组。</string>
     <string name="EventLog">最近活动</string>
     <string name="EventLogAllAdmins">所有管理员</string>
     <string name="EventLogAllEvents">所有活动</string>
@@ -638,6 +676,8 @@
     <string name="FeatureUnavailable">很抱歉, 此功能目前尚未在您的国家/地区提供</string>
     <string name="File">文件</string>
     <string name="FileName">文件名</string>
+    <string name="FileNameCopy">%1$s (复制)</string>
+    <string name="FileNameDuplicate">%1$s #%2$d</string>
     <string name="Files">文件</string>
     <string name="Flags">国旗</string>
     <string name="Folder">文件夹</string>
@@ -694,6 +734,7 @@
     <string name="GroupLink">群组链接</string>
     <string name="GroupName">群组名</string>
     <string name="GroupType">群组类型</string>
+    <string name="GroupPhoto">群组图片</string>
     <string name="GroupUpgraded">群组已升级为超级群组</string>
     <string name="GroupUpgradedFrom">该群组已升级为超级群组, 点按查看原群组的聊天记录。</string>
     <string name="GroupUpgradedTo">该群组已升级为超级群组</string>
@@ -864,10 +905,10 @@
     <string name="LocalizationCreateTitle">创建本地化文件</string>
     <string name="LocalizationEdit">编辑本地化文件</string>
     <string name="LocalizationEditConfirmDiscard">放弃更改</string>
-    <string name="LocalizationEditConfirmPrompt">当前字符串(%1$s)已被修改, 你想保存更改吗?</string>
+    <string name="LocalizationEditConfirmPrompt">当前字符串(%1$s)已被修改, 您想保存更改吗?</string>
     <string name="LocalizationEditConfirmSave">保存修改</string>
     <string name="LocalizationExit">保存并退出</string>
-    <string name="LocalizationFileNamePlaceholder">你的文件名</string>
+    <string name="LocalizationFileNamePlaceholder">您的文件名</string>
     <string name="LocalizationPaste">粘贴原文</string>
     <string name="LocalizationTranslation">翻译</string>
     <string name="LocalizationView">查看字符串</string>
@@ -1068,7 +1109,7 @@ __斜体__
     <string name="NoVoiceToShowInChat">"在此聊天中分享的语音信息
 可以在您的任何设备上访问"</string>
     <string name="Nobody">没有人</string>
-    <string name="NobodyLikesSpam2">抱歉, 现在你只能将双向联系人添加到群组</string>
+    <string name="NobodyLikesSpam2">抱歉, 现在您只能将双向联系人添加到群组</string>
     <string name="NotNow">现在不要</string>
     <string name="Nothing">没东西</string>
     <string name="NothingFound">什么都没有找到</string>
@@ -1177,7 +1218,7 @@ __斜体__
     <string name="PasswordDoNotMatch">密码错误</string>
     <string name="PasswordEnabled">启用</string>
     <string name="PasswordIsInvalid">您输入的密码无效</string>
-    <string name="PasswordMatchesOldOne">改密码与旧密码相同</string>
+    <string name="PasswordMatchesOldOne">密码修改失败</string>
     <string name="PasswordRecovery">忘记密码</string>
     <string name="PastWeek">上周</string>
     <string name="PaymentSuccessfullyPaid">您已成功将 %1$s 转移至%2$s的%3$s</string>
@@ -1269,6 +1310,7 @@ __斜体__
     <string name="ProfilePhoto">头像</string>
     <string name="ProgressCreateChannel">正在创建频道……</string>
     <string name="PromotedByX">由 %1$s 提拔</string>
+    <string name="PromotedByXOnDate">由 %1$s 在 %2$s 提拔</string>
     <string name="Proxy">代理</string>
     <string name="ProxyAdd">添加代理</string>
     <string name="ProxyAvailable">可用 ( %1$s )</string>
@@ -1388,7 +1430,8 @@ __斜体__
     <string name="RestrictUntil">限制直到</string>
     <string name="RestrictUser">限制用户</string>
     <string name="Restricted">受限</string>
-    <string name="RestrictedByX">受 %1$s 限制</string>
+    <string name="RestrictedByX">被 %1$s 限制</string>
+    <string name="RestrictedByXOnDate">被 %1$s 在 %2$s 限制</string>
     <string name="RestrictedWillBeShownHere">受限制的成员将显示在这里</string>
     <string name="RevokeAdminRights">撤销管理员权限</string>
     <string name="RevokeLink">撤销链接</string>
@@ -1406,6 +1449,7 @@ __斜体__
     <string name="RoamingUsage">漫游数据使用情况</string>
     <string name="RootDirectory">根目录</string>
     <string name="RoundVideoPlaybackError">无法播放视频信息, 请参阅日志以获取详细信息</string>
+    <string name="RtlLayout">从右到左布局</string>
     <string name="Saturation">饱和度</string>
     <string name="Save">保存</string>
     <string name="SaveGif">保存 GIF</string>
@@ -1569,13 +1613,13 @@ __斜体__
 
 这对于与其他服务的集成可能是有用的"</string>
     <string name="ShareYourPhoneNumberTitle">分享您的电话号码?</string>
-    <string name="SharingLiveLocationToChats">你正在与 %1$s 的对话中分享实时定位</string>
-    <string name="SharingLiveLocationToChats_few">你正在与 %1$s 的对话中分享实时定位</string>
-    <string name="SharingLiveLocationToChats_many">你正在与 %1$s 的对话中分享实时定位</string>
-    <string name="SharingLiveLocationToChats_one">你正在与 %1$s 的对话中分享实时定位</string>
-    <string name="SharingLiveLocationToChats_other">你正在与 %1$s 的对话中分享实时定位</string>
-    <string name="SharingLiveLocationToChats_two">你正在与 %1$s 的对话中分享实时定位</string>
-    <string name="SharingLiveLocationToChats_zero">你正在与 %1$s 的对话中分享实时定位</string>
+    <string name="SharingLiveLocationToChats">您正在与 %1$s 的对话中分享实时定位</string>
+    <string name="SharingLiveLocationToChats_few">您正在与 %1$s 的对话中分享实时定位</string>
+    <string name="SharingLiveLocationToChats_many">您正在与 %1$s 的对话中分享实时定位</string>
+    <string name="SharingLiveLocationToChats_one">您正在与 %1$s 的对话中分享实时定位</string>
+    <string name="SharingLiveLocationToChats_other">您正在与 %1$s 的对话中分享实时定位</string>
+    <string name="SharingLiveLocationToChats_two">您正在与 %1$s 的对话中分享实时定位</string>
+    <string name="SharingLiveLocationToChats_zero">您正在与 %1$s 的对话中分享实时定位</string>
     <string name="SharingWithX">正分享到 %1$s</string>
     <string name="SharingWithXChats">与 %1$s 个对话分享</string>
     <string name="SharingWithXChats_few">与 %1$s 个对话分享</string>
@@ -1657,7 +1701,7 @@ __斜体__
     <string name="TabMembers">成员</string>
     <string name="TabMessages">信息</string>
     <string name="TabPhoto">图片</string>
-    <string name="TabRestricted">黑名单</string>
+    <string name="TabRestricted">限制名单</string>
     <string name="TabSharedGroups">群组</string>
     <string name="TabVideo">视频</string>
     <string name="TabVideoMessages">视频</string>
@@ -1670,7 +1714,7 @@ __斜体__
     <string name="TdlibLogs">TDLib 日志</string>
     <string name="TdlibLogsWarning">"**警告:** TDLib 日志可能包含有 **敏感数据**
 
-请不要分享给任何人, 除非你清楚你在做什么"</string>
+请不要分享给任何人, 除非您清楚您在做什么"</string>
     <string name="TdlibLogsWarningConfirm">继续</string>
     <string name="TelegramFAQ">Telegram 常见问题</string>
     <string name="TerminateAllSessions">强制其他所有设备下线</string>
@@ -1689,17 +1733,71 @@ __斜体__
     <string name="TextSizeReset">恢复默认</string>
     <string name="TextSizeScaleDisable">禁止自动微调</string>
     <string name="TextSizeScaleEnable">启用自动微调</string>
+    <string name="ThemeAdvanced">属性</string>
+    <string name="ThemeAdvancedEdit">编辑属性</string>
     <string name="ThemeBlackWhite">黑白</string>
     <string name="ThemeBlue">蓝色</string>
+    <string name="ThemeCalcHint">背景 (颜色或编码)</string>
+    <string name="ThemeCalcSave">计算</string>
+    <string name="ThemeCalcTitle">移除透明度</string>
+    <string name="ThemeCategoryAccent">强调色</string>
+    <string name="ThemeCategoryAccent_info">"此列表包含应用程序的强调色
+有关 granular设置, 请参阅其他分类"</string>
+    <string name="ThemeCategoryBubbles">气泡</string>
+    <string name="ThemeCategoryChats">对话</string>
+    <string name="ThemeCategoryColors">媒体</string>
+    <string name="ThemeCategoryContent">内容</string>
+    <string name="ThemeCategoryControls">控制</string>
+    <string name="ThemeCategoryIV">即时预览</string>
+    <string name="ThemeCategoryInternal">服务</string>
+    <string name="ThemeCategoryNavigation">标题</string>
+    <string name="ThemeCategoryOther">其他</string>
     <string name="ThemeClassic">经典</string>
+    <string name="ThemeClose">关闭</string>
+    <string name="ThemeColorFormat">颜色格式</string>
+    <string name="ThemeCopy">创建副本</string>
+    <string name="ThemeCreate">创建新主题</string>
+    <string name="ThemeCreateConfirm">创建</string>
+    <string name="ThemeCreateInfo">新主题将会基于 %1$s 主题进行修改</string>
+    <string name="ThemeCreateTitle">新主题</string>
     <string name="ThemeCustom">自定义</string>
     <string name="ThemeCyan">青色</string>
+    <string name="ThemeEdit">编辑</string>
+    <string name="ThemeEditInfo">%1$s 主题</string>
+    <string name="ThemeEditName">重命名</string>
+    <string name="ThemeExport">导出</string>
+    <string name="ThemeExportAddAuthorInfo">用户名或链接</string>
+    <string name="ThemeExportAddAuthorTitle">主题作者</string>
+    <string name="ThemeExportDone">导出</string>
+    <string name="ThemeExportInfo">"如果您指定作者的用户名, 则会在安装主题之前向用户显示该用户名。"</string>
+    <string name="ThemeFile">主题, %1$s</string>
     <string name="ThemeGreen">绿色</string>
+    <string name="ThemeInstall">应用 %1$s 主题?</string>
+    <string name="ThemeInstallAuthor">应用 %2$s 制作的 %1$s 主题?</string>
+    <string name="ThemeInstallDone">应用主题</string>
+    <string name="ThemeInstallHint">您可以在 设置->主题 中切换已安装的主题</string>
+    <string name="ThemeMinimize">最小化</string>
+    <string name="ThemeName">主题名</string>
     <string name="ThemeNight">夜间模式(黑)</string>
     <string name="ThemeNightBlue">夜间模式(蓝)</string>
     <string name="ThemeOrange">橙色</string>
     <string name="ThemePink">粉红色</string>
     <string name="ThemeRed">红色</string>
+    <string name="ThemeRemove">删除</string>
+    <string name="ThemeRemoveConfirm">删除主题</string>
+    <string name="ThemeRemoveInfo">您确定要删除此主题吗? 该操作不可撤消</string>
+    <string name="ThemeSectionAttach">附加菜单</string>
+    <string name="ThemeSectionBackground">背景</string>
+    <string name="ThemeSectionIcons">图标</string>
+    <string name="ThemeSectionMedia">媒体</string>
+    <string name="ThemeSectionPlayer">音乐播放器</string>
+    <string name="ThemeSectionRadios_info">"这些颜色将在 设置->主题 中显示。
+确保它们清楚地代表**填充**颜色的相应主题。"</string>
+    <string name="ThemeSectionText">文本</string>
+    <string name="ThemeSectionUnsorted">未分类</string>
+    <string name="ThemeSectionWP_info">"设置相应的壁纸时, 这些颜色用作透明蒙版, 如: 日期、未读分隔符、内联键盘等
+
+除非您正在寻找更好的颜色选择, 否则不要更改它们"</string>
     <string name="ThemeSettings">主题与对话</string>
     <string name="ThemeWhiteBlack">白黑</string>
     <string name="Themes">主题</string>
@@ -1724,7 +1822,7 @@ __斜体__
     <string name="ToolsStringSectionSimple">简单的字符串</string>
     <string name="ToolsStringSectionSimpleFormatted">包含变量的字符串</string>
     <string name="ToolsStringSectionUrl">链接</string>
-    <string name="ToolsUntranslatedTitle">未翻译</string>
+    <string name="ToolsUntranslatedTitle">条未翻译</string>
     <string name="TotalDataUsage">总计</string>
     <string name="TouchYourSensor">触摸您的传感器</string>
     <string name="TranslationMoreCreate">创建</string>
@@ -1830,6 +1928,7 @@ __斜体__
     <string name="UsernameInvalidStartNumber">抱歉, 用户名不能以数字开始</string>
     <string name="UsernameNotOccupied">找不到聊天@%1$s</string>
     <string name="UsernameNotOccupiedUnknown">与找不到指定用户名的聊天</string>
+    <string name="ValueReset">默认</string>
     <string name="Vibrate">震动</string>
     <string name="VibrateDisabled">禁用</string>
     <string name="Video">视频</string>
@@ -1934,7 +2033,8 @@ __斜体__
     <string name="YouCreatedGroup">您创建了这个群组</string>
     <string name="YouDisabledTimer">您禁用了阅后即焚</string>
     <string name="YouHaveNewMessage">您有一条信息</string>
-    <string name="YouJoinedByLink">你通过邀请链接加入</string>
+    <string name="YouJoinedByLink">您通过邀请链接加入</string>
+    <string name="YouJoinedSecretChat">您加入了加密对话</string>
     <string name="YouSetTimer">您将阅后即焚时间修改为 %1$s</string>
     <string name="YouTookAScreenshot">您截了一张图</string>
     <string name="YouWereKicked">您被踢了</string>
@@ -1946,12 +2046,36 @@ __斜体__
     <string name="YourPassword">您的密码</string>
     <string name="YourPhone">您的电话</string>
     <string name="YoutubeRotateHint">注: 旋转屏幕以最小化播放器</string>
+    <string name="c_bubble_chatBackground">"未设置壁纸时使用的默认聊天背景
+
+当设置为空时将使用**背景**颜色代替。"</string>
+    <string name="c_drawer">抽屉标题颜色叠加, 当设置为空时将使用**标题**颜色。</string>
+    <string name="c_drawerText">抽屉标题文本颜色, 空时使用**标题文本**颜色。</string>
+    <string name="c_fileGreen">APK 文件</string>
+    <string name="c_fileRed">PDF 文件</string>
+    <string name="c_fileYellow">压缩文件: .zip, .rar, .7z</string>
+    <string name="c_fillingNegative">滑动预览活动中的 **fillingNegative** </string>
+    <string name="c_fillingPositive">共享菜单中的发送按钮的背景</string>
+    <string name="c_fillingPressed">长按预览活动中的 **fillPressed**。仅适用于**安卓 4.x**</string>
+    <string name="c_headerLightBackground">选择媒体, 消息等时使用的亮色标题。</string>
+    <string name="c_overlayFilling">三点式菜单, 贴纸推荐, 小圆圈按钮等</string>
+    <string name="c_placeholder">在加载图像之前使用的占位符颜色</string>
+    <string name="c_previewBackground">贴纸、媒体和聊天预览的透明背景</string>
+    <string name="c_promo">新的流行贴纸集。</string>
+    <string name="c_seekDone">播放文件的进度</string>
+    <string name="c_seekEmpty">文件尚未下载的部分</string>
+    <string name="c_seekReady">文件已下载的部分</string>
+    <string name="c_textLinkPressHighlight">按下链接的背景, 必须是不透明的。</string>
+    <string name="c_textNegative">可能造成不良后果的按钮, 如: 删除、移除、清除 等</string>
+    <string name="c_textNeutral">普通的按钮, 如: 保存、完成、取消 等</string>
+    <string name="c_textSearchQueryHighlight">搜索聊天、联系人等时的高亮</string>
+    <string name="c_textSelectionHighlight">选定的文字背景</string>
     <string name="cam_hint">请允许 Telegram X 使用相机, 在 系统设置->应用程序->Telegram X->权限 中设置</string>
     <string name="channel_create_somebody">频道「%1$s」已创建</string>
     <string name="channel_user_add">%1$s 加入频道</string>
-    <string name="channel_user_add_self">你加入了频道</string>
+    <string name="channel_user_add_self">您加入了频道</string>
     <string name="channel_user_remove">%1$s 退出了频道</string>
-    <string name="channel_user_remove_self">你退出了频道</string>
+    <string name="channel_user_remove_self">您退出了频道</string>
     <string name="common_google_play_services_enable_button">启用</string>
     <string name="common_google_play_services_enable_text">您必须先启用 Google Play 服务, 然后才能运行 %1$s </string>
     <string name="common_google_play_services_enable_title">启用 Google Play 服务</string>
@@ -1970,7 +2094,7 @@ __斜体__
     <string name="common_open_on_phone">在手机上打开</string>
     <string name="common_signin_button_text">登录</string>
     <string name="common_signin_button_text_long">使用 Google 帐号登录</string>
-    <string name="copied_phone">电话号码已被复制到剪贴板</string>
+    <string name="copied_phone">电话号码已被复制到粘贴板</string>
     <string name="deletedUser">已删除的用户</string>
     <string name="edit">编辑</string>
     <string name="email_LoginTooLong_subject">Telegram X 连接失败</string>
@@ -2008,6 +2132,7 @@ __斜体__
     <string name="format_ivAuthorDateSeparator">"•"</string>
     <string name="format_languageStatus">%1$s (%2$d%%)</string>
     <string name="format_locationUpdated">更新于 %1$s</string>
+    <string name="format_mediaIndexAndTime">%1$s, %2$s</string>
     <string name="format_membersAndOnline">%1$s, %2$s</string>
     <string name="format_minus">-%1$d</string>
     <string name="format_minusPlus">-%1$d, +%2$d</string>
@@ -2027,6 +2152,9 @@ __斜体__
     <string name="format_thousandsSeparator">,</string>
     <string name="format_timestamp">%1$02d.%2$02d.%3$02d %4$s</string>
     <string name="format_uploadStatus">%1$d%% %2$s</string>
+    <string name="g_noWallpaper">"当壁纸被禁用或尚未加载时, 将使用这些颜色
+
+如果您的主题不允许禁用壁纸, 则可以忽略它们"</string>
     <string name="game_ActionUserScored">%2$s 在 %3$s 中获得了 %1$s 分</string>
     <string name="game_ActionUserScoredInGame">%2$s 在 %3$s 中获得了 %1$s 分</string>
     <string name="game_ActionUserScoredInGame_few">%2$s 在 %3$s 中获得了 %1$s 分</string>
@@ -2042,19 +2170,19 @@ __斜体__
     <string name="game_ActionUserScored_two">%2$s 获得 %1$s 分</string>
     <string name="game_ActionUserScored_zero">%2$s 获得 %1$s 分</string>
     <string name="game_ActionYouScored">%2$s 获得 %1$s 分</string>
-    <string name="game_ActionYouScoredInGame">你在 %2$s 中获得了 %1$s 分</string>
-    <string name="game_ActionYouScoredInGame_few">你在 %2$s 中获得了 %1$s 分</string>
-    <string name="game_ActionYouScoredInGame_many">你在 %2$s 中获得了 %1$s 分</string>
-    <string name="game_ActionYouScoredInGame_one">你在 %2$s 中获得了 %1$s 分</string>
-    <string name="game_ActionYouScoredInGame_other">你在 %2$s 中获得了 %1$s 分</string>
-    <string name="game_ActionYouScoredInGame_two">你在 %2$s 中获得了 %1$s 分</string>
-    <string name="game_ActionYouScoredInGame_zero">你在 %2$s 中获得了 %1$s 分</string>
-    <string name="game_ActionYouScored_few">你获得了 %1$s 分</string>
-    <string name="game_ActionYouScored_many">你获得了 %1$s 分</string>
-    <string name="game_ActionYouScored_one">你获得了 %1$s 分</string>
-    <string name="game_ActionYouScored_other">你获得了 %1$s 分</string>
-    <string name="game_ActionYouScored_two">你获得了 %1$s 分</string>
-    <string name="game_ActionYouScored_zero">你获得了 %1$s 分</string>
+    <string name="game_ActionYouScoredInGame">您在 %2$s 中获得了 %1$s 分</string>
+    <string name="game_ActionYouScoredInGame_few">您在 %2$s 中获得了 %1$s 分</string>
+    <string name="game_ActionYouScoredInGame_many">您在 %2$s 中获得了 %1$s 分</string>
+    <string name="game_ActionYouScoredInGame_one">您在 %2$s 中获得了 %1$s 分</string>
+    <string name="game_ActionYouScoredInGame_other">您在 %2$s 中获得了 %1$s 分</string>
+    <string name="game_ActionYouScoredInGame_two">您在 %2$s 中获得了 %1$s 分</string>
+    <string name="game_ActionYouScoredInGame_zero">您在 %2$s 中获得了 %1$s 分</string>
+    <string name="game_ActionYouScored_few">您获得了 %1$s 分</string>
+    <string name="game_ActionYouScored_many">您获得了 %1$s 分</string>
+    <string name="game_ActionYouScored_one">您获得了 %1$s 分</string>
+    <string name="game_ActionYouScored_other">您获得了 %1$s 分</string>
+    <string name="game_ActionYouScored_two">您获得了 %1$s 分</string>
+    <string name="game_ActionYouScored_zero">您获得了 %1$s 分</string>
     <string name="gcm_defaultSenderId">1037154859800</string>
     <string name="gcm_fallback_notification_channel_label">杂</string>
     <string name="general_Messages">信息</string>
@@ -2070,17 +2198,17 @@ __斜体__
     <string name="group_title_changed">%1$s 将群组更名为「%2$s」</string>
     <string name="group_title_changed_you">您将群组更名为「%1$s」</string>
     <string name="group_user_add">%1$s 加入群组</string>
-    <string name="group_user_add_self">你加入了群组</string>
+    <string name="group_user_add_self">您加入了群组</string>
     <string name="group_user_added">%1$s 添加了%2$s</string>
-    <string name="group_user_added_self">%1$s 添加了你</string>
+    <string name="group_user_added_self">%1$s 添加了您</string>
     <string name="group_user_join_by_link">%1$s 通过邀请链接加入了该群组</string>
-    <string name="group_user_join_by_link_self">你通过邀请链接加入群组</string>
+    <string name="group_user_join_by_link_self">您通过邀请链接加入群组</string>
     <string name="group_user_remove">%1$s 退出群组</string>
-    <string name="group_user_remove_self">你退出了群组</string>
+    <string name="group_user_remove_self">您退出了群组</string>
     <string name="group_user_removed">%1$s 踢掉了%2$s</string>
-    <string name="group_user_removed_self">%1$s 踢掉了你</string>
-    <string name="group_user_self_added">你添加了 %1$s</string>
-    <string name="group_user_self_removed">你踢掉了 %1$s</string>
+    <string name="group_user_removed_self">%1$s 踢掉了您</string>
+    <string name="group_user_self_added">您添加了 %1$s</string>
+    <string name="group_user_self_removed">您踢掉了 %1$s</string>
     <string name="inXHours">%1$s 小时后</string>
     <string name="inXHours_few">%1$s 小时后</string>
     <string name="inXHours_many">%1$s 小时后</string>
@@ -2126,16 +2254,16 @@ __斜体__
 
 Please refer to @tgx_android_translate for guide on how to make your own scenes."</string>
     <string name="json_4_text2">"I knew it! Please don't ever tell me this again…"</string>
-    <string name="json_ChatDemo">{\"member\":\"XUMUMI\",\"_\":[{\"sticker\":[512,512,\"AAQCABMktIENAAQ7jAMIc7zJ7Xd8AAIC\",\"CAADAgADQQIAAkf7CQw2YkvFWC1DowI\",867500685606780933]},{\"text\":[\"来吧, 我在!\",1]},{\"text\":\"XUMUMI, 我们需要找到一些 BGM &#127926;.\",\"out\":1},{\"voice\":3,\"out\":1},{\"text\":\"听说过雷军是 B 站的歌手吗?\"},{\"audio\":[243,\"Are you OK?\",\"雷军\"]},{\"text\":\"你是谁, 我不认识你\",\"out\":1}]},{\"members\":[[6,\"Teoan\"],[7,\"Gean\",\"Rain\"],[3,\"XUMUMI\"],[1,\"huian\"]],\"_\":[{\"created\":\"香港 XMA\",\"out\":1},{\"text\":\"你们确定是在这里?\",\"author\":6},{\"text\":\"应该没错\",\"out\":1},{\"text\":\"这是谁带的路? &#128516;\",\"author\":7},{\"text\":\"我带的……\",\"author\":3},{\"left\":3},{\"text\":\"我突然有点怂……\",\"author\":1},{\"sticker\":[467,512,\"AAQCABNfgVkqAAT-l09kzZivgi08AAIC\",\"CAADAgAD3gAD9HsZAAG9he9u98XOPQI\",7173162320003073],\"out\":1}]},{\"member\":[0,\"zero\"],\"_\":[{\"sticker\":[512,512,\"AAQCABOzP0sNAATjTYV36dMVWNVCAQABAg\",\"CAADAgADfgUAAvoLtghVynd3kd-TuAI\"]},{\"text\":\"Telegram 好处都有啥?\",\"out\":1},{\"text\":\"速度快, 安全, 多客户端同步.\"},{\"text\":\"&#128564;\",\"out\":1},{\"text\":\"而且可以是端对端加密对话哦!\"},{\"text\":\"加密对话能干嘛?\",\"out\":1},{\"text\":\"当计数器跑到 0 的时候消息就会自动删除!\"},{\"ttl\":15},{\"text\":\"&#128561;&#128584;&#128077;\",\"out\":1}]}</string>
+    <string name="json_ChatDemo">{\"member\":\"XUMUMI\",\"_\":[{\"sticker\":[512,512,\"AAQCABMktIENAAQ7jAMIc7zJ7Xd8AAIC\",\"CAADAgADQQIAAkf7CQw2YkvFWC1DowI\",867500685606780933]},{\"text\":[\"来吧, 我在!\",1]},{\"text\":\"XUMUMI, 我们需要找到一些 BGM &#127926;.\",\"out\":1},{\"voice\":3,\"out\":1},{\"text\":\"听说过雷军是 B 站的歌手吗?\"},{\"audio\":[243,\"Are you OK?\",\"雷军\"]},{\"text\":\"您是谁, 我不认识您\",\"out\":1}]},{\"members\":[[6,\"Teoan\"],[7,\"Gean\",\"Rain\"],[3,\"XUMUMI\"],[1,\"huian\"]],\"_\":[{\"created\":\"香港 XMA\",\"out\":1},{\"text\":\"您们确定是在这里?\",\"author\":6},{\"text\":\"应该没错\",\"out\":1},{\"text\":\"这是谁带的路? &#128516;\",\"author\":7},{\"text\":\"我带的……\",\"author\":3},{\"left\":3},{\"text\":\"我突然有点怂……\",\"author\":1},{\"sticker\":[467,512,\"AAQCABNfgVkqAAT-l09kzZivgi08AAIC\",\"CAADAgAD3gAD9HsZAAG9he9u98XOPQI\",7173162320003073],\"out\":1}]},{\"member\":[0,\"zero\"],\"_\":[{\"sticker\":[512,512,\"AAQCABOzP0sNAATjTYV36dMVWNVCAQABAg\",\"CAADAgADfgUAAvoLtghVynd3kd-TuAI\"]},{\"text\":\"Telegram 好处都有啥?\",\"out\":1},{\"text\":\"速度快, 安全, 多客户端同步.\"},{\"text\":\"&#128564;\",\"out\":1},{\"text\":\"而且可以是端对端加密对话哦!\"},{\"text\":\"加密对话能干嘛?\",\"out\":1},{\"text\":\"当计数器跑到 0 的时候消息就会自动删除!\"},{\"ttl\":15},{\"text\":\"&#128561;&#128584;&#128077;\",\"out\":1}]}</string>
     <string name="justAdd">刚刚加入了群组</string>
     <string name="language_appliedLanguage">语言已设置为简体中文</string>
     <string name="language_code">zh-CN</string>
     <string name="language_continueInLanguage">继续使用英语</string>
     <string name="language_continueInLanguagePopupText">"**Telegram X** 现在已经支持 **简体中文**
 
-你想切换语言吗?
+您想切换语言吗?
 
-你随时可以在 设置 -> 语言 中重新设置"</string>
+您随时可以在 设置 -> 语言 中重新设置"</string>
     <string name="language_dateFormatLocale">zh-CN</string>
     <string name="language_disable_lowercase">0</string>
     <string name="language_name">简体中文</string>
@@ -2170,6 +2298,28 @@ Please refer to @tgx_android_translate for guide on how to make your own scenes.
     <string name="network_Updating">正在同步……</string>
     <string name="network_WaitingForNetwork">正在等待网络连接……</string>
     <string name="notInChat">您不在对话中</string>
+    <string name="p_bubbleCorner">气泡圆角半径</string>
+    <string name="p_bubbleCornerLegacy">**Android 4.x** 中的气泡圆角半径, 最大值: **6**。</string>
+    <string name="p_bubbleCornerMerged">与另一个气泡合并时的气泡圆角半径。</string>
+    <string name="p_bubbleDateCorner">气泡模式中日期的背景角半径</string>
+    <string name="p_bubbleOutline">"为气泡启用实线描边, 您可以使用**气泡外描边**或**气泡内描边**配置其颜色。
+
+如果更改**气泡圆角半径**的值, 请启用此属性。"</string>
+    <string name="p_bubbleOutlineSize">气泡外描边的宽度, **气泡外描边**启用时生效。</string>
+    <string name="p_bubbleUnreadShadow">在气泡模式下向未读消息分隔符添加阴影。</string>
+    <string name="p_dark">"确定主题是否为暗色主题, 用于夜间模式
+
+最好更改**父主题**而不是覆盖此属性。"</string>
+    <string name="p_dateCorner">普通模式中日期的背景角半径</string>
+    <string name="p_imageCorner">图像角半径, 通常在气泡模式下被忽略。</string>
+    <string name="p_parentTheme">未明确设置颜色或属性时, 将从此主题继承默认值。</string>
+    <string name="p_replaceShadowsWithSeparators">用分割线代替阴影</string>
+    <string name="p_shadowDepth">所有阴影的深度, 值越高意味着阴影越暗。 默认值: 亮色主题-0.5, 夜间模式-1.0</string>
+    <string name="p_subtitleAlpha">标签导航, 标题字幕等中的**标题文本**或**亮色标题文本**的透明度</string>
+    <string name="p_wallpaperId">默认壁纸标识符。0表示默认情况下禁用壁纸。在设置中保留壁纸缩略图以获取其标识符。默认壁纸请设置为 0 并编辑**气泡模式聊天背景**颜色。</string>
+    <string name="p_wallpaperUsageId">"一个神奇的属性, 允许在相似主题之间共享壁纸设置。**0**-亮色主题、**1**-夜间模式、**2**-其他主题。
+
+如果您的调色板与**父主题**有很大的区别, 或者在创建亮色主题时禁用默认壁纸, 请设置为**2**</string>
     <string name="passcode_auto_hint">离开一段时间后需要密码</string>
     <string name="passcode_confirm_invisible">%1$s (不可见)</string>
     <string name="passcode_fingerprint">使用指纹解锁</string>
@@ -2295,6 +2445,13 @@ Please refer to @tgx_android_translate for guide on how to make your own scenes.
     <string name="xChats_other">%1$s 个对话</string>
     <string name="xChats_two">%1$s 个对话</string>
     <string name="xChats_zero">%1$s 个对话</string>
+    <string name="xColors">%1$s种颜色</string>
+    <string name="xColors_few">%1$s种颜色</string>
+    <string name="xColors_many">%1$s种颜色</string>
+    <string name="xColors_one">%1$s种颜色</string>
+    <string name="xColors_other">%1$s种颜色</string>
+    <string name="xColors_two">%1$s种颜色</string>
+    <string name="xColors_zero">%1$s种颜色</string>
     <string name="xContacts">%1$s 个联系人在 Telegram</string>
     <string name="xContactsJoined">%1$s 个联系人在 Telegram</string>
     <string name="xContactsJoined_few">%1$s 个联系人在 Telegram</string>
@@ -2310,6 +2467,13 @@ Please refer to @tgx_android_translate for guide on how to make your own scenes.
     <string name="xContacts_two">%1$s 个联系人</string>
     <string name="xContacts_zero">%1$s 个联系人</string>
     <string name="xDays">%1$s 天</string>
+    <string name="xDaysRelative">%1$s 天</string>
+    <string name="xDaysRelative_few">%1$s 天</string>
+    <string name="xDaysRelative_many">%1$s 天</string>
+    <string name="xDaysRelative_one">%1$s 天</string>
+    <string name="xDaysRelative_other">%1$s 天</string>
+    <string name="xDaysRelative_two">%1$s 天</string>
+    <string name="xDaysRelative_zero">%1$s 天</string>
     <string name="xDaysShort">%1$s 天</string>
     <string name="xDaysShort_few">%1$s 天</string>
     <string name="xDaysShort_many">%1$s 天</string>
@@ -2352,6 +2516,13 @@ Please refer to @tgx_android_translate for guide on how to make your own scenes.
     <string name="xGroups_two">%1$s 个群组</string>
     <string name="xGroups_zero">%1$s 个群组</string>
     <string name="xHours">%1$s 个小时</string>
+    <string name="xHoursRelative">%1$s 个小时</string>
+    <string name="xHoursRelative_few">%1$s 个小时</string>
+    <string name="xHoursRelative_many">%1$s 个小时</string>
+    <string name="xHoursRelative_one">%1$s 个小时</string>
+    <string name="xHoursRelative_other">%1$s 个小时</string>
+    <string name="xHoursRelative_two">%1$s 个小时</string>
+    <string name="xHoursRelative_zero">%1$s 个小时</string>
     <string name="xHoursShort">%1$s 个小时</string>
     <string name="xHoursShort_few">%1$s 个小时</string>
     <string name="xHoursShort_many">%1$s 个小时</string>
@@ -2365,6 +2536,13 @@ Please refer to @tgx_android_translate for guide on how to make your own scenes.
     <string name="xHours_other">%1$s 个小时</string>
     <string name="xHours_two">%1$s 个小时</string>
     <string name="xHours_zero">%1$s 个小时</string>
+    <string name="xItem">%1$s 个项目</string>
+    <string name="xItem_few">%1$s 个项目</string>
+    <string name="xItem_many">%1$s 个项目</string>
+    <string name="xItem_one">%1$s 个项目</string>
+    <string name="xItem_other">%1$s 个项目</string>
+    <string name="xItem_two">%1$s 个项目</string>
+    <string name="xItem_zero">%1$s 个项目</string>
     <string name="xLines">%1$s 行</string>
     <string name="xLines_few">%1$s 行</string>
     <string name="xLines_many">%1$s 行</string>
@@ -2415,6 +2593,13 @@ Please refer to @tgx_android_translate for guide on how to make your own scenes.
     <string name="xMin_two">%1$s 分钟</string>
     <string name="xMin_zero">%1$s 分钟</string>
     <string name="xMinutes">%1$s 分钟</string>
+    <string name="xMinutesRelative">%1$s 分钟</string>
+    <string name="xMinutesRelative_few">%1$s 分钟</string>
+    <string name="xMinutesRelative_many">%1$s 分钟</string>
+    <string name="xMinutesRelative_one">%1$s 分钟</string>
+    <string name="xMinutesRelative_other">%1$s 分钟</string>
+    <string name="xMinutesRelative_two">%1$s 分钟</string>
+    <string name="xMinutesRelative_zero">%1$s 分钟</string>
     <string name="xMinutesShort">%1$s 分钟</string>
     <string name="xMinutesShort_few">%1$s 分钟</string>
     <string name="xMinutesShort_many">%1$s 分钟</string>
@@ -2498,6 +2683,13 @@ Please refer to @tgx_android_translate for guide on how to make your own scenes.
     <string name="xProfilePhotos_other">%1$s 张头像</string>
     <string name="xProfilePhotos_two">%1$s 张头像</string>
     <string name="xProfilePhotos_zero">%1$s 张头像</string>
+    <string name="xProperty">%1$s 项属性</string>
+    <string name="xProperty_few">%1$s 项属性</string>
+    <string name="xProperty_many">%1$s 项属性</string>
+    <string name="xProperty_one">%1$s 项属性</string>
+    <string name="xProperty_other">%1$s 项属性</string>
+    <string name="xProperty_two">%1$s 项属性</string>
+    <string name="xProperty_zero">%1$s 项属性</string>
     <string name="xSec">%1$s 秒</string>
     <string name="xSec_few">%1$s 秒</string>
     <string name="xSec_many">%1$s 秒</string>
@@ -2506,6 +2698,13 @@ Please refer to @tgx_android_translate for guide on how to make your own scenes.
     <string name="xSec_two">%1$s 秒</string>
     <string name="xSec_zero">%1$s 秒</string>
     <string name="xSeconds">%1$s 秒</string>
+    <string name="xSecondsRelative">%1$s 秒</string>
+    <string name="xSecondsRelative_few">%1$s 秒</string>
+    <string name="xSecondsRelative_many">%1$s 秒</string>
+    <string name="xSecondsRelative_one">%1$s 秒</string>
+    <string name="xSecondsRelative_other">%1$s 秒</string>
+    <string name="xSecondsRelative_two">%1$s 秒</string>
+    <string name="xSecondsRelative_zero">%1$s 秒</string>
     <string name="xSecondsShort">%1$s 秒</string>
     <string name="xSecondsShort_few">%1$s 秒</string>
     <string name="xSecondsShort_many">%1$s 秒</string>
@@ -2604,6 +2803,13 @@ Please refer to @tgx_android_translate for guide on how to make your own scenes.
     <string name="xWebsites_two">%1$s 个网站</string>
     <string name="xWebsites_zero">%1$s 个网站</string>
     <string name="xWeeks">%1$s 周</string>
+    <string name="xWeeksRelative">%1$s 周</string>
+    <string name="xWeeksRelative_few">%1$s 周</string>
+    <string name="xWeeksRelative_many">%1$s 周</string>
+    <string name="xWeeksRelative_one">%1$s 周</string>
+    <string name="xWeeksRelative_other">%1$s 周</string>
+    <string name="xWeeksRelative_two">%1$s 周</string>
+    <string name="xWeeksRelative_zero">%1$s 周</string>
     <string name="xWeeksShort">%1$s 周</string>
     <string name="xWeeksShort_few">%1$s 周</string>
     <string name="xWeeksShort_many">%1$s 周</string>

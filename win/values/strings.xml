@@ -20,7 +20,7 @@
     <string name="ActionPinnedGeo">%1$s pinned a **location**</string>
     <string name="ActionPinnedGeoLive">%1$s pinned a **live location**</string>
     <string name="ActionPinnedGif">%1$s pinned a **GIF**</string>
-    <string name="ActionPinnedMusic">%1$s pinned a **track**</string>
+    <string name="ActionPinnedMusic">%1$s pinned an **audio file**</string>
     <string name="ActionPinnedNoText">%1$s pinned a **message**</string>
     <string name="ActionPinnedPhoto">%1$s pinned a **photo**</string>
     <string name="ActionPinnedRound">%1$s pinned a **video message**</string>
@@ -184,7 +184,7 @@ Small dot indicates current level of ambient lighting measured by your device."<
     <string name="AutoNightScheduled">Scheduled</string>
     <string name="AutomaticMediaDownload">Automatic media download</string>
     <string name="AutoplayGifs">Autoplay GIFs</string>
-    <string name="AwaitingEmailConfirmation">Awaiting e-mail confirmation</string>
+    <string name="AwaitingEmailConfirmation">Awaiting email confirmation</string>
     <string name="AwaitingEncryption">Waiting for %1$s to get online…</string>
     <string name="BanMember">Ban Member</string>
     <string name="BanUser">Ban user</string>
@@ -244,7 +244,7 @@ Brief overview of new features:
 Note: if you forget the passcode, you'll need to delete and reinstall the app. All secret chats will be lost."</string>
     <string name="ChangePassword">Change Password</string>
     <string name="ChangePhoneHelp">We will send an SMS with a confirmation code to your new number.</string>
-    <string name="ChangeRecoveryEmail">Change Recovery E-Mail</string>
+    <string name="ChangeRecoveryEmail">Change Recovery Email</string>
     <string name="Channel">Channel</string>
     <string name="ChannelAddAdmin">Add administrator</string>
     <string name="ChannelBroadcast">Broadcast</string>
@@ -261,6 +261,7 @@ Note: if you forget the passcode, you'll need to delete and reinstall the app. A
     <string name="ChannelName">Channel Name</string>
     <string name="ChannelNotifyMembersInfoOff">Members will receive a silent notification</string>
     <string name="ChannelNotifyMembersInfoOn">Members will be notified when you post</string>
+    <string name="ChannelPhoto">Channel photo</string>
     <string name="ChannelPrivate">Private Channel</string>
     <string name="ChannelPrivateInfo">Private channels can only be joined via an invite link.</string>
     <string name="ChannelPrivateLinkHelp">People can join your channel by following this link. You can revoke the link any time.</string>
@@ -298,7 +299,6 @@ Note: if you forget the passcode, you'll need to delete and reinstall the app. A
     <string name="ChatLinkRemoveAlert">Wait! Are you sure you want to make %1$s private and release its public link? While free, it might be taken by any other user.</string>
     <string name="ChatLinkView">View Chat</string>
     <string name="ChatMode">Chats Appearance</string>
-    <string name="ChatPhoto">Chat photo</string>
     <string name="ChatPreview">Chat preview</string>
     <string name="ChatQuickActions">Swipe actions</string>
     <string name="ChatStyleBubbles">Bubbles in Chats</string>
@@ -311,7 +311,7 @@ Turn them back on in Settings > Privacy and Security."</string>
     <string name="ChatWithYourself">Chat with yourself</string>
     <string name="Chats">Chats</string>
     <string name="ChatsAndContacts">Chats and Contacts</string>
-    <string name="CheckYourVerificationEmail">Please check your e-mail and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.</string>
+    <string name="CheckYourVerificationEmail">Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.</string>
     <string name="ChooseYourGesture">Draw your gesture</string>
     <string name="ChooseYourPIN">Choose your PIN</string>
     <string name="ChooseYourPassword">Choose your password</string>
@@ -331,7 +331,42 @@ Turn them back on in Settings > Privacy and Security."</string>
     <string name="CloudDownload">Download %1$s</string>
     <string name="CloudPause">Pause Download</string>
     <string name="CloudResume">Resume Download</string>
+    <string name="ColorAlpha">A</string>
+    <string name="ColorAlphaPercentage">A%</string>
+    <string name="ColorBlue">B</string>
+    <string name="ColorClearAll" />
+    <string name="ColorClearAll_few" />
+    <string name="ColorClearAll_many" />
+    <string name="ColorClearAll_one">"Delete %1$s other version of %2$s?
+
+This action cannot be undone."</string>
+    <string name="ColorClearAll_other">"Delete all %1$s other versions of %2$s?
+
+This action cannot be undone."</string>
+    <string name="ColorClearAll_two" />
+    <string name="ColorClearAll_zero" />
+    <string name="ColorClearDone" />
+    <string name="ColorClearDone_few" />
+    <string name="ColorClearDone_many" />
+    <string name="ColorClearDone_one">Delete %1$s color</string>
+    <string name="ColorClearDone_other">Delete %1$s colors</string>
+    <string name="ColorClearDone_two" />
+    <string name="ColorClearDone_zero" />
+    <string name="ColorDefault">Default</string>
+    <string name="ColorGreen">G</string>
+    <string name="ColorHex">Hex</string>
+    <string name="ColorHue">H</string>
+    <string name="ColorLightness">L</string>
+    <string name="ColorRed">R</string>
+    <string name="ColorRemove">"Delete current version of %1$s?
+
+This action cannot be undone."</string>
+    <string name="ColorRemoveDone">Delete Color</string>
+    <string name="ColorSaturation">S</string>
     <string name="ColorTheme">Color Theme</string>
+    <string name="ColorTypeHSLA">HSLA (Hue, Saturation, Lightness, Alpha)</string>
+    <string name="ColorTypeHex">Hex (#RRGGBBAA)</string>
+    <string name="ColorTypeRGBA">RGBA (Red, Green, Blue, Alpha)</string>
     <string name="ComeAgainLater">Come again later</string>
     <string name="Confirm">Confirm</string>
     <string name="ConfirmCalls">Prompt before calling</string>
@@ -343,7 +378,7 @@ Turn them back on in Settings > Privacy and Security."</string>
     <string name="ConfirmYourPattern">Confirm your pattern</string>
     <string name="ConfirmationCode">Confirmation Code</string>
     <string name="Connected">Connected</string>
-    <string name="ConnectedWebsitesDesc">Disconnect from your Telegram account.</string>
+    <string name="ConnectedWebsitesDesc">Tap to disconnect from your Telegram account.</string>
     <string name="ConnectingToProxy">Connecting to proxy…</string>
     <string name="Connection">Connection</string>
     <string name="ContactAdded">Contact added</string>
@@ -363,6 +398,7 @@ Turn them back on in Settings > Privacy and Security."</string>
     <string name="Convert">Convert</string>
     <string name="ConvertGroup">Convert to Supergroup</string>
     <string name="CopiedCashtag">Cashtag has been copied to the clipboard</string>
+    <string name="CopiedColor">Color and its name have been copied to the clipboard</string>
     <string name="CopiedCoordinates">Coordinates have been copied to the clipboard</string>
     <string name="CopiedHashtag">Hashtag has been copied to the clipboard</string>
     <string name="CopiedLink">Link has been copied to the clipboard</string>
@@ -454,6 +490,7 @@ Turn them back on in Settings > Privacy and Security."</string>
     <string name="DeleteUserChatConfirm">Are you sure you want to delete the chat with %1$s? This action cannot be undone.</string>
     <string name="DeleteXFromRecents">Delete %1$s from recently found chats?</string>
     <string name="DeletedMessage">Deleted message</string>
+    <string name="Demo">Demo</string>
     <string name="Description">Description</string>
     <string name="DescriptionEmptyHint">Enter description here</string>
     <string name="DescriptionInfo">You can provide an optional description for your channel.</string>
@@ -499,7 +536,7 @@ You may enable it any time later in Settings > Themes."</string>
     <string name="DragChatsHint">Drag chat to reorder</string>
     <string name="DroppedPin">Dropped Pin</string>
     <string name="Duration">Duration</string>
-    <string name="EMail">E-Mail</string>
+    <string name="EMail">Email</string>
     <string name="EarpieceMode">Playback through earpiece</string>
     <string name="EarpieceModeAlways">Always</string>
     <string name="EarpieceModeNever">Never</string>
@@ -513,7 +550,7 @@ You may enable it any time later in Settings > Themes."</string>
     <string name="EditName">Edit name</string>
     <string name="EditUserRestrictions">Edit User Restrictions</string>
     <string name="EditUsername">Edit Username</string>
-    <string name="EmailMatchesOldOne">E-Mail is the same as the old one.</string>
+    <string name="EmailMatchesOldOne">"Email address hasn't changed."</string>
     <string name="EnableNotifications">Enable notifications</string>
     <string name="EnableProxyAlertHint">You can change your proxy server later in Settings > Data and Storage.</string>
     <string name="EnableProxyAlertHintMtproto">"This proxy may display a sponsored channel in your chats list. This doesn't reveal any of your Telegram traffic."</string>
@@ -529,7 +566,7 @@ You'll need the password you set up here to log in to your Telegram account."</s
 
 If they look the same on %1$s's device, end-to-end encryption is guaranteed."</string>
     <string name="Enhance">Enhance</string>
-    <string name="EnterANewEmail">Enter a new e-mail</string>
+    <string name="EnterANewEmail">Enter a new email address</string>
     <string name="EnterANewPassword">Enter a new password</string>
     <string name="EnterAPassword">Enter a password</string>
     <string name="EnterCode">Enter code</string>
@@ -543,7 +580,7 @@ If they look the same on %1$s's device, end-to-end encryption is guaranteed."</s
     <string name="ErrorPinnedChatsLimit_two" />
     <string name="ErrorPinnedChatsLimit_zero" />
     <string name="ErrorUserDeleted">Cannot perform this action, because user account is deactivated.</string>
-    <string name="ErrorUsersTooFew">Not enough members: everyone has restricted who can invite them.</string>
+    <string name="ErrorUsersTooFew">"You can't add the selected users to groups because of their privacy settings."</string>
     <string name="EventLog">Recent Actions</string>
     <string name="EventLogAllAdmins">All admins</string>
     <string name="EventLogAllEvents">All actions</string>
@@ -639,6 +676,8 @@ Please copy the scary error details below and submit them to support@telegram.or
     <string name="FeatureUnavailable">Sorry, this feature is currently not available in your country.</string>
     <string name="File">File</string>
     <string name="FileName">File Name</string>
+    <string name="FileNameCopy">%1$s (copy)</string>
+    <string name="FileNameDuplicate">%1$s #%2$d</string>
     <string name="Files">Files</string>
     <string name="Flags">Flags</string>
     <string name="Folder">Folder</string>
@@ -694,6 +733,7 @@ To go over the **%1$s** members limit, you can convert your group to a **supergr
     <string name="GroupIsFull">The group you tried to join is full</string>
     <string name="GroupLink">Group Link</string>
     <string name="GroupName">Group name</string>
+    <string name="GroupPhoto">Group photo</string>
     <string name="GroupType">Group Type</string>
     <string name="GroupUpgraded">Group upgraded to supergroup</string>
     <string name="GroupUpgradedFrom">Group upgraded to supergroup. Tap here to view older history.</string>
@@ -703,7 +743,7 @@ To go over the **%1$s** members limit, you can convert your group to a **supergr
     <string name="GroupsWillBeShownHere">Groups in common will be shown here</string>
     <string name="HangUp">Hang up</string>
     <string name="HashtagDeleteHint">Delete this hashtag from suggestions?</string>
-    <string name="HavingTroubleAccessing">"Having trouble accessing your e-mail
+    <string name="HavingTroubleAccessing">"Having trouble accessing your email
 %1$s?"</string>
     <string name="Help">Help</string>
     <string name="HelpEmailError">Please send an email to %1$s and tell us about your problem</string>
@@ -802,16 +842,16 @@ Translated: %5$d%% (%6$s)"</string>
     <string name="LayerMapHybrid">Hybrid</string>
     <string name="LayerMapSatellite">Satellite</string>
     <string name="LayerMapTerrain">Terrain</string>
-    <string name="LeaveAdminNoReturnHintChannel">Warning: you will lose all your admin rights and will not be able to return to this channel unless invited by an admin</string>
-    <string name="LeaveAdminNoReturnHintGroup">Warning: you will lose all your admin rights and will not be able to return to this group unless invited by another member</string>
+    <string name="LeaveAdminNoReturnHintChannel">Warning: you will lose all your admin rights and will not be able to return to this channel unless added by an admin</string>
+    <string name="LeaveAdminNoReturnHintGroup">Warning: you will lose all your admin rights and will not be able to return to this group unless added by another member</string>
     <string name="LeaveChannel">Leave channel</string>
     <string name="LeaveChatAdminHint">Warning: you will lose all your admin rights after leaving</string>
-    <string name="LeaveCreatorHintChannel">Warning: you might not be able to return to this channel unless invited by an admin</string>
-    <string name="LeaveCreatorHintGroup">Warning: you might not be able to return to this group unless invited by another member</string>
+    <string name="LeaveCreatorHintChannel">Warning: you might not be able to return to this channel unless added by an admin</string>
+    <string name="LeaveCreatorHintGroup">Warning: you might not be able to return to this group unless added by another member</string>
     <string name="LeaveDoneGroup">Leave</string>
     <string name="LeaveMegaMenu">Leave group</string>
-    <string name="LeaveNoReturnHintChannel">Warning: you will not be able to return to this channel unless invited by an admin</string>
-    <string name="LeaveNoReturnHintGroup">Warning: you will not be able to return to this group unless invited by another member</string>
+    <string name="LeaveNoReturnHintChannel">Warning: you will not be able to return to this channel unless added by an admin</string>
+    <string name="LeaveNoReturnHintGroup">Warning: you will not be able to return to this group unless added by another member</string>
     <string name="LeaveRemoveFromList">Delete chat from list</string>
     <string name="LeaveReturnPublicLinkHintChannel">You will be able to return to this channel by its public link</string>
     <string name="LeaveReturnPublicLinkHintGroup">You will be able to return to this group by its public link</string>
@@ -918,11 +958,11 @@ __italic__
     <string name="MediaTypeUnsupported">Feature is unsupported for this type of media</string>
     <string name="MemberBanChannel">This User will be banned and removed from channel.</string>
     <string name="MemberBanGroup">This User will be banned and removed from group.</string>
-    <string name="MemberCanJoinChannel">%1$s will be able to return to channel.</string>
-    <string name="MemberCanJoinGroup">%1$s will be able to return to group.</string>
-    <string name="MemberCannotJoinChannel">%1$s will not be able to return to channel unless invited back by admin.</string>
-    <string name="MemberCannotJoinGroup">%1$s will not be able to return to group unless invited back by admin.</string>
-    <string name="MemberCannotJoinRegularGroup">%1$s will not be able to return to group unless invited by another member or given an invite link.</string>
+    <string name="MemberCanJoinChannel">%1$s will be able to return to the channel.</string>
+    <string name="MemberCanJoinGroup">%1$s will be able to return to the group.</string>
+    <string name="MemberCannotJoinChannel">%1$s will not be able to return to the channel unless added back by admin.</string>
+    <string name="MemberCannotJoinGroup">%1$s will not be able to return to the group unless added back by admin.</string>
+    <string name="MemberCannotJoinRegularGroup">%1$s will not be able to return to the group unless added by another member or given an invite link.</string>
     <string name="MemberRestrictChannel">This user will not be removed from the channel.</string>
     <string name="MemberRestrictGroup">This User will not be removed from group.</string>
     <string name="MembersDetailAdmins">Administrators</string>
@@ -1000,7 +1040,7 @@ Invite your friends and family to join Telegram"</string>
 will be shown here."</string>
     <string name="NoDocumentsToShowInChat">"Share files and documents in this chat and
 access them on any of your devices."</string>
-    <string name="NoEmailApp">No E-Mail application found</string>
+    <string name="NoEmailApp">No email application found</string>
     <string name="NoFiles">No Files</string>
     <string name="NoGIFs">No GIFs</string>
     <string name="NoGalleryAccess">Permission error</string>
@@ -1178,13 +1218,13 @@ messages from multiple devices."</string>
     <string name="PasswordDoNotMatch">Passwords do not match</string>
     <string name="PasswordEnabled">Enabled</string>
     <string name="PasswordIsInvalid">The password you have entered is invalid</string>
-    <string name="PasswordMatchesOldOne">Password is the same as the old one.</string>
+    <string name="PasswordMatchesOldOne">"Password hasn't changed."</string>
     <string name="PasswordRecovery">Password Recovery</string>
     <string name="PastWeek">Past week</string>
     <string name="PaymentSuccessfullyPaid">You have just successfully transferred %1$s to %2$s for %3$s</string>
     <string name="PaymentSuccessfullyPaidNoItem">You have just successfully transferred %1$s to %2$s</string>
     <string name="PeerToPeerInfo">Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but will slightly decrease audio quality.</string>
-    <string name="PendingEmailText">Your recovery e-mail %1$s is not yet active and pending confirmation.</string>
+    <string name="PendingEmailText">Your recovery email %1$s is not yet active and pending confirmation.</string>
     <string name="People">People</string>
     <string name="PerformAs">Perform action as…</string>
     <string name="Phone">Phone</string>
@@ -1327,8 +1367,8 @@ messages from multiple devices."</string>
     <string name="RecordingRound">recording video</string>
     <string name="RecordingVideo">recording video</string>
     <string name="RecoveryCodeInvalid">Invalid recovery code. Please try again</string>
-    <string name="RecoveryCodeSent">"We've sent you a 6-digit recovery code to %1$s. Check your e-mail and enter it here."</string>
-    <string name="RecoveryCodeSentEmailUnknown">"We've sent you a 6-digit recovery code. Check your e-mail and enter it here."</string>
+    <string name="RecoveryCodeSent">"We've sent you a 6-digit recovery code to %1$s. Please check your email and enter it here."</string>
+    <string name="RecoveryCodeSentEmailUnknown">"We've sent you a 6-digit recovery code. Please check your email and enter it here."</string>
     <string name="ReduceMotion">Reduce Motion</string>
     <string name="RememberAlbumSetting">Remember media grouping setting</string>
     <string name="Remove">Remove</string>
@@ -1380,8 +1420,8 @@ messages from multiple devices."</string>
     <string name="ResetNotifications">Reset All Notifications</string>
     <string name="ResetStatistics">Reset statistics</string>
     <string name="ResetStatsHint">Do you want to reset your network usage statistics?</string>
-    <string name="RestoreEmailTroubleText">"If you can't restore access to your e-mail, your remaining options are either to remember your password or to reset your account."</string>
-    <string name="RestoreEmailTroubleUnknown">Having trouble accessing your e-mail?</string>
+    <string name="RestoreEmailTroubleText">"If you can't restore access to your email, your remaining options are either to remember your password or to reset your account."</string>
+    <string name="RestoreEmailTroubleUnknown">Having trouble accessing your email?</string>
     <string name="RestorePasswordNoEmailTitle">Sorry</string>
     <string name="RestrictFor">Restrict for</string>
     <string name="RestrictOnRoaming">Restrict on roaming</string>
@@ -1409,6 +1449,7 @@ messages from multiple devices."</string>
     <string name="RoamingUsage">Roaming Data Usage</string>
     <string name="RootDirectory">Root Directory</string>
     <string name="RoundVideoPlaybackError">Failed to play video message, see logs for details.</string>
+    <string name="RtlLayout">Right-to-Left Layout</string>
     <string name="Saturation">Saturation</string>
     <string name="Save">Save</string>
     <string name="SaveGif">Save GIF</string>
@@ -1542,7 +1583,7 @@ If you need a global passcode, use Settings > Privacy and Security > Passcode Lo
     <string name="SentCallCode">We are calling your phone **%1$s** to dictate a code.</string>
     <string name="SentCallOnly">"We've sent an activation call to your phone **%1$s**.
 
-Don't take it, Telegram will process everything automatically."</string>
+Don't accept the call, Telegram will process everything automatically."</string>
     <string name="SentSmsCode">"We've sent an SMS with an activation code to your phone **%1$s**."</string>
     <string name="SeparateMediaTab">Separate photo and video tabs</string>
     <string name="ServiceNotifications">service notifications</string>
@@ -1555,7 +1596,7 @@ Don't take it, Telegram will process everything automatically."</string>
     <string name="SetAsAdmin">Promote to Admin</string>
     <string name="SetAsCurrent">Set as current</string>
     <string name="SetProfilePhotoError">Error updating photo: %1$s</string>
-    <string name="SetRecoveryEmail">Set Recovery E-Mail</string>
+    <string name="SetRecoveryEmail">Set Recovery Email</string>
     <string name="SetUpUsername">Set Username</string>
     <string name="Settings">Settings</string>
     <string name="Shadows">Shadows</string>
@@ -1596,7 +1637,7 @@ This can be useful for integration with other services."</string>
     <string name="ShowOnFoursquare">Foursquare</string>
     <string name="ShowSourceMessage">Go to source chat</string>
     <string name="SignOutHint">Are you sure you want to sign out as %1$s? All secret chats will be lost.</string>
-    <string name="SinceNotProvided">"Since you haven't provided a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account."</string>
+    <string name="SinceNotProvided">"Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account."</string>
     <string name="Skip">Skip</string>
     <string name="SmileysAndPeople">Smileys &amp; People</string>
     <string name="Socks5Proxy">SOCKS5 Proxy</string>
@@ -1692,17 +1733,71 @@ Do not share them with anyone, unless you know what you are doing."</string>
     <string name="TextSizeReset">Reset to Default</string>
     <string name="TextSizeScaleDisable">Disable Size Scaling</string>
     <string name="TextSizeScaleEnable">Enable Size Scaling</string>
+    <string name="ThemeAdvanced">Properties</string>
+    <string name="ThemeAdvancedEdit">Edit Property</string>
     <string name="ThemeBlackWhite">Black-white</string>
     <string name="ThemeBlue">Blue</string>
+    <string name="ThemeCalcHint">Background (color or identifier)</string>
+    <string name="ThemeCalcSave">Calculate</string>
+    <string name="ThemeCalcTitle">Remove Transparency</string>
+    <string name="ThemeCategoryAccent">Accent</string>
+    <string name="ThemeCategoryAccent_info">"This list contains accent colors of the app.
+Refer to other categories for the granular setup."</string>
+    <string name="ThemeCategoryBubbles">Bubbles</string>
+    <string name="ThemeCategoryChats">Chats</string>
+    <string name="ThemeCategoryColors">Media</string>
+    <string name="ThemeCategoryContent">Content</string>
+    <string name="ThemeCategoryControls">Controls</string>
+    <string name="ThemeCategoryIV">Instant View</string>
+    <string name="ThemeCategoryInternal">Service</string>
+    <string name="ThemeCategoryNavigation">Header</string>
+    <string name="ThemeCategoryOther">Other</string>
     <string name="ThemeClassic">Classic</string>
+    <string name="ThemeClose">Close</string>
+    <string name="ThemeColorFormat">Color Format</string>
+    <string name="ThemeCopy">Create Copy</string>
+    <string name="ThemeCreate">Create New Theme</string>
+    <string name="ThemeCreateConfirm">Create</string>
+    <string name="ThemeCreateInfo">New theme will be based on the %1$s theme.</string>
+    <string name="ThemeCreateTitle">New Theme</string>
     <string name="ThemeCustom">Custom</string>
     <string name="ThemeCyan">Cyan</string>
+    <string name="ThemeEdit">Edit</string>
+    <string name="ThemeEditInfo">%1$s theme</string>
+    <string name="ThemeEditName">Edit Name</string>
+    <string name="ThemeExport">Export</string>
+    <string name="ThemeExportAddAuthorInfo">Username or link</string>
+    <string name="ThemeExportAddAuthorTitle">Theme Author</string>
+    <string name="ThemeExportDone">Export</string>
+    <string name="ThemeExportInfo">"If you specify the author's username, it will be displayed to users before they install the theme."</string>
+    <string name="ThemeFile">Theme, %1$s</string>
     <string name="ThemeGreen">Green</string>
+    <string name="ThemeInstall">Apply %1$s theme?</string>
+    <string name="ThemeInstallAuthor">Apply %1$s theme by %2$s?</string>
+    <string name="ThemeInstallDone">Apply theme</string>
+    <string name="ThemeInstallHint">You can switch between installed themes in Settings > Themes</string>
+    <string name="ThemeMinimize">Minimize</string>
+    <string name="ThemeName">Name</string>
     <string name="ThemeNight">Night Black</string>
     <string name="ThemeNightBlue">Night Blue</string>
     <string name="ThemeOrange">Orange</string>
     <string name="ThemePink">Pink</string>
     <string name="ThemeRed">Red</string>
+    <string name="ThemeRemove">Delete</string>
+    <string name="ThemeRemoveConfirm">Delete Theme</string>
+    <string name="ThemeRemoveInfo">Are you sure you want to delete this theme? This action cannot be undone.</string>
+    <string name="ThemeSectionAttach">Attach Menu</string>
+    <string name="ThemeSectionBackground">Background</string>
+    <string name="ThemeSectionIcons">Icons</string>
+    <string name="ThemeSectionMedia">Media</string>
+    <string name="ThemeSectionPlayer">Music Player</string>
+    <string name="ThemeSectionRadios_info">"These colors are displayed in Settings > Theme.
+Make sure they clearly represent corresponding themes on your **filling** color."</string>
+    <string name="ThemeSectionText">Text</string>
+    <string name="ThemeSectionUnsorted">Unsorted</string>
+    <string name="ThemeSectionWP_info">"These colors are used as a transparent overlay when the corresponding wallpaper is set: dates, unread separators, inline keyboards, etc.
+
+Do not change them unless you are looking for a better color."</string>
     <string name="ThemeSettings">Themes and Chats</string>
     <string name="ThemeWhiteBlack">White-black</string>
     <string name="Themes">Themes</string>
@@ -1717,7 +1812,7 @@ Do not share them with anyone, unless you know what you are doing."</string>
 
 Exported from %3$s"</string>
     <string name="ToolsLocalePlaceholder">Locale. Examples: **ja-JP**, **zh-CN**, **ro-RO**</string>
-    <string name="ToolsOpenOnPlatform">Translations Platform</string>
+    <string name="ToolsOpenOnPlatform">Translation Platform</string>
     <string name="ToolsShowToast">Show Toast</string>
     <string name="ToolsStringSectionFormat">Formats</string>
     <string name="ToolsStringSectionJson">JSON data</string>
@@ -1732,7 +1827,7 @@ Exported from %3$s"</string>
     <string name="TouchYourSensor">Touch your sensor</string>
     <string name="TranslationMoreCreate">Create</string>
     <string name="TranslationMoreDone">Got it</string>
-    <string name="TranslationMoreText">"The list of available languages is managed by the [Translations Platform](https://translations.telegram.org).
+    <string name="TranslationMoreText">"The list of available languages is managed by the [Translation Platform](https://translations.telegram.org).
 
 Telegram will offer you to switch to your language when a corresponding translation becomes officially available.
 
@@ -1833,6 +1928,7 @@ Minimum length is **5** characters."</string>
     <string name="UsernameInvalidStartNumber">"Sorry, a username can't start with a number."</string>
     <string name="UsernameNotOccupied">Username %1$s not found</string>
     <string name="UsernameNotOccupiedUnknown">Chat with specified username not found</string>
+    <string name="ValueReset">Default</string>
     <string name="Vibrate">Vibrate</string>
     <string name="VibrateDisabled">Disabled</string>
     <string name="Video">Video</string>
@@ -1938,17 +2034,42 @@ Minimum length is **5** characters."</string>
     <string name="YouDisabledTimer">You disabled self-destruct timer</string>
     <string name="YouHaveNewMessage">You have a new message</string>
     <string name="YouJoinedByLink">You joined by invite link</string>
+    <string name="YouJoinedSecretChat">You joined the secret chat</string>
     <string name="YouSetTimer">You set the self-destruct timer to %1$s</string>
     <string name="YouTookAScreenshot">You took a screenshot</string>
     <string name="YouWereKicked">you were kicked</string>
-    <string name="YourEmail">Your E-Mail</string>
-    <string name="YourEmailInfo">Please add your valid e-mail. It is the only way to recover a forgotten password.</string>
+    <string name="YourEmail">Your Email</string>
+    <string name="YourEmailInfo">Please add your valid email. It is the only way to recover a forgotten password.</string>
     <string name="YourEmailSkipWarningText">"No, seriously.
 
 If you forget your password, you will lose access to your Telegram account. There will be no way to restore it."</string>
     <string name="YourPassword">Your Password</string>
     <string name="YourPhone">Your Phone</string>
     <string name="YoutubeRotateHint">PS: Rotate your screen to minimize player</string>
+    <string name="c_bubble_chatBackground">"Solid chat background used when wallpaper is not set.
+
+When empty, **background** color is used instead."</string>
+    <string name="c_drawer">Drawer header color overlay. Uses **header** color when empty.</string>
+    <string name="c_drawerText">Drawer header text color. Uses **headerText** color when empty.</string>
+    <string name="c_fileGreen">APK files</string>
+    <string name="c_fileRed">PDF files</string>
+    <string name="c_fileYellow">Archive files: .zip, .rar, .7z</string>
+    <string name="c_fillingNegative">Swipe to see **fillingNegative** in action.</string>
+    <string name="c_fillingPositive">Background of the send button in the share menu.</string>
+    <string name="c_fillingPressed">Hold to see **fillingPressed** in action. Used on **Android 4.x only**.</string>
+    <string name="c_headerLightBackground">Light header is used when selecting media, messages, etc.</string>
+    <string name="c_overlayFilling">Three-dot menus, sticker suggestions, small circle buttons, etc.</string>
+    <string name="c_placeholder">Placeholder color used before image gets loaded.</string>
+    <string name="c_previewBackground">Transparent background for the previews of stickers, media and chats.</string>
+    <string name="c_promo">New trending sticker set.</string>
+    <string name="c_seekDone">Playback progress of the file.</string>
+    <string name="c_seekEmpty">Not yet downloaded part of the file.</string>
+    <string name="c_seekReady">Downloaded part of the file.</string>
+    <string name="c_textLinkPressHighlight">Pressed link background. Must be opaque.</string>
+    <string name="c_textNegative">Buttons with negative effect: delete, remove, clear, etc.</string>
+    <string name="c_textNeutral">Buttons with neutral effect: save, done, cancel, etc.</string>
+    <string name="c_textSearchQueryHighlight">Current query highlight when searching chats, contacts, etc.</string>
+    <string name="c_textSelectionHighlight">Selected text background.</string>
     <string name="cam_hint">Please allow Telegram X to use camera in System Settings > Apps > Telegram X > Permissions</string>
     <string name="channel_create_somebody">Channel created «%1$s»</string>
     <string name="channel_user_add">%1$s joined the channel</string>
@@ -2011,6 +2132,7 @@ System Version: %5$s"</string>
     <string name="format_ivAuthorDateSeparator">" • "</string>
     <string name="format_languageStatus">%1$s (%2$d%%)</string>
     <string name="format_locationUpdated">updated %1$s</string>
+    <string name="format_mediaIndexAndTime">%1$s, %2$s</string>
     <string name="format_membersAndOnline">%1$s, %2$s</string>
     <string name="format_minus">-%1$d</string>
     <string name="format_minusPlus">-%1$d, +%2$d</string>
@@ -2030,6 +2152,9 @@ System Version: %5$s"</string>
     <string name="format_thousandsSeparator">,</string>
     <string name="format_timestamp">%1$02d.%2$02d.%3$02d %4$s</string>
     <string name="format_uploadStatus">%1$d%% %2$s</string>
+    <string name="g_noWallpaper">"These colors are used when wallpaper is disabled or not yet loaded.
+
+If your theme does not allow disabling wallpaper, you can ignore them."</string>
     <string name="game_ActionUserScored" />
     <string name="game_ActionUserScoredInGame" />
     <string name="game_ActionUserScoredInGame_few" />
@@ -2173,6 +2298,28 @@ You can revert changes anytime later in Settings > Language."</string>
     <string name="network_Updating">Updating…</string>
     <string name="network_WaitingForNetwork">Waiting for network…</string>
     <string name="notInChat">you are not in chat</string>
+    <string name="p_bubbleCorner">Bubble corner radius.</string>
+    <string name="p_bubbleCornerLegacy">Bubble corner radius on **Android 4.x**. Max value: **6**.</string>
+    <string name="p_bubbleCornerMerged">Bubble corner radius when merged with another bubble.</string>
+    <string name="p_bubbleDateCorner">Background corner radius for dates in the bubble mode.</string>
+    <string name="p_bubbleOutline">"Enables a solid outline for bubbles. You can configure its color with **bubbleOut_outline** or **bubbleIn_outline**.
+
+Enable this property if you change **bubbleCorner** values."</string>
+    <string name="p_bubbleOutlineSize">Width of the bubble outline. Used when **bubbleOutline** is enabled.</string>
+    <string name="p_bubbleUnreadShadow">Adds shadow to the unread messages separator in the bubble mode.</string>
+    <string name="p_dark">"Determines if the theme is dark and should be used at night.
+
+It is preferable to change **parentTheme** instead of overriding this property."</string>
+    <string name="p_dateCorner">Background corner radius for dates in the plain mode.</string>
+    <string name="p_imageCorner">Image corner radius. Usually ignored in bubble mode.</string>
+    <string name="p_parentTheme">Default values are inherited from this theme when a color or property is not explicitly set.</string>
+    <string name="p_replaceShadowsWithSeparators">Replaces horizontal shadows with thin solid separators.</string>
+    <string name="p_shadowDepth">Depth of all shadows. Higher value means darker shadow. Default: light themes – 0.5, dark – 1.0</string>
+    <string name="p_subtitleAlpha">Transparency of **headerText** or **headerLightText** in the tab navigation, header subtitles, etc.</string>
+    <string name="p_wallpaperId">Default wallpaper identifier. 0 means wallpaper is disabled by default. Hold wallpaper thumbnail in settings to know its identifier. For solid wallpapers set to 0 and edit **bubble_chatBackground** color.</string>
+    <string name="p_wallpaperUsageId">"A magic property that allows sharing wallpaper settings between similar themes. **0** – light, **1** – dark, **2** – exclusive to theme.
+
+Set to **2**, if your color palette significantly differs from **parentTheme**, or if you disable default wallpaper while creating light theme."</string>
     <string name="passcode_auto_hint">Require passcode if away for a time.</string>
     <string name="passcode_confirm_invisible">%1$s (invisible)</string>
     <string name="passcode_fingerprint">Unlock with Fingerprint</string>
@@ -2298,6 +2445,13 @@ You can revert changes anytime later in Settings > Language."</string>
     <string name="xChats_other">%1$s chats</string>
     <string name="xChats_two" />
     <string name="xChats_zero" />
+    <string name="xColors" />
+    <string name="xColors_few" />
+    <string name="xColors_many" />
+    <string name="xColors_one">%1$s color</string>
+    <string name="xColors_other">%1$s colors</string>
+    <string name="xColors_two" />
+    <string name="xColors_zero" />
     <string name="xContacts" />
     <string name="xContactsJoined" />
     <string name="xContactsJoined_few" />
@@ -2313,6 +2467,13 @@ You can revert changes anytime later in Settings > Language."</string>
     <string name="xContacts_two" />
     <string name="xContacts_zero" />
     <string name="xDays" />
+    <string name="xDaysRelative" />
+    <string name="xDaysRelative_few" />
+    <string name="xDaysRelative_many" />
+    <string name="xDaysRelative_one">%1$s day</string>
+    <string name="xDaysRelative_other">%1$s days</string>
+    <string name="xDaysRelative_two" />
+    <string name="xDaysRelative_zero" />
     <string name="xDaysShort" />
     <string name="xDaysShort_few" />
     <string name="xDaysShort_many" />
@@ -2355,6 +2516,13 @@ You can revert changes anytime later in Settings > Language."</string>
     <string name="xGroups_two" />
     <string name="xGroups_zero" />
     <string name="xHours" />
+    <string name="xHoursRelative" />
+    <string name="xHoursRelative_few" />
+    <string name="xHoursRelative_many" />
+    <string name="xHoursRelative_one">%1$s hour</string>
+    <string name="xHoursRelative_other">%1$s hours</string>
+    <string name="xHoursRelative_two" />
+    <string name="xHoursRelative_zero" />
     <string name="xHoursShort" />
     <string name="xHoursShort_few" />
     <string name="xHoursShort_many" />
@@ -2368,6 +2536,13 @@ You can revert changes anytime later in Settings > Language."</string>
     <string name="xHours_other">%1$s hours</string>
     <string name="xHours_two" />
     <string name="xHours_zero" />
+    <string name="xItem" />
+    <string name="xItem_few" />
+    <string name="xItem_many" />
+    <string name="xItem_one">%1$s item</string>
+    <string name="xItem_other">%1$s items</string>
+    <string name="xItem_two" />
+    <string name="xItem_zero" />
     <string name="xLines" />
     <string name="xLines_few" />
     <string name="xLines_many" />
@@ -2418,6 +2593,13 @@ You can revert changes anytime later in Settings > Language."</string>
     <string name="xMin_two" />
     <string name="xMin_zero" />
     <string name="xMinutes" />
+    <string name="xMinutesRelative" />
+    <string name="xMinutesRelative_few" />
+    <string name="xMinutesRelative_many" />
+    <string name="xMinutesRelative_one">%1$s minute</string>
+    <string name="xMinutesRelative_other">%1$s minutes</string>
+    <string name="xMinutesRelative_two" />
+    <string name="xMinutesRelative_zero" />
     <string name="xMinutesShort" />
     <string name="xMinutesShort_few" />
     <string name="xMinutesShort_many" />
@@ -2501,6 +2683,13 @@ You can revert changes anytime later in Settings > Language."</string>
     <string name="xProfilePhotos_other">%1$s profile photos</string>
     <string name="xProfilePhotos_two" />
     <string name="xProfilePhotos_zero" />
+    <string name="xProperty" />
+    <string name="xProperty_few" />
+    <string name="xProperty_many" />
+    <string name="xProperty_one">%1$s property</string>
+    <string name="xProperty_other">%1$s properties</string>
+    <string name="xProperty_two" />
+    <string name="xProperty_zero" />
     <string name="xSec" />
     <string name="xSec_few" />
     <string name="xSec_many" />
@@ -2509,6 +2698,13 @@ You can revert changes anytime later in Settings > Language."</string>
     <string name="xSec_two" />
     <string name="xSec_zero" />
     <string name="xSeconds" />
+    <string name="xSecondsRelative" />
+    <string name="xSecondsRelative_few" />
+    <string name="xSecondsRelative_many" />
+    <string name="xSecondsRelative_one">%1$s second</string>
+    <string name="xSecondsRelative_other">%1$s seconds</string>
+    <string name="xSecondsRelative_two" />
+    <string name="xSecondsRelative_zero" />
     <string name="xSecondsShort" />
     <string name="xSecondsShort_few" />
     <string name="xSecondsShort_many" />
@@ -2607,6 +2803,13 @@ You can revert changes anytime later in Settings > Language."</string>
     <string name="xWebsites_two" />
     <string name="xWebsites_zero" />
     <string name="xWeeks" />
+    <string name="xWeeksRelative" />
+    <string name="xWeeksRelative_few" />
+    <string name="xWeeksRelative_many" />
+    <string name="xWeeksRelative_one">%1$s week</string>
+    <string name="xWeeksRelative_other">%1$s weeks</string>
+    <string name="xWeeksRelative_two" />
+    <string name="xWeeksRelative_zero" />
     <string name="xWeeksShort" />
     <string name="xWeeksShort_few" />
     <string name="xWeeksShort_many" />

@@ -101,6 +101,17 @@
     <item type="id" name="btn_clearShipping">false</item>
     <item type="id" name="btn_close">false</item>
     <item type="id" name="btn_closeCall">false</item>
+    <item type="id" name="btn_color">false</item>
+    <item type="id" name="btn_colorCalculate">false</item>
+    <item type="id" name="btn_colorClear">false</item>
+    <item type="id" name="btn_colorCopy">false</item>
+    <item type="id" name="btn_colorFormatHex">false</item>
+    <item type="id" name="btn_colorFormatHsl">false</item>
+    <item type="id" name="btn_colorFormatRgb">false</item>
+    <item type="id" name="btn_colorPaste">false</item>
+    <item type="id" name="btn_colorRedo">false</item>
+    <item type="id" name="btn_colorSave">false</item>
+    <item type="id" name="btn_colorUndo">false</item>
     <item type="id" name="btn_confirmCalls">false</item>
     <item type="id" name="btn_contacts">false</item>
     <item type="id" name="btn_contactsRegistered">false</item>
@@ -131,6 +142,7 @@
     <item type="id" name="btn_dataUsageTotal">false</item>
     <item type="id" name="btn_dataUsageWiFi">false</item>
     <item type="id" name="btn_date">false</item>
+    <item type="id" name="btn_debugSwitchRtl">false</item>
     <item type="id" name="btn_declineCall">false</item>
     <item type="id" name="btn_default">false</item>
     <item type="id" name="btn_delete">false</item>
@@ -254,6 +266,8 @@
     <item type="id" name="btn_layerTypeMapHybrid">false</item>
     <item type="id" name="btn_layerTypeMapSatellite">false</item>
     <item type="id" name="btn_layerTypeMapTerrain">false</item>
+    <item type="id" name="btn_ledDefault">false</item>
+    <item type="id" name="btn_ledDisabled">false</item>
     <item type="id" name="btn_lessDataForCalls">false</item>
     <item type="id" name="btn_link">false</item>
     <item type="id" name="btn_localContacts">false</item>
@@ -299,6 +313,7 @@
     <item type="id" name="btn_messageEdit">false</item>
     <item type="id" name="btn_messageFavoriteContent">false</item>
     <item type="id" name="btn_messageFoursquare">false</item>
+    <item type="id" name="btn_messageInstallTheme">false</item>
     <item type="id" name="btn_messageLive15Minutes">false</item>
     <item type="id" name="btn_messageLive1Hour">false</item>
     <item type="id" name="btn_messageLive8Hours">false</item>
@@ -384,6 +399,7 @@
     <item type="id" name="btn_privateChats_sound">false</item>
     <item type="id" name="btn_privateChats_vibrate">false</item>
     <item type="id" name="btn_profilePhotos">false</item>
+    <item type="id" name="btn_property">false</item>
     <item type="id" name="btn_proportion">false</item>
     <item type="id" name="btn_proportion_16_9">false</item>
     <item type="id" name="btn_proportion_3_2">false</item>
@@ -492,6 +508,7 @@
     <item type="id" name="btn_string">false</item>
     <item type="id" name="btn_suggestContacts">false</item>
     <item type="id" name="btn_switchPmButton">false</item>
+    <item type="id" name="btn_switchRtl">false</item>
     <item type="id" name="btn_syncContacts">false</item>
     <item type="id" name="btn_syncContactsInfo">false</item>
     <item type="id" name="btn_systemEmoji">false</item>
@@ -509,6 +526,11 @@
     <item type="id" name="btn_terminateAllSessions">false</item>
     <item type="id" name="btn_terminateSession">false</item>
     <item type="id" name="btn_test">false</item>
+    <item type="id" name="btn_theme">false</item>
+    <item type="id" name="btn_themeCreate">false</item>
+    <item type="id" name="btn_themeCreateInfo">false</item>
+    <item type="id" name="btn_themeExportNeedDefault">false</item>
+    <item type="id" name="btn_themeExportSetAuthor">false</item>
     <item type="id" name="btn_themeSettings">false</item>
     <item type="id" name="btn_thumbnails">false</item>
     <item type="id" name="btn_toggleAdmins">false</item>
@@ -545,6 +567,18 @@
     <item type="id" name="chat">false</item>
     <item type="id" name="chatsStorageUsageList">false</item>
     <item type="id" name="chronometer">false</item>
+    <item type="id" name="color_alpha">false</item>
+    <item type="id" name="color_alphaPalette">false</item>
+    <item type="id" name="color_alphaPercentage">false</item>
+    <item type="id" name="color_blue">false</item>
+    <item type="id" name="color_default">false</item>
+    <item type="id" name="color_green">false</item>
+    <item type="id" name="color_hex">false</item>
+    <item type="id" name="color_hue">false</item>
+    <item type="id" name="color_huePalette">false</item>
+    <item type="id" name="color_lightness">false</item>
+    <item type="id" name="color_red">false</item>
+    <item type="id" name="color_saturation">false</item>
     <item type="id" name="contact">false</item>
     <item type="id" name="controller_2faSettings">false</item>
     <item type="id" name="controller_blocked">false</item>
@@ -620,6 +654,8 @@
     <item type="id" name="controller_stickersTrending">false</item>
     <item type="id" name="controller_strings">false</item>
     <item type="id" name="controller_text">false</item>
+    <item type="id" name="controller_theme">false</item>
+    <item type="id" name="controller_themeColors">false</item>
     <item type="id" name="controller_themeSettings">false</item>
     <item type="id" name="controller_wallpaper">false</item>
     <item type="id" name="controller_webkit">false</item>
@@ -650,17 +686,6 @@
     <item type="id" name="inviteFriendsText">false</item>
     <item type="id" name="item_touch_helper_previous_elevation">false</item>
     <item type="id" name="language">false</item>
-    <item type="id" name="led_blue">false</item>
-    <item type="id" name="led_cyan">false</item>
-    <item type="id" name="led_default">false</item>
-    <item type="id" name="led_disabled">false</item>
-    <item type="id" name="led_green">false</item>
-    <item type="id" name="led_orange">false</item>
-    <item type="id" name="led_pink">false</item>
-    <item type="id" name="led_purple">false</item>
-    <item type="id" name="led_red">false</item>
-    <item type="id" name="led_white">false</item>
-    <item type="id" name="led_yellow">false</item>
     <item type="id" name="line1">false</item>
     <item type="id" name="line3">false</item>
     <item type="id" name="liveLocation">false</item>
@@ -722,6 +747,7 @@
     <item type="id" name="menu_search">false</item>
     <item type="id" name="menu_secretChat">false</item>
     <item type="id" name="menu_text">false</item>
+    <item type="id" name="menu_theme">false</item>
     <item type="id" name="more_btn_addMember">false</item>
     <item type="id" name="more_btn_addToContacts">false</item>
     <item type="id" name="more_btn_addToGroup">false</item>
@@ -817,21 +843,30 @@
     <item type="id" name="text_recoveryInactive">false</item>
     <item type="id" name="text_stupid">false</item>
     <item type="id" name="text_title">false</item>
+    <item type="id" name="theme_category_bubbles">false</item>
+    <item type="id" name="theme_category_chat">false</item>
+    <item type="id" name="theme_category_colors">false</item>
+    <item type="id" name="theme_category_content">false</item>
+    <item type="id" name="theme_category_controls">false</item>
+    <item type="id" name="theme_category_internal">false</item>
+    <item type="id" name="theme_category_iv">false</item>
+    <item type="id" name="theme_category_main">false</item>
+    <item type="id" name="theme_category_navigation">false</item>
+    <item type="id" name="theme_category_other">false</item>
+    <item type="id" name="theme_category_settings">false</item>
     <item type="id" name="theme_chat">false</item>
     <item type="id" name="theme_chat_classic">false</item>
     <item type="id" name="theme_chat_modern">false</item>
-    <item type="id" name="theme_color_acceptCall">false</item>
     <item type="id" name="theme_color_attachContact">false</item>
     <item type="id" name="theme_color_attachFile">false</item>
-    <item type="id" name="theme_color_attachIconActive">false</item>
     <item type="id" name="theme_color_attachInlineBot">false</item>
-    <item type="id" name="theme_color_attachItemCircle">false</item>
     <item type="id" name="theme_color_attachLocation">false</item>
     <item type="id" name="theme_color_attachPhoto">false</item>
+    <item type="id" name="theme_color_attachText">false</item>
     <item type="id" name="theme_color_avatarBlue">false</item>
     <item type="id" name="theme_color_avatarCyan">false</item>
-    <item type="id" name="theme_color_avatarDisabled">false</item>
     <item type="id" name="theme_color_avatarGreen">false</item>
+    <item type="id" name="theme_color_avatarInactive">false</item>
     <item type="id" name="theme_color_avatarOrange">false</item>
     <item type="id" name="theme_color_avatarPink">false</item>
     <item type="id" name="theme_color_avatarRed">false</item>
@@ -839,116 +874,176 @@
     <item type="id" name="theme_color_avatarViolet">false</item>
     <item type="id" name="theme_color_avatarYellow">false</item>
     <item type="id" name="theme_color_background">false</item>
+    <item type="id" name="theme_color_background_icon">false</item>
+    <item type="id" name="theme_color_background_text">false</item>
+    <item type="id" name="theme_color_background_textLight">false</item>
+    <item type="id" name="theme_color_badge">false</item>
     <item type="id" name="theme_color_badgeFailed">false</item>
-    <item type="id" name="theme_color_badgeOnline">false</item>
+    <item type="id" name="theme_color_badgeFailedText">false</item>
+    <item type="id" name="theme_color_badgeMuted">false</item>
+    <item type="id" name="theme_color_badgeMutedText">false</item>
     <item type="id" name="theme_color_badgeText">false</item>
-    <item type="id" name="theme_color_badgeTextMuted">false</item>
-    <item type="id" name="theme_color_bubbleIn">false</item>
-    <item type="id" name="theme_color_bubbleInText">false</item>
-    <item type="id" name="theme_color_bubbleInTime">false</item>
-    <item type="id" name="theme_color_bubbleOut">false</item>
-    <item type="id" name="theme_color_bubbleOutText">false</item>
-    <item type="id" name="theme_color_bubbleOutTime">false</item>
-    <item type="id" name="theme_color_bubbleTicks">false</item>
-    <item type="id" name="theme_color_call_fail">false</item>
-    <item type="id" name="theme_color_call_ok">false</item>
-    <item type="id" name="theme_color_captionTextLink">false</item>
-    <item type="id" name="theme_color_captionTextLinkPressHighlight">false</item>
-    <item type="id" name="theme_color_chatAuthor">false</item>
-    <item type="id" name="theme_color_chatAuthorDead">false</item>
-    <item type="id" name="theme_color_chatAuthorOutBubble">false</item>
-    <item type="id" name="theme_color_chatBadge">false</item>
-    <item type="id" name="theme_color_chatBadgeMuted">false</item>
+    <item type="id" name="theme_color_black">false</item>
+    <item type="id" name="theme_color_bubbleIn_background">false</item>
+    <item type="id" name="theme_color_bubbleIn_outline">false</item>
+    <item type="id" name="theme_color_bubbleIn_progress">false</item>
+    <item type="id" name="theme_color_bubbleIn_text">false</item>
+    <item type="id" name="theme_color_bubbleIn_textLink">false</item>
+    <item type="id" name="theme_color_bubbleIn_textLinkPressHighlight">false</item>
+    <item type="id" name="theme_color_bubbleIn_time">false</item>
+    <item type="id" name="theme_color_bubbleOut_background">false</item>
+    <item type="id" name="theme_color_bubbleOut_chatVerticalLine">false</item>
+    <item type="id" name="theme_color_bubbleOut_file">false</item>
+    <item type="id" name="theme_color_bubbleOut_inlineIcon">false</item>
+    <item type="id" name="theme_color_bubbleOut_inlineOutline">false</item>
+    <item type="id" name="theme_color_bubbleOut_inlineText">false</item>
+    <item type="id" name="theme_color_bubbleOut_messageAuthor">false</item>
+    <item type="id" name="theme_color_bubbleOut_outline">false</item>
+    <item type="id" name="theme_color_bubbleOut_progress">false</item>
+    <item type="id" name="theme_color_bubbleOut_text">false</item>
+    <item type="id" name="theme_color_bubbleOut_textLink">false</item>
+    <item type="id" name="theme_color_bubbleOut_textLinkPressHighlight">false</item>
+    <item type="id" name="theme_color_bubbleOut_ticks">false</item>
+    <item type="id" name="theme_color_bubbleOut_ticksRead">false</item>
+    <item type="id" name="theme_color_bubbleOut_time">false</item>
+    <item type="id" name="theme_color_bubbleOut_waveformActive">false</item>
+    <item type="id" name="theme_color_bubbleOut_waveformInactive">false</item>
+    <item type="id" name="theme_color_bubble_button">false</item>
+    <item type="id" name="theme_color_bubble_buttonRipple">false</item>
+    <item type="id" name="theme_color_bubble_buttonRipple_noWallpaper">false</item>
+    <item type="id" name="theme_color_bubble_buttonText">false</item>
+    <item type="id" name="theme_color_bubble_buttonText_noWallpaper">false</item>
+    <item type="id" name="theme_color_bubble_button_noWallpaper">false</item>
+    <item type="id" name="theme_color_bubble_chatBackground">false</item>
+    <item type="id" name="theme_color_bubble_date">false</item>
+    <item type="id" name="theme_color_bubble_dateText">false</item>
+    <item type="id" name="theme_color_bubble_dateText_noWallpaper">false</item>
+    <item type="id" name="theme_color_bubble_date_noWallpaper">false</item>
+    <item type="id" name="theme_color_bubble_mediaOverlay">false</item>
+    <item type="id" name="theme_color_bubble_mediaOverlayText">false</item>
+    <item type="id" name="theme_color_bubble_mediaReply">false</item>
+    <item type="id" name="theme_color_bubble_mediaReplyText">false</item>
+    <item type="id" name="theme_color_bubble_mediaReplyText_noWallpaper">false</item>
+    <item type="id" name="theme_color_bubble_mediaReply_noWallpaper">false</item>
+    <item type="id" name="theme_color_bubble_mediaTime">false</item>
+    <item type="id" name="theme_color_bubble_mediaTimeText">false</item>
+    <item type="id" name="theme_color_bubble_mediaTimeText_noWallpaper">false</item>
+    <item type="id" name="theme_color_bubble_mediaTime_noWallpaper">false</item>
+    <item type="id" name="theme_color_bubble_messageCheckOutline">false</item>
+    <item type="id" name="theme_color_bubble_messageCheckOutlineNoWallpaper">false</item>
+    <item type="id" name="theme_color_bubble_messageSelection">false</item>
+    <item type="id" name="theme_color_bubble_messageSelectionNoWallpaper">false</item>
+    <item type="id" name="theme_color_bubble_overlay">false</item>
+    <item type="id" name="theme_color_bubble_overlayText">false</item>
+    <item type="id" name="theme_color_bubble_overlayText_noWallpaper">false</item>
+    <item type="id" name="theme_color_bubble_overlay_noWallpaper">false</item>
+    <item type="id" name="theme_color_bubble_unread">false</item>
+    <item type="id" name="theme_color_bubble_unreadText">false</item>
+    <item type="id" name="theme_color_bubble_unreadText_noWallpaper">false</item>
+    <item type="id" name="theme_color_bubble_unread_noWallpaper">false</item>
+    <item type="id" name="theme_color_caption_textLink">false</item>
+    <item type="id" name="theme_color_caption_textLinkPressHighlight">false</item>
+    <item type="id" name="theme_color_chatBackground">false</item>
+    <item type="id" name="theme_color_chatKeyboard">false</item>
+    <item type="id" name="theme_color_chatKeyboardButton">false</item>
     <item type="id" name="theme_color_chatListAction">false</item>
     <item type="id" name="theme_color_chatListMute">false</item>
-    <item type="id" name="theme_color_chatPlainBackground">false</item>
-    <item type="id" name="theme_color_chatQuickAction">false</item>
-    <item type="id" name="theme_color_chatQuickActionText">false</item>
+    <item type="id" name="theme_color_chatListVerify">false</item>
     <item type="id" name="theme_color_chatSendButton">false</item>
-    <item type="id" name="theme_color_chatSendButtonInactive">false</item>
-    <item type="id" name="theme_color_chatSendPhotoButton">false</item>
-    <item type="id" name="theme_color_chatTransparentColor">false</item>
-    <item type="id" name="theme_color_chatUnreadSeparatorBackground">false</item>
-    <item type="id" name="theme_color_chatUnreadSeparatorBackgroundBubble">false</item>
-    <item type="id" name="theme_color_chatUnreadSeparatorText">false</item>
-    <item type="id" name="theme_color_chatUnreadSeparatorTextBubble">false</item>
-    <item type="id" name="theme_color_chatVerify">false</item>
-    <item type="id" name="theme_color_chatVerticalLine">false</item>
-    <item type="id" name="theme_color_chatVerticalLineOutBubble">false</item>
-    <item type="id" name="theme_color_checkCheck">false</item>
-    <item type="id" name="theme_color_checkFilling">false</item>
-    <item type="id" name="theme_color_circleButtonGreen">false</item>
-    <item type="id" name="theme_color_circleButtonOrange">false</item>
-    <item type="id" name="theme_color_circleButtonRed">false</item>
+    <item type="id" name="theme_color_checkActive">false</item>
+    <item type="id" name="theme_color_checkContent">false</item>
+    <item type="id" name="theme_color_circleButtonNegative">false</item>
+    <item type="id" name="theme_color_circleButtonNewChannel">false</item>
+    <item type="id" name="theme_color_circleButtonNewChat">false</item>
+    <item type="id" name="theme_color_circleButtonNewGroup">false</item>
+    <item type="id" name="theme_color_circleButtonNewSecret">false</item>
+    <item type="id" name="theme_color_circleButtonPositive">false</item>
     <item type="id" name="theme_color_circleButtonRegular">false</item>
-    <item type="id" name="theme_color_circleButtonYellow">false</item>
-    <item type="id" name="theme_color_commandKeyboardButtonBackground">false</item>
-    <item type="id" name="theme_color_declineCall">false</item>
-    <item type="id" name="theme_color_defaultWallpaperColorAdd">false</item>
+    <item type="id" name="theme_color_circleButtonTheme">false</item>
+    <item type="id" name="theme_color_circleButtonThemeIcon">false</item>
+    <item type="id" name="theme_color_controlActive">false</item>
+    <item type="id" name="theme_color_controlContent">false</item>
+    <item type="id" name="theme_color_controlInactive">false</item>
+    <item type="id" name="theme_color_drawer">false</item>
+    <item type="id" name="theme_color_drawerText">false</item>
+    <item type="id" name="theme_color_file">false</item>
+    <item type="id" name="theme_color_fileAttach">false</item>
     <item type="id" name="theme_color_fileGreen">false</item>
     <item type="id" name="theme_color_fileRed">false</item>
-    <item type="id" name="theme_color_fileRegular">false</item>
-    <item type="id" name="theme_color_fileRegularOutBubble">false</item>
     <item type="id" name="theme_color_fileYellow">false</item>
     <item type="id" name="theme_color_filling">false</item>
+    <item type="id" name="theme_color_fillingNegative">false</item>
+    <item type="id" name="theme_color_fillingPositive">false</item>
+    <item type="id" name="theme_color_fillingPositiveContent">false</item>
     <item type="id" name="theme_color_fillingPressed">false</item>
-    <item type="id" name="theme_color_header">false</item>
-    <item type="id" name="theme_color_headerActualFloatBackground">false</item>
-    <item type="id" name="theme_color_headerBack">false</item>
-    <item type="id" name="theme_color_headerFloatBackground">false</item>
-    <item type="id" name="theme_color_headerFloatIcon">false</item>
-    <item type="id" name="theme_color_headerIconColor">false</item>
-    <item type="id" name="theme_color_headerIvIconColor">false</item>
-    <item type="id" name="theme_color_headerLightIconColor">false</item>
+    <item type="id" name="theme_color_headerBackground">false</item>
+    <item type="id" name="theme_color_headerBarCallActive">false</item>
+    <item type="id" name="theme_color_headerBarCallIncoming">false</item>
+    <item type="id" name="theme_color_headerBarCallMuted">false</item>
+    <item type="id" name="theme_color_headerButton">false</item>
+    <item type="id" name="theme_color_headerButtonIcon">false</item>
+    <item type="id" name="theme_color_headerIcon">false</item>
+    <item type="id" name="theme_color_headerLightBackground">false</item>
+    <item type="id" name="theme_color_headerLightIcon">false</item>
+    <item type="id" name="theme_color_headerLightText">false</item>
     <item type="id" name="theme_color_headerPlaceholder">false</item>
-    <item type="id" name="theme_color_headerSelect">false</item>
-    <item type="id" name="theme_color_headerSelectBack">false</item>
-    <item type="id" name="theme_color_headerSelectText">false</item>
+    <item type="id" name="theme_color_headerRemoveBackground">false</item>
+    <item type="id" name="theme_color_headerRemoveBackgroundHighlight">false</item>
     <item type="id" name="theme_color_headerText">false</item>
-    <item type="id" name="theme_color_headerTextHint">false</item>
-    <item type="id" name="theme_color_iconGray">false</item>
-    <item type="id" name="theme_color_iconGray2">false</item>
-    <item type="id" name="theme_color_iconGrayLight">false</item>
+    <item type="id" name="theme_color_icon">false</item>
+    <item type="id" name="theme_color_iconActive">false</item>
+    <item type="id" name="theme_color_iconLight">false</item>
+    <item type="id" name="theme_color_iconNegative">false</item>
+    <item type="id" name="theme_color_iconPositive">false</item>
+    <item type="id" name="theme_color_inlineContentActive">false</item>
     <item type="id" name="theme_color_inlineIcon">false</item>
-    <item type="id" name="theme_color_inlineIconOutBubble">false</item>
     <item type="id" name="theme_color_inlineOutline">false</item>
-    <item type="id" name="theme_color_inlineOutlineOutBubble">false</item>
     <item type="id" name="theme_color_inlineText">false</item>
-    <item type="id" name="theme_color_inlineTextActive">false</item>
-    <item type="id" name="theme_color_inlineTextOutBubble">false</item>
-    <item type="id" name="theme_color_introDotActive">false</item>
-    <item type="id" name="theme_color_introDotInactive">false</item>
+    <item type="id" name="theme_color_inputActive">false</item>
+    <item type="id" name="theme_color_inputInactive">false</item>
+    <item type="id" name="theme_color_inputNegative">false</item>
+    <item type="id" name="theme_color_inputPositive">false</item>
+    <item type="id" name="theme_color_introSection">false</item>
+    <item type="id" name="theme_color_introSectionActive">false</item>
     <item type="id" name="theme_color_iv_blockQuote">false</item>
     <item type="id" name="theme_color_iv_blockQuoteLine">false</item>
     <item type="id" name="theme_color_iv_caption">false</item>
     <item type="id" name="theme_color_iv_header">false</item>
+    <item type="id" name="theme_color_iv_headerIcon">false</item>
     <item type="id" name="theme_color_iv_linkHighlight">false</item>
     <item type="id" name="theme_color_iv_pageAuthor">false</item>
     <item type="id" name="theme_color_iv_pageFooter">false</item>
     <item type="id" name="theme_color_iv_pageSubtitle">false</item>
     <item type="id" name="theme_color_iv_pageTitle">false</item>
-    <item type="id" name="theme_color_iv_preformattedBackground">false</item>
+    <item type="id" name="theme_color_iv_preBlockBackground">false</item>
     <item type="id" name="theme_color_iv_pullQuote">false</item>
     <item type="id" name="theme_color_iv_separator">false</item>
-    <item type="id" name="theme_color_iv_textParagraph">false</item>
-    <item type="id" name="theme_color_keyboard">false</item>
-    <item type="id" name="theme_color_keyboardActiveSection">false</item>
-    <item type="id" name="theme_color_messageBubbleSelection">false</item>
+    <item type="id" name="theme_color_iv_text">false</item>
+    <item type="id" name="theme_color_ledBlue">false</item>
+    <item type="id" name="theme_color_ledCyan">false</item>
+    <item type="id" name="theme_color_ledGreen">false</item>
+    <item type="id" name="theme_color_ledOrange">false</item>
+    <item type="id" name="theme_color_ledPink">false</item>
+    <item type="id" name="theme_color_ledPurple">false</item>
+    <item type="id" name="theme_color_ledRed">false</item>
+    <item type="id" name="theme_color_ledWhite">false</item>
+    <item type="id" name="theme_color_ledYellow">false</item>
+    <item type="id" name="theme_color_messageAuthor">false</item>
     <item type="id" name="theme_color_messageSelection">false</item>
+    <item type="id" name="theme_color_messageSwipeBackground">false</item>
+    <item type="id" name="theme_color_messageSwipeContent">false</item>
+    <item type="id" name="theme_color_messageVerticalLine">false</item>
     <item type="id" name="theme_color_nameBlue">false</item>
     <item type="id" name="theme_color_nameCyan">false</item>
     <item type="id" name="theme_color_nameGreen">false</item>
+    <item type="id" name="theme_color_nameInactive">false</item>
     <item type="id" name="theme_color_nameOrange">false</item>
     <item type="id" name="theme_color_namePink">false</item>
     <item type="id" name="theme_color_nameRed">false</item>
     <item type="id" name="theme_color_nameViolet">false</item>
     <item type="id" name="theme_color_nameYellow">false</item>
-    <item type="id" name="theme_color_newBadgeText">false</item>
-    <item type="id" name="theme_color_newStickerPackBadge">false</item>
-    <item type="id" name="theme_color_ongoingCall_active">false</item>
-    <item type="id" name="theme_color_ongoingCall_incoming">false</item>
-    <item type="id" name="theme_color_ongoingCall_muted">false</item>
-    <item type="id" name="theme_color_overlay">false</item>
+    <item type="id" name="theme_color_online">false</item>
+    <item type="id" name="theme_color_overlayFilling">false</item>
     <item type="id" name="theme_color_photoHighlightTint1">false</item>
     <item type="id" name="theme_color_photoHighlightTint2">false</item>
     <item type="id" name="theme_color_photoHighlightTint3">false</item>
@@ -964,71 +1059,93 @@
     <item type="id" name="theme_color_photoShadowTint6">false</item>
     <item type="id" name="theme_color_photoShadowTint7">false</item>
     <item type="id" name="theme_color_placeholder">false</item>
-    <item type="id" name="theme_color_playerActivity">false</item>
+    <item type="id" name="theme_color_playerButton">false</item>
+    <item type="id" name="theme_color_playerButtonActive">false</item>
     <item type="id" name="theme_color_playerCoverIcon">false</item>
     <item type="id" name="theme_color_playerCoverPlaceholder">false</item>
-    <item type="id" name="theme_color_playerSeekDone">false</item>
-    <item type="id" name="theme_color_playerSeekEmpty">false</item>
-    <item type="id" name="theme_color_playerSeekReady">false</item>
-    <item type="id" name="theme_color_profileSectionActiveText">false</item>
-    <item type="id" name="theme_color_profileSectionLine">false</item>
+    <item type="id" name="theme_color_previewBackground">false</item>
+    <item type="id" name="theme_color_profileSectionActive">false</item>
+    <item type="id" name="theme_color_profileSectionActiveContent">false</item>
     <item type="id" name="theme_color_progress">false</item>
-    <item type="id" name="theme_color_radioCheck">false</item>
-    <item type="id" name="theme_color_radioFilling">false</item>
-    <item type="id" name="theme_color_radioOutline">false</item>
+    <item type="id" name="theme_color_promo">false</item>
+    <item type="id" name="theme_color_promoContent">false</item>
+    <item type="id" name="theme_color_seekDone">false</item>
+    <item type="id" name="theme_color_seekEmpty">false</item>
+    <item type="id" name="theme_color_seekReady">false</item>
     <item type="id" name="theme_color_separator">false</item>
-    <item type="id" name="theme_color_shareButtonBackground">false</item>
-    <item type="id" name="theme_color_shareSendText">false</item>
     <item type="id" name="theme_color_sliderActive">false</item>
     <item type="id" name="theme_color_sliderInactive">false</item>
     <item type="id" name="theme_color_statusBar">false</item>
-    <item type="id" name="theme_color_statusBarConnecting">false</item>
-    <item type="id" name="theme_color_statusBarUnreachable">false</item>
-    <item type="id" name="theme_color_stopRecord">false</item>
-    <item type="id" name="theme_color_textAccent">false</item>
-    <item type="id" name="theme_color_textAccent2">false</item>
-    <item type="id" name="theme_color_textDecent">false</item>
-    <item type="id" name="theme_color_textDecent2">false</item>
-    <item type="id" name="theme_color_textGreen">false</item>
-    <item type="id" name="theme_color_textInputActive">false</item>
-    <item type="id" name="theme_color_textInputInactive">false</item>
+    <item type="id" name="theme_color_text">false</item>
+    <item type="id" name="theme_color_textLight">false</item>
     <item type="id" name="theme_color_textLink">false</item>
-    <item type="id" name="theme_color_textLinkOutBubble">false</item>
     <item type="id" name="theme_color_textLinkPressHighlight">false</item>
-    <item type="id" name="theme_color_textLinkPressHighlightOutBubble">false</item>
-    <item type="id" name="theme_color_textNegativeAction">false</item>
-    <item type="id" name="theme_color_textNeutralAction">false</item>
+    <item type="id" name="theme_color_textNegative">false</item>
+    <item type="id" name="theme_color_textNeutral">false</item>
     <item type="id" name="theme_color_textPlaceholder">false</item>
-    <item type="id" name="theme_color_textSearchPrefixHighlight">false</item>
+    <item type="id" name="theme_color_textSearchQueryHighlight">false</item>
+    <item type="id" name="theme_color_textSecure">false</item>
     <item type="id" name="theme_color_textSelectionHighlight">false</item>
-    <item type="id" name="theme_color_textSwitchPm">false</item>
+    <item type="id" name="theme_color_themeBlackWhite">false</item>
+    <item type="id" name="theme_color_themeBlue">false</item>
+    <item type="id" name="theme_color_themeClassic">false</item>
+    <item type="id" name="theme_color_themeCyan">false</item>
+    <item type="id" name="theme_color_themeGreen">false</item>
+    <item type="id" name="theme_color_themeNightBlack">false</item>
+    <item type="id" name="theme_color_themeNightBlue">false</item>
+    <item type="id" name="theme_color_themeOrange">false</item>
+    <item type="id" name="theme_color_themePink">false</item>
+    <item type="id" name="theme_color_themeRed">false</item>
+    <item type="id" name="theme_color_themeWhiteBlack">false</item>
     <item type="id" name="theme_color_ticks">false</item>
+    <item type="id" name="theme_color_ticksRead">false</item>
     <item type="id" name="theme_color_togglerActive">false</item>
-    <item type="id" name="theme_color_togglerFillingActive">false</item>
-    <item type="id" name="theme_color_togglerFillingInactive">false</item>
+    <item type="id" name="theme_color_togglerActiveBackground">false</item>
     <item type="id" name="theme_color_togglerInactive">false</item>
+    <item type="id" name="theme_color_togglerInactiveBackground">false</item>
+    <item type="id" name="theme_color_togglerNegative">false</item>
+    <item type="id" name="theme_color_togglerNegativeBackground">false</item>
+    <item type="id" name="theme_color_togglerNegativeContent">false</item>
+    <item type="id" name="theme_color_togglerPositive">false</item>
+    <item type="id" name="theme_color_togglerPositiveBackground">false</item>
+    <item type="id" name="theme_color_togglerPositiveContent">false</item>
     <item type="id" name="theme_color_transparentEditor">false</item>
+    <item type="id" name="theme_color_unread">false</item>
+    <item type="id" name="theme_color_unreadText">false</item>
     <item type="id" name="theme_color_videoSliderActive">false</item>
     <item type="id" name="theme_color_videoSliderInactive">false</item>
     <item type="id" name="theme_color_waveformActive">false</item>
-    <item type="id" name="theme_color_waveformActiveOutBubble">false</item>
     <item type="id" name="theme_color_waveformInactive">false</item>
-    <item type="id" name="theme_color_waveformInactiveOutBubble">false</item>
     <item type="id" name="theme_color_white">false</item>
-    <item type="id" name="theme_global">false</item>
-    <item type="id" name="theme_global_blackWhite">false</item>
-    <item type="id" name="theme_global_blue">false</item>
-    <item type="id" name="theme_global_classic">false</item>
-    <item type="id" name="theme_global_custom">false</item>
-    <item type="id" name="theme_global_cyan">false</item>
-    <item type="id" name="theme_global_green">false</item>
-    <item type="id" name="theme_global_night">false</item>
-    <item type="id" name="theme_global_nightBlue">false</item>
-    <item type="id" name="theme_global_orange">false</item>
-    <item type="id" name="theme_global_pink">false</item>
-    <item type="id" name="theme_global_red">false</item>
-    <item type="id" name="theme_global_temp">false</item>
-    <item type="id" name="theme_global_whiteBlack">false</item>
+    <item type="id" name="theme_color_wp_cats">false</item>
+    <item type="id" name="theme_color_wp_catsBeige">false</item>
+    <item type="id" name="theme_color_wp_catsGreen">false</item>
+    <item type="id" name="theme_color_wp_catsOrange">false</item>
+    <item type="id" name="theme_color_wp_catsPink">false</item>
+    <item type="id" name="theme_color_wp_circlesBlue">false</item>
+    <item type="id" name="theme_property_bubbleCorner">false</item>
+    <item type="id" name="theme_property_bubbleCornerLegacy">false</item>
+    <item type="id" name="theme_property_bubbleCornerMerged">false</item>
+    <item type="id" name="theme_property_bubbleDateCorner">false</item>
+    <item type="id" name="theme_property_bubbleOuterMargin">false</item>
+    <item type="id" name="theme_property_bubbleOutline">false</item>
+    <item type="id" name="theme_property_bubbleOutlineSize">false</item>
+    <item type="id" name="theme_property_bubbleUnreadShadow">false</item>
+    <item type="id" name="theme_property_dark">false</item>
+    <item type="id" name="theme_property_dateCorner">false</item>
+    <item type="id" name="theme_property_imageCorner">false</item>
+    <item type="id" name="theme_property_parentTheme">false</item>
+    <item type="id" name="theme_property_replaceShadowsWithSeparators">false</item>
+    <item type="id" name="theme_property_shadowDepth">false</item>
+    <item type="id" name="theme_property_subtitleAlpha">false</item>
+    <item type="id" name="theme_property_wallpaperId">false</item>
+    <item type="id" name="theme_property_wallpaperOverrideButton">false</item>
+    <item type="id" name="theme_property_wallpaperOverrideDate">false</item>
+    <item type="id" name="theme_property_wallpaperOverrideMediaReply">false</item>
+    <item type="id" name="theme_property_wallpaperOverrideOverlay">false</item>
+    <item type="id" name="theme_property_wallpaperOverrideTime">false</item>
+    <item type="id" name="theme_property_wallpaperOverrideUnread">false</item>
+    <item type="id" name="theme_property_wallpaperUsageId">false</item>
     <item type="id" name="time">false</item>
     <item type="id" name="title">false</item>
     <item type="id" name="user">false</item>
