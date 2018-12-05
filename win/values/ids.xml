@@ -681,6 +681,7 @@
     <item type="id" name="menu_btn_down">false</item>
     <item type="id" name="menu_btn_edit">false</item>
     <item type="id" name="menu_btn_forward">false</item>
+    <item type="id" name="menu_btn_gallery">false</item>
     <item type="id" name="menu_btn_help">false</item>
     <item type="id" name="menu_btn_lock">false</item>
     <item type="id" name="menu_btn_manage">false</item>
@@ -701,6 +702,7 @@
     <item type="id" name="menu_done">false</item>
     <item type="id" name="menu_editLangPack">false</item>
     <item type="id" name="menu_editLangPackString">false</item>
+    <item type="id" name="menu_gallery">false</item>
     <item type="id" name="menu_game">false</item>
     <item type="id" name="menu_help">false</item>
     <item type="id" name="menu_login">false</item>

@@ -190,6 +190,7 @@ Small dot indicates current level of ambient lighting measured by your device."<
     <string name="BanUser">Ban user</string>
     <string name="Banned">Banned</string>
     <string name="BannedByX">Banned by %1$s</string>
+    <string name="BannedByXOnDate">Banned by %1$s %2$s</string>
     <string name="BannedWillBeShownHere">Banned members will be shown here</string>
     <string name="Beginning">Beginning</string>
     <string name="BioDescription">"Any details such as age, occupation or city.
@@ -1269,6 +1270,7 @@ messages from multiple devices."</string>
     <string name="ProfilePhoto">Profile photo</string>
     <string name="ProgressCreateChannel">Creating channel…</string>
     <string name="PromotedByX">Promoted by %1$s</string>
+    <string name="PromotedByXOnDate">Promoted by %1$s %2$s</string>
     <string name="Proxy">Proxy</string>
     <string name="ProxyAdd">Add proxy</string>
     <string name="ProxyAvailable">Available (%1$s)</string>
@@ -1389,6 +1391,7 @@ messages from multiple devices."</string>
     <string name="RestrictUser">Restrict user</string>
     <string name="Restricted">Restricted</string>
     <string name="RestrictedByX">Restricted by %1$s</string>
+    <string name="RestrictedByXOnDate">Restricted by %1$s %2$s</string>
     <string name="RestrictedWillBeShownHere">Restricted members will be shown here</string>
     <string name="RevokeAdminRights">Revoke Admin Rights</string>
     <string name="RevokeLink">Revoke Link</string>
