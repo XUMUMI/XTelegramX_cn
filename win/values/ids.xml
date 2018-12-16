@@ -375,6 +375,7 @@
     <item type="id" name="btn_phone">false</item>
     <item type="id" name="btn_phone_call">false</item>
     <item type="id" name="btn_phone_copy">false</item>
+    <item type="id" name="btn_phone_share">false</item>
     <item type="id" name="btn_photos">false</item>
     <item type="id" name="btn_pinChat">false</item>
     <item type="id" name="btn_pinUnpinChat">false</item>
@@ -426,6 +427,7 @@
     <item type="id" name="btn_repeatNotifications">false</item>
     <item type="id" name="btn_reportBug">false</item>
     <item type="id" name="btn_reportChat">false</item>
+    <item type="id" name="btn_reportChatChildAbuse">false</item>
     <item type="id" name="btn_reportChatCopyright">false</item>
     <item type="id" name="btn_reportChatOther">false</item>
     <item type="id" name="btn_reportChatPornography">false</item>
@@ -915,6 +917,7 @@
     <item type="id" name="theme_color_bubble_buttonText_noWallpaper">false</item>
     <item type="id" name="theme_color_bubble_button_noWallpaper">false</item>
     <item type="id" name="theme_color_bubble_chatBackground">false</item>
+    <item type="id" name="theme_color_bubble_chatSeparator">false</item>
     <item type="id" name="theme_color_bubble_date">false</item>
     <item type="id" name="theme_color_bubble_dateText">false</item>
     <item type="id" name="theme_color_bubble_dateText_noWallpaper">false</item>
@@ -950,15 +953,27 @@
     <item type="id" name="theme_color_chatListMute">false</item>
     <item type="id" name="theme_color_chatListVerify">false</item>
     <item type="id" name="theme_color_chatSendButton">false</item>
+    <item type="id" name="theme_color_chatSeparator">false</item>
     <item type="id" name="theme_color_checkActive">false</item>
     <item type="id" name="theme_color_checkContent">false</item>
+    <item type="id" name="theme_color_circleButtonChat">false</item>
+    <item type="id" name="theme_color_circleButtonChatIcon">false</item>
     <item type="id" name="theme_color_circleButtonNegative">false</item>
+    <item type="id" name="theme_color_circleButtonNegativeIcon">false</item>
     <item type="id" name="theme_color_circleButtonNewChannel">false</item>
+    <item type="id" name="theme_color_circleButtonNewChannelIcon">false</item>
     <item type="id" name="theme_color_circleButtonNewChat">false</item>
+    <item type="id" name="theme_color_circleButtonNewChatIcon">false</item>
     <item type="id" name="theme_color_circleButtonNewGroup">false</item>
+    <item type="id" name="theme_color_circleButtonNewGroupIcon">false</item>
     <item type="id" name="theme_color_circleButtonNewSecret">false</item>
+    <item type="id" name="theme_color_circleButtonNewSecretIcon">false</item>
+    <item type="id" name="theme_color_circleButtonOverlay">false</item>
+    <item type="id" name="theme_color_circleButtonOverlayIcon">false</item>
     <item type="id" name="theme_color_circleButtonPositive">false</item>
+    <item type="id" name="theme_color_circleButtonPositiveIcon">false</item>
     <item type="id" name="theme_color_circleButtonRegular">false</item>
+    <item type="id" name="theme_color_circleButtonRegularIcon">false</item>
     <item type="id" name="theme_color_circleButtonTheme">false</item>
     <item type="id" name="theme_color_circleButtonThemeIcon">false</item>
     <item type="id" name="theme_color_controlActive">false</item>
@@ -989,6 +1004,9 @@
     <item type="id" name="theme_color_headerPlaceholder">false</item>
     <item type="id" name="theme_color_headerRemoveBackground">false</item>
     <item type="id" name="theme_color_headerRemoveBackgroundHighlight">false</item>
+    <item type="id" name="theme_color_headerTabActive">false</item>
+    <item type="id" name="theme_color_headerTabActiveText">false</item>
+    <item type="id" name="theme_color_headerTabInactiveText">false</item>
     <item type="id" name="theme_color_headerText">false</item>
     <item type="id" name="theme_color_icon">false</item>
     <item type="id" name="theme_color_iconActive">false</item>
@@ -1042,8 +1060,14 @@
     <item type="id" name="theme_color_nameRed">false</item>
     <item type="id" name="theme_color_nameViolet">false</item>
     <item type="id" name="theme_color_nameYellow">false</item>
+    <item type="id" name="theme_color_notification">false</item>
+    <item type="id" name="theme_color_notificationPlayer">false</item>
+    <item type="id" name="theme_color_notificationSecure">false</item>
     <item type="id" name="theme_color_online">false</item>
     <item type="id" name="theme_color_overlayFilling">false</item>
+    <item type="id" name="theme_color_passcode">false</item>
+    <item type="id" name="theme_color_passcodeIcon">false</item>
+    <item type="id" name="theme_color_passcodeText">false</item>
     <item type="id" name="theme_color_photoHighlightTint1">false</item>
     <item type="id" name="theme_color_photoHighlightTint2">false</item>
     <item type="id" name="theme_color_photoHighlightTint3">false</item>
@@ -1069,13 +1093,20 @@
     <item type="id" name="theme_color_progress">false</item>
     <item type="id" name="theme_color_promo">false</item>
     <item type="id" name="theme_color_promoContent">false</item>
+    <item type="id" name="theme_color_sectionedScrollBar">false</item>
+    <item type="id" name="theme_color_sectionedScrollBarActive">false</item>
+    <item type="id" name="theme_color_sectionedScrollBarActiveContent">false</item>
     <item type="id" name="theme_color_seekDone">false</item>
     <item type="id" name="theme_color_seekEmpty">false</item>
     <item type="id" name="theme_color_seekReady">false</item>
     <item type="id" name="theme_color_separator">false</item>
+    <item type="id" name="theme_color_shareSeparator">false</item>
     <item type="id" name="theme_color_sliderActive">false</item>
     <item type="id" name="theme_color_sliderInactive">false</item>
     <item type="id" name="theme_color_statusBar">false</item>
+    <item type="id" name="theme_color_statusBarContent">false</item>
+    <item type="id" name="theme_color_statusBarLegacy">false</item>
+    <item type="id" name="theme_color_statusBarLegacyContent">false</item>
     <item type="id" name="theme_color_text">false</item>
     <item type="id" name="theme_color_textLight">false</item>
     <item type="id" name="theme_color_textLink">false</item>
@@ -1134,6 +1165,7 @@
     <item type="id" name="theme_property_dark">false</item>
     <item type="id" name="theme_property_dateCorner">false</item>
     <item type="id" name="theme_property_imageCorner">false</item>
+    <item type="id" name="theme_property_lightStatusBar">false</item>
     <item type="id" name="theme_property_parentTheme">false</item>
     <item type="id" name="theme_property_replaceShadowsWithSeparators">false</item>
     <item type="id" name="theme_property_shadowDepth">false</item>

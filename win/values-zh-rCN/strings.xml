@@ -67,7 +67,7 @@
     <string name="Allow">允许</string>
     <string name="AlwaysAllow">始终允许</string>
     <string name="AlwaysShareWith">始终与其分享</string>
-    <string name="AndroidVersionWarning">很抱歉, 此功能仅适用于Android %1$s (%2$s) 或更高版本</string>
+    <string name="AndroidVersionWarning">很抱歉, 此功能仅适用于Android %1$s (%2$s) 及更高版本</string>
     <string name="AnimalsAndNature">动物与自然</string>
     <string name="AnswerCall">接听</string>
     <string name="AnyMedia">任何媒体</string>
@@ -312,6 +312,7 @@
     <string name="Chats">对话</string>
     <string name="ChatsAndContacts">对话和联系人</string>
     <string name="CheckYourVerificationEmail">请检查您的电子邮件, 然后点击验证链接完成两步验证设置。一定要检查垃圾邮件文件夹</string>
+    <string name="ChildAbuse">虐待儿童</string>
     <string name="ChooseYourGesture">设置手势</string>
     <string name="ChooseYourPIN">设置PIN码</string>
     <string name="ChooseYourPassword">选择密码</string>
@@ -332,7 +333,7 @@
     <string name="CloudPause">暂停下载</string>
     <string name="CloudResume">恢复下载</string>
     <string name="ColorAlpha">透明度</string>
-    <string name="ColorAlphaPercentage">A%</string>
+    <string name="ColorAlphaPercentage">透明度%(百分比)</string>
     <string name="ColorBlue">蓝色</string>
     <string name="ColorClearAll" />
     <string name="ColorClearAll_few" />
@@ -354,7 +355,7 @@
     <string name="ColorClearDone_zero" />
     <string name="ColorDefault">默认</string>
     <string name="ColorGreen">绿色</string>
-    <string name="ColorHex">十六进制代码</string>
+    <string name="ColorHex">16进制代码</string>
     <string name="ColorHue">色调</string>
     <string name="ColorLightness">亮度</string>
     <string name="ColorRed">红色</string>
@@ -429,7 +430,7 @@
     <string name="CustomNotifications">自定义通知</string>
     <string name="CustomNotificationsHint">这些设置将覆盖 %1$s ->%2$s的全局设置</string>
     <string name="CustomShareSettingsHelp">这些设置将覆盖上面的值</string>
-    <string name="CustomVibrations">自定义振动</string>
+    <string name="CustomVibrations">减少振动</string>
     <string name="DataSaver">节省数据</string>
     <string name="DataSaverDesc"> 开启节省数据后, 媒体将不会自动下载</string>
     <string name="DataSettings">数据和存储</string>
@@ -527,6 +528,7 @@
     <string name="DisconnectWebsiteBan">拉黑 %1$s</string>
     <string name="DismissAdmin">移除管理员权限</string>
     <string name="Done">完成</string>
+    <string name="DoneSave">保存成功</string>
     <string name="DoubleShort">双短振</string>
     <string name="DownloadedToPath">已成功下载: %1$s</string>
     <string name="Downloading">正在下载 %1$s 共 %2$s</string>
@@ -1027,7 +1029,7 @@ __斜体__
 
 您可以登录支持使用 Telegram 登录的网站"</string>
     <string name="NoAdminRulesHint">至少设置一个管理规则</string>
-    <string name="NoAppToOpen">没有找到应用程序打开的这个文件</string>
+    <string name="NoAppToOpen">没有找到可以打开这个文件的应用程序</string>
     <string name="NoCalls">您还没有打过电话</string>
     <string name="NoCameraAccess">该功能需要访问相机</string>
     <string name="NoChats">您还没有聊天</string>
@@ -1373,6 +1375,7 @@ __斜体__
     <string name="RememberAlbumSetting">记住媒体分组设置</string>
     <string name="Remove">移除</string>
     <string name="RemoveAccountHint">退出 %1$s 的登录? 所有的加密对话都将丢失</string>
+    <string name="RemoveCall">移除</string>
     <string name="RemoveCaptions">转发时删除文字描述</string>
     <string name="RemoveFromFavorites">从收藏夹中删除</string>
     <string name="RemoveFromGroup">从群组中删除</string>
@@ -1572,7 +1575,7 @@ __斜体__
     <string name="SendTo">发送给</string>
     <string name="SendingContact">正在选择名片……</string>
     <string name="SendingFile">正在发送文件</string>
-    <string name="SendingGame">正在播放</string>
+    <string name="SendingGame">正在玩游戏</string>
     <string name="SendingLocation">正在选择地理位置……</string>
     <string name="SendingPhoto">正在发送图片</string>
     <string name="SendingRound">正在发送视频</string>
@@ -1603,9 +1606,89 @@ __斜体__
     <string name="Share">分享</string>
     <string name="ShareAs">分享为……</string>
     <string name="ShareLink">分享链接</string>
+    <string name="ShareBtnBot">分享机器人</string>
+    <string name="ShareBtnLink">分享链接</string>
+    <string name="ShareBtnMessage">分享信息</string>
+    <string name="ShareBtnPost">分享帖子</string>
+    <string name="ShareBtnProxy">分享代理</string>
+    <string name="ShareBtnStickerSet">分享贴纸</string>
+    <string name="ShareContact">分享联系人</string>
     <string name="ShareLiveLocation">分享实时位置</string>
     <string name="ShareMyContactInfo">分享我的名片</string>
     <string name="ShareYouLocationInfo">这将把您的当前位置发送给机器人</string>
+    <string name="ShareTextBotLink">在 Telegram 使用 %1$s: %2$s</string>
+    <string name="ShareTextChannel">"%1$s 的图片"</string>
+    <string name="ShareTextChannelLink">在 Telegram 关注 %1$s: %2$s</string>
+    <string name="ShareTextChat">"「%1$s」的对话图片"</string>
+    <string name="ShareTextChatLink">在 Telegram 加入「%1$s」: %2$s</string>
+    <string name="ShareTextFile">来自 %1$s 的文件</string>
+    <string name="ShareTextGif">来自 %1$s 的 GIF</string>
+    <string name="ShareTextLink">查看 %1$s: %2$s</string>
+    <string name="ShareTextMedia">来自 %1$s 的媒体</string>
+    <string name="ShareTextMessage">"查看 %2$s 的信息: %1$s"</string>
+    <string name="ShareTextMusic">来自 %1$s 的音乐</string>
+    <string name="ShareTextPhoto">来自 %1$s 的图片</string>
+    <string name="ShareTextPlain">来自 %1$s 的信息</string>
+    <string name="ShareTextPost">"查看 %2$s 的帖子: %1$s"</string>
+    <string name="ShareTextProfile">"%1$s 的头像"</string>
+    <string name="ShareTextProfileLink">在 Telegram 联系 %1$s: %2$s</string>
+    <string name="ShareTextProfileLink2">联系 %1$s: %2$s</string>
+    <string name="ShareTextProxyLink">Telegram 的代理: %1$s, 如果您所在的地区无法连接, 该链接可能对您有所帮助</string>
+    <string name="ShareTextProxyLink2">"%1$s
+
+该链接可能有助于被审查的区域访问 Telegram"</string>
+    <string name="ShareTextStickerLink">查看 Telegram 的贴纸集「%1$s」: %2$s</string>
+    <string name="ShareTextStickerLink2">查看贴纸集「%1$s」: %2$s</string>
+    <string name="ShareTextVideo">来自 %1$s 的视频</string>
+    <string name="ShareTitleAudio">分享音频到……</string>
+    <string name="ShareTitleAudioX">分享音频 %1$s 到……</string>
+    <string name="ShareTitleAudioX_few">分享音频 %1$s 到……</string>
+    <string name="ShareTitleAudioX_many">分享音频 %1$s 到……</string>
+    <string name="ShareTitleAudioX_one">分享音频 %1$s 到……</string>
+    <string name="ShareTitleAudioX_other">Share %1$s audios to…</string>
+    <string name="ShareTitleAudioX_two">分享音频 %1$s 到……</string>
+    <string name="ShareTitleAudioX_zero">分享音频 %1$s 到……</string>
+    <string name="ShareTitleFile">分享文件到……</string>
+    <string name="ShareTitleFileX">分享文件 %1$s 到……</string>
+    <string name="ShareTitleFileX_few">分享文件 %1$s 到……</string>
+    <string name="ShareTitleFileX_many">分享文件 %1$s 到……</string>
+    <string name="ShareTitleFileX_one">分享文件 %1$s 到……</string>
+    <string name="ShareTitleFileX_other">分享文件 %1$s 到……</string>
+    <string name="ShareTitleFileX_two">分享文件 %1$s 到……</string>
+    <string name="ShareTitleFileX_zero">分享文件 %1$s 到……</string>
+    <string name="ShareTitleGif">分享 GIF 到……</string>
+    <string name="ShareTitleGifX">分享 GIF %1$s 到……</string>
+    <string name="ShareTitleGifX_few">分享 GIF %1$s 到……</string>
+    <string name="ShareTitleGifX_many">分享 GIF %1$s 到……</string>
+    <string name="ShareTitleGifX_one">分享 GIF %1$s 到……</string>
+    <string name="ShareTitleGifX_other">分享 GIF %1$s 到……</string>
+    <string name="ShareTitleGifX_two">分享 GIF %1$s 到……</string>
+    <string name="ShareTitleGifX_zero">分享 GIF %1$s 到……</string>
+    <string name="ShareTitleImage">分享图片到……</string>
+    <string name="ShareTitleImageX">分享图片 %1$s 到……</string>
+    <string name="ShareTitleImageX_few">分享图片 %1$s 到……</string>
+    <string name="ShareTitleImageX_many">分享图片 %1$s 到……</string>
+    <string name="ShareTitleImageX_one">分享图片 %1$s 到……</string>
+    <string name="ShareTitleImageX_other">分享图片 %1$s 到……</string>
+    <string name="ShareTitleImageX_two">分享图片 %1$s 到……</string>
+    <string name="ShareTitleImageX_zero">分享图片 %1$s 到……</string>
+    <string name="ShareTitleMedia">分享媒体到……</string>
+    <string name="ShareTitleMediaX">分享媒体 %1$s 到……</string>
+    <string name="ShareTitleMediaX_few">分享媒体 %1$s 到……</string>
+    <string name="ShareTitleMediaX_many">分享媒体 %1$s 到……</string>
+    <string name="ShareTitleMediaX_one">分享媒体 %1$s 到……</string>
+    <string name="ShareTitleMediaX_other">分享媒体 %1$s 到……</string>
+    <string name="ShareTitleMediaX_two">分享媒体 %1$s 到……</string>
+    <string name="ShareTitleMediaX_zero">分享媒体 %1$s 到……</string>
+    <string name="ShareTitleText">分享到……</string>
+    <string name="ShareTitleVideo">分享视频到……</string>
+    <string name="ShareTitleVideoX">分享视频 %1$s 到……</string>
+    <string name="ShareTitleVideoX_few">分享视频 %1$s 到……</string>
+    <string name="ShareTitleVideoX_many">分享视频 %1$s 到……</string>
+    <string name="ShareTitleVideoX_one">分享视频 %1$s 到……</string>
+    <string name="ShareTitleVideoX_other">分享视频 %1$s 到……</string>
+    <string name="ShareTitleVideoX_two">分享视频 %1$s 到……</string>
+    <string name="ShareTitleVideoX_zero">分享视频 %1$s 到……</string>
     <string name="ShareYouLocationInline">每次向其发送请求时, 该机器人都会知道您的位置, 这可以用来提供位置特定的结果</string>
     <string name="ShareYouLocationUnableManually">手动选择</string>
     <string name="ShareYourLocation">分享您的位置?</string>
@@ -1786,7 +1869,7 @@ __斜体__
     <string name="ThemeRemove">删除</string>
     <string name="ThemeRemoveConfirm">删除主题</string>
     <string name="ThemeRemoveInfo">您确定要删除此主题吗? 该操作不可撤消</string>
-    <string name="ThemeSectionAttach">附加菜单</string>
+    <string name="ThemeSectionAttach">对话工具栏</string>
     <string name="ThemeSectionBackground">背景</string>
     <string name="ThemeSectionIcons">图标</string>
     <string name="ThemeSectionMedia">媒体</string>
@@ -1929,7 +2012,7 @@ __斜体__
     <string name="UsernameNotOccupied">找不到聊天@%1$s</string>
     <string name="UsernameNotOccupiedUnknown">与找不到指定用户名的聊天</string>
     <string name="ValueReset">默认</string>
-    <string name="Vibrate">震动</string>
+    <string name="Vibrate">振动</string>
     <string name="VibrateDisabled">禁用</string>
     <string name="Video">视频</string>
     <string name="VideoHasBeenSavedToGallery">视频已保存到图库</string>
@@ -2049,8 +2132,8 @@ __斜体__
     <string name="c_bubble_chatBackground">"未设置壁纸时使用的默认聊天背景
 
 当设置为空时将使用**背景**颜色代替。"</string>
-    <string name="c_drawer">抽屉标题颜色叠加, 当设置为空时将使用**标题**颜色。</string>
-    <string name="c_drawerText">抽屉标题文本颜色, 空时使用**标题文本**颜色。</string>
+    <string name="c_drawer">抽屉标题的颜色叠加, 当设置为空时将使用**标题**颜色。</string>
+    <string name="c_drawerText">抽屉标题的文本颜色, 空时使用**标题文本**颜色。</string>
     <string name="c_fileGreen">APK 文件</string>
     <string name="c_fileRed">PDF 文件</string>
     <string name="c_fileYellow">压缩文件: .zip, .rar, .7z</string>
@@ -2066,6 +2149,7 @@ __斜体__
     <string name="c_seekEmpty">文件尚未下载的部分</string>
     <string name="c_seekReady">文件已下载的部分</string>
     <string name="c_textLinkPressHighlight">按下链接的背景, 必须是不透明的。</string>
+    <string name="c_statusBarLegacy">仅用于 **Android 5.x** 或更低版本</string>
     <string name="c_textNegative">可能造成不良后果的按钮, 如: 删除、移除、清除 等</string>
     <string name="c_textNeutral">普通的按钮, 如: 保存、完成、取消 等</string>
     <string name="c_textSearchQueryHighlight">搜索聊天、联系人等时的高亮</string>
@@ -2119,6 +2203,11 @@ __斜体__
 • %4$s"</string>
     <string name="format_PasscodeTooManyAttempts">尝试次数过多 %1$s</string>
     <string name="format_TooManyRequests">请求过多 %1$s</string>
+    <string name="format_ShareAuthorLink">%1$s (%2$s)</string>
+    <string name="format_ShareAuthorMessage">%1$s: %2$s</string>
+    <string name="format_ShareTextSignature">"%1$s
+
+%2$s"</string>
     <string name="format_chatTitlesAndOthers">%1$s %2$s</string>
     <string name="format_concatSeparator">","</string>
     <string name="format_concatSeparatorLast">和</string>
@@ -2302,24 +2391,25 @@ Please refer to @tgx_android_translate for guide on how to make your own scenes.
     <string name="p_bubbleCornerLegacy">**Android 4.x** 中的气泡圆角半径, 最大值: **6**。</string>
     <string name="p_bubbleCornerMerged">与另一个气泡合并时的气泡圆角半径。</string>
     <string name="p_bubbleDateCorner">气泡模式中日期的背景角半径</string>
-    <string name="p_bubbleOutline">"为气泡启用实线描边, 您可以使用**气泡外描边**或**气泡内描边**配置其颜色。
+    <string name="p_bubbleOutline">"为气泡启用实线描边, 您可以使用 **bubbleOut_outline** 或 **bubbleIn_outline** 配置其颜色。
 
-如果更改**气泡圆角半径**的值, 请启用此属性。"</string>
-    <string name="p_bubbleOutlineSize">气泡外描边的宽度, **气泡外描边**启用时生效。</string>
+如果更改**bubbleCorner**的值, 请启用此属性。"</string>
+    <string name="p_bubbleOutlineSize">气泡外描边的宽度, **bubbleOutline** 启用时生效。</string>
     <string name="p_bubbleUnreadShadow">在气泡模式下向未读消息分隔符添加阴影。</string>
     <string name="p_dark">"确定主题是否为暗色主题, 用于夜间模式
 
-最好更改**父主题**而不是覆盖此属性。"</string>
+最好更改**原主题**而不是覆盖此属性。"</string>
     <string name="p_dateCorner">普通模式中日期的背景角半径</string>
     <string name="p_imageCorner">图像角半径, 通常在气泡模式下被忽略。</string>
     <string name="p_parentTheme">未明确设置颜色或属性时, 将从此主题继承默认值。</string>
     <string name="p_replaceShadowsWithSeparators">用分割线代替阴影</string>
+    <string name="p_lightStatusBar">启用后, 状态栏将使用深色图标, 仅用于 **Android 6.x** 及更高版本</string>
     <string name="p_shadowDepth">所有阴影的深度, 值越高意味着阴影越暗。 默认值: 亮色主题-0.5, 夜间模式-1.0</string>
-    <string name="p_subtitleAlpha">标签导航, 标题字幕等中的**标题文本**或**亮色标题文本**的透明度</string>
-    <string name="p_wallpaperId">默认壁纸标识符。0表示默认情况下禁用壁纸。在设置中保留壁纸缩略图以获取其标识符。默认壁纸请设置为 0 并编辑**气泡模式聊天背景**颜色。</string>
+    <string name="p_subtitleAlpha">标签导航, 标题字幕等中的**headerText**或**headerLightText**的透明度</string>
+    <string name="p_wallpaperId">默认壁纸标识符。0表示默认情况下禁用壁纸。在设置中保留壁纸缩略图以获取其标识符。默认壁纸请设置为 0 并编辑**bubble_chatBackground**颜色。</string>
     <string name="p_wallpaperUsageId">"一个神奇的属性, 允许在相似主题之间共享壁纸设置。**0**-亮色主题、**1**-夜间模式、**2**-其他主题。
 
-如果您的调色板与**父主题**有很大的区别, 或者在创建亮色主题时禁用默认壁纸, 请设置为**2**</string>
+如果您的调色板与**原主题**有很大的区别, 或者在创建亮色主题时禁用默认壁纸, 请设置为**2**</string>
     <string name="passcode_auto_hint">离开一段时间后需要密码</string>
     <string name="passcode_confirm_invisible">%1$s (不可见)</string>
     <string name="passcode_fingerprint">使用指纹解锁</string>
@@ -2445,13 +2535,13 @@ Please refer to @tgx_android_translate for guide on how to make your own scenes.
     <string name="xChats_other">%1$s 个对话</string>
     <string name="xChats_two">%1$s 个对话</string>
     <string name="xChats_zero">%1$s 个对话</string>
-    <string name="xColors">%1$s种颜色</string>
-    <string name="xColors_few">%1$s种颜色</string>
-    <string name="xColors_many">%1$s种颜色</string>
-    <string name="xColors_one">%1$s种颜色</string>
-    <string name="xColors_other">%1$s种颜色</string>
-    <string name="xColors_two">%1$s种颜色</string>
-    <string name="xColors_zero">%1$s种颜色</string>
+    <string name="xColors">%1$s 种颜色</string>
+    <string name="xColors_few">%1$s 种颜色</string>
+    <string name="xColors_many">%1$s 种颜色</string>
+    <string name="xColors_one">%1$s 种颜色</string>
+    <string name="xColors_other">%1$s 种颜色</string>
+    <string name="xColors_two">%1$s 种颜色</string>
+    <string name="xColors_zero">%1$s 种颜色</string>
     <string name="xContacts">%1$s 个联系人在 Telegram</string>
     <string name="xContactsJoined">%1$s 个联系人在 Telegram</string>
     <string name="xContactsJoined_few">%1$s 个联系人在 Telegram</string>

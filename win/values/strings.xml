@@ -312,6 +312,7 @@ Turn them back on in Settings > Privacy and Security."</string>
     <string name="Chats">Chats</string>
     <string name="ChatsAndContacts">Chats and Contacts</string>
     <string name="CheckYourVerificationEmail">Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.</string>
+    <string name="ChildAbuse">Child Abuse</string>
     <string name="ChooseYourGesture">Draw your gesture</string>
     <string name="ChooseYourPIN">Choose your PIN</string>
     <string name="ChooseYourPassword">Choose your password</string>
@@ -527,6 +528,7 @@ You may enable it any time later in Settings > Themes."</string>
     <string name="DisconnectWebsiteBan">Block %1$s</string>
     <string name="DismissAdmin">Dismiss admin</string>
     <string name="Done">Done</string>
+    <string name="DoneSave">Saved</string>
     <string name="DoubleShort">Double Short</string>
     <string name="DownloadedToPath">Successfully downloaded: %1$s</string>
     <string name="Downloading">Downloading %1$s of %2$s</string>
@@ -1373,11 +1375,13 @@ messages from multiple devices."</string>
     <string name="RememberAlbumSetting">Remember media grouping setting</string>
     <string name="Remove">Remove</string>
     <string name="RemoveAccountHint">Sign out as %1$s? All secret chats on this account will be lost.</string>
+    <string name="RemoveCall">Remove</string>
     <string name="RemoveCaptions">Remove captions in copies</string>
     <string name="RemoveFromFavorites">Remove from Favorites</string>
     <string name="RemoveFromGroup">Remove from group</string>
     <string name="RemoveGifConfirm">Delete saved GIF?</string>
     <string name="RemoveLanguage">Delete Localization</string>
+    <string name="RemoveMember">Remove</string>
     <string name="RemoveRestrictions">Remove restrictions</string>
     <string name="RemoveStickerSet">Remove sticker set %1$s?</string>
     <string name="RemoveStickerSetAction">Remove</string>
@@ -1602,9 +1606,89 @@ Don't accept the call, Telegram will process everything automatically."</string>
     <string name="Shadows">Shadows</string>
     <string name="Share">Share</string>
     <string name="ShareAs">Share as…</string>
+    <string name="ShareBtnBot">Share Bot</string>
+    <string name="ShareBtnLink">Share Link</string>
+    <string name="ShareBtnMessage">Share Message</string>
+    <string name="ShareBtnPost">Share Post</string>
+    <string name="ShareBtnProxy">Share Proxy</string>
+    <string name="ShareBtnStickerSet">Share Stickers</string>
+    <string name="ShareContact">Share Contact</string>
     <string name="ShareLink">Share Link</string>
     <string name="ShareLiveLocation">Share Live Location</string>
     <string name="ShareMyContactInfo">Share my contact</string>
+    <string name="ShareTextBotLink">Use %1$s on Telegram: %2$s</string>
+    <string name="ShareTextChannel">"%1$s's photo"</string>
+    <string name="ShareTextChannelLink">Follow %1$s on Telegram: %2$s</string>
+    <string name="ShareTextChat">"«%1$s»'s chat photo"</string>
+    <string name="ShareTextChatLink">Join «%1$s» on Telegram: %2$s</string>
+    <string name="ShareTextFile">File from %1$s</string>
+    <string name="ShareTextGif">GIF from %1$s</string>
+    <string name="ShareTextLink">Check out %1$s: %2$s</string>
+    <string name="ShareTextMedia">Media from %1$s</string>
+    <string name="ShareTextMessage">"Check out %2$s's message: %1$s"</string>
+    <string name="ShareTextMusic">Music from %1$s</string>
+    <string name="ShareTextPhoto">Photo from %1$s</string>
+    <string name="ShareTextPlain">Message from %1$s</string>
+    <string name="ShareTextPost">"Check out %2$s's post: %1$s"</string>
+    <string name="ShareTextProfile">"%1$s's profile photo"</string>
+    <string name="ShareTextProfileLink">Contact %1$s on Telegram: %2$s</string>
+    <string name="ShareTextProfileLink2">Contact %1$s: %2$s</string>
+    <string name="ShareTextProxyLink">Proxy for Telegram: %1$s. This link may be helpful in accessing Telegram if there is no connection in your region.</string>
+    <string name="ShareTextProxyLink2">"%1$s
+
+This link may be helpful in accessing Telegram in censored regions."</string>
+    <string name="ShareTextStickerLink">Check out «%1$s» sticker set for Telegram: %2$s</string>
+    <string name="ShareTextStickerLink2">Check out «%1$s» sticker set: %2$s</string>
+    <string name="ShareTextVideo">Video from %1$s</string>
+    <string name="ShareTitleAudio">Share audio to…</string>
+    <string name="ShareTitleAudioX" />
+    <string name="ShareTitleAudioX_few" />
+    <string name="ShareTitleAudioX_many" />
+    <string name="ShareTitleAudioX_one">Share %1$s audio to…</string>
+    <string name="ShareTitleAudioX_other">Share %1$s audios to…</string>
+    <string name="ShareTitleAudioX_two" />
+    <string name="ShareTitleAudioX_zero" />
+    <string name="ShareTitleFile">Share file to…</string>
+    <string name="ShareTitleFileX" />
+    <string name="ShareTitleFileX_few" />
+    <string name="ShareTitleFileX_many" />
+    <string name="ShareTitleFileX_one">Share %1$s file to…</string>
+    <string name="ShareTitleFileX_other">Share %1$s files to…</string>
+    <string name="ShareTitleFileX_two" />
+    <string name="ShareTitleFileX_zero" />
+    <string name="ShareTitleGif">Share GIF to…</string>
+    <string name="ShareTitleGifX" />
+    <string name="ShareTitleGifX_few" />
+    <string name="ShareTitleGifX_many" />
+    <string name="ShareTitleGifX_one">Share %1$s GIF to…</string>
+    <string name="ShareTitleGifX_other">Share %1$s GIFs to…</string>
+    <string name="ShareTitleGifX_two" />
+    <string name="ShareTitleGifX_zero" />
+    <string name="ShareTitleImage">Share photo to…</string>
+    <string name="ShareTitleImageX" />
+    <string name="ShareTitleImageX_few" />
+    <string name="ShareTitleImageX_many" />
+    <string name="ShareTitleImageX_one">Share %1$s photo to…</string>
+    <string name="ShareTitleImageX_other">Share %1$s photos to…</string>
+    <string name="ShareTitleImageX_two" />
+    <string name="ShareTitleImageX_zero" />
+    <string name="ShareTitleMedia">Share media to…</string>
+    <string name="ShareTitleMediaX" />
+    <string name="ShareTitleMediaX_few" />
+    <string name="ShareTitleMediaX_many" />
+    <string name="ShareTitleMediaX_one">Share %1$s media to…</string>
+    <string name="ShareTitleMediaX_other">Share %1$s medias to…</string>
+    <string name="ShareTitleMediaX_two" />
+    <string name="ShareTitleMediaX_zero" />
+    <string name="ShareTitleText">Share to…</string>
+    <string name="ShareTitleVideo">Share video to…</string>
+    <string name="ShareTitleVideoX" />
+    <string name="ShareTitleVideoX_few" />
+    <string name="ShareTitleVideoX_many" />
+    <string name="ShareTitleVideoX_one">Share %1$s video to…</string>
+    <string name="ShareTitleVideoX_other">Share %1$s videos to…</string>
+    <string name="ShareTitleVideoX_two" />
+    <string name="ShareTitleVideoX_zero" />
     <string name="ShareYouLocationInfo">This will send your current location to the bot.</string>
     <string name="ShareYouLocationInline">This bot would like to know your location each time you send it a request. This can be used to provide location-specific results.</string>
     <string name="ShareYouLocationUnableManually">Choose manually</string>
@@ -2049,13 +2133,13 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="c_bubble_chatBackground">"Solid chat background used when wallpaper is not set.
 
 When empty, **background** color is used instead."</string>
-    <string name="c_drawer">Drawer header color overlay. Uses **header** color when empty.</string>
-    <string name="c_drawerText">Drawer header text color. Uses **headerText** color when empty.</string>
+    <string name="c_drawer">Color overlay for the drawer header. When empty, **header** color is used.</string>
+    <string name="c_drawerText">Text color for the drawer header. When empty, **headerText** color is used.</string>
     <string name="c_fileGreen">APK files</string>
     <string name="c_fileRed">PDF files</string>
     <string name="c_fileYellow">Archive files: .zip, .rar, .7z</string>
     <string name="c_fillingNegative">Swipe to see **fillingNegative** in action.</string>
-    <string name="c_fillingPositive">Background of the send button in the share menu.</string>
+    <string name="c_fillingPositive">Background of the Send button in the Share menu.</string>
     <string name="c_fillingPressed">Hold to see **fillingPressed** in action. Used on **Android 4.x only**.</string>
     <string name="c_headerLightBackground">Light header is used when selecting media, messages, etc.</string>
     <string name="c_overlayFilling">Three-dot menus, sticker suggestions, small circle buttons, etc.</string>
@@ -2065,6 +2149,7 @@ When empty, **background** color is used instead."</string>
     <string name="c_seekDone">Playback progress of the file.</string>
     <string name="c_seekEmpty">Not yet downloaded part of the file.</string>
     <string name="c_seekReady">Downloaded part of the file.</string>
+    <string name="c_statusBarLegacy">Used on **Android 5.x** and lower.</string>
     <string name="c_textLinkPressHighlight">Pressed link background. Must be opaque.</string>
     <string name="c_textNegative">Buttons with negative effect: delete, remove, clear, etc.</string>
     <string name="c_textNeutral">Buttons with neutral effect: save, done, cancel, etc.</string>
@@ -2118,6 +2203,11 @@ System Version: %5$s"</string>
 • %3$s
 • %4$s"</string>
     <string name="format_PasscodeTooManyAttempts">Too many attempts. %1$s</string>
+    <string name="format_ShareAuthorLink">%1$s (%2$s)</string>
+    <string name="format_ShareAuthorMessage">%1$s: %2$s</string>
+    <string name="format_ShareTextSignature">"%1$s
+
+%2$s"</string>
     <string name="format_TooManyRequests">Too many requests. %1$s</string>
     <string name="format_chatTitlesAndOthers">%1$s %2$s</string>
     <string name="format_concatSeparator">", "</string>
@@ -2312,6 +2402,7 @@ Enable this property if you change **bubbleCorner** values."</string>
 It is preferable to change **parentTheme** instead of overriding this property."</string>
     <string name="p_dateCorner">Background corner radius for dates in the plain mode.</string>
     <string name="p_imageCorner">Image corner radius. Usually ignored in bubble mode.</string>
+    <string name="p_lightStatusBar">When enabled, status bar icons will use dark colors. Used on **Android 6.x** and higher.</string>
     <string name="p_parentTheme">Default values are inherited from this theme when a color or property is not explicitly set.</string>
     <string name="p_replaceShadowsWithSeparators">Replaces horizontal shadows with thin solid separators.</string>
     <string name="p_shadowDepth">Depth of all shadows. Higher value means darker shadow. Default: light themes – 0.5, dark – 1.0</string>
